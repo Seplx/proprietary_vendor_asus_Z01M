@@ -2240,39 +2240,74 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/vendor/app/SVIService/oat/arm64/SVIService.odex:system/vendor/app/SVIService/oat/arm64/SVIService.odex \
     vendor/asus/Z01M/proprietary/vendor/app/SVIService/SVIService.apk:system/vendor/app/SVIService/SVIService.apk \
     
+    vendor/asus/Z01M/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
+    vendor/asus/Z01M/proprietary/vendor/bin/chamomile_provision:system/vendor/bin/chamomile_provision \
+    vendor/asus/Z01M/proprietary/vendor/bin/mm-qjpeg-dec-test:system/vendor/bin/mm-qjpeg-dec-test \
+    vendor/asus/Z01M/proprietary/vendor/bin/mm-qjpeg-enc-test:system/vendor/bin/mm-qjpeg-enc-test \
+    vendor/asus/Z01M/proprietary/vendor/bin/mm-qomx-idec-test:system/vendor/bin/mm-qomx-idec-test \
+    vendor/asus/Z01M/proprietary/vendor/bin/mm-qomx-ienc-test:system/vendor/bin/mm-qomx-ienc-test \
+    vendor/asus/Z01M/proprietary/vendor/bin/qjpeg-dma-test:system/vendor/bin/qjpeg-dma-test \
     
+    vendor/asus/Z01M/proprietary/vendor/etc/Generic/Launcher/default_workspace/default_allapp.xml:system/vendor/etc/Generic/Launcher/default_workspace/default_allapp.xml \
+    vendor/asus/Z01M/proprietary/vendor/etc/Generic/Launcher/default_workspace/phone_workspace.xml:system/vendor/etc/Generic/Launcher/default_workspace/phone_workspace.xml \
     
+    vendor/asus/Z01M/proprietary/vendor/etc/ID/ASUS/Launcher/default_workspace/default_allapp.xml:system/vendor/etc/ID/ASUS/Launcher/default_workspace/default_allapp.xml \
+    vendor/asus/Z01M/proprietary/vendor/etc/ID/ASUS/Launcher/default_workspace/phone_workspace.xml:system/vendor/etc/ID/ASUS/Launcher/default_workspace/phone_workspace.xml \
     
+    vendor/asus/Z01M/proprietary/vendor/etc/IN/ASUS/Launcher/default_workspace/default_allapp.xml:system/vendor/etc/IN/ASUS/Launcher/default_workspace/default_allapp.xml \
+    vendor/asus/Z01M/proprietary/vendor/etc/IN/ASUS/Launcher/default_workspace/phone_workspace.xml:system/vendor/etc/IN/ASUS/Launcher/default_workspace/phone_workspace.xml \
     
+    vendor/asus/Z01M/proprietary/vendor/etc/JP/ASUS/Launcher/default_workspace/default_allapp.xml:system/vendor/etc/JP/ASUS/Launcher/default_workspace/default_allapp.xml \
+    vendor/asus/Z01M/proprietary/vendor/etc/JP/ASUS/Launcher/default_workspace/phone_workspace.xml:system/vendor/etc/JP/ASUS/Launcher/default_workspace/phone_workspace.xml \
     
+    vendor/asus/Z01M/proprietary/vendor/etc/qti-logkit/scenarios/bluetooth.png:system/vendor/etc/qti-logkit/scenarios/bluetooth.png \
+    vendor/asus/Z01M/proprietary/vendor/etc/qti-logkit/scenarios/default.png:system/vendor/etc/qti-logkit/scenarios/default.png \
+    vendor/asus/Z01M/proprietary/vendor/etc/qti-logkit/scenarios/IMS.png:system/vendor/etc/qti-logkit/scenarios/IMS.png \
+    vendor/asus/Z01M/proprietary/vendor/etc/qti-logkit/audiobasic.dmc:system/vendor/etc/qti-logkit/audiobasic.dmc \
+    vendor/asus/Z01M/proprietary/vendor/etc/qti-logkit/gnsslocationlogging.dmc:system/vendor/etc/qti-logkit/gnsslocationlogging.dmc \
+    vendor/asus/Z01M/proprietary/vendor/etc/qti-logkit/goldenlogmask.dmc:system/vendor/etc/qti-logkit/goldenlogmask.dmc \
+    vendor/asus/Z01M/proprietary/vendor/etc/qti-logkit/IMS.dmc:system/vendor/etc/qti-logkit/IMS.dmc \
+    vendor/asus/Z01M/proprietary/vendor/etc/qti-logkit/qti_logkit_command.xml:system/vendor/etc/qti-logkit/qti_logkit_command.xml \
+    vendor/asus/Z01M/proprietary/vendor/etc/qti-logkit/qti_logkit_config.xml:system/vendor/etc/qti-logkit/qti_logkit_config.xml \
     
+    vendor/asus/Z01M/proprietary/vendor/etc/RIDL/GoldenLogmask.dmc:system/vendor/etc/RIDL/GoldenLogmask.dmc \
+    vendor/asus/Z01M/proprietary/vendor/etc/RIDL/OTA-Logs.dmc:system/vendor/etc/RIDL/OTA-Logs.dmc \
+    vendor/asus/Z01M/proprietary/vendor/etc/RIDL/qdss.cfg:system/vendor/etc/RIDL/qdss.cfg \
+    vendor/asus/Z01M/proprietary/vendor/etc/RIDL/RIDL.db:system/vendor/etc/RIDL/RIDL.db \
     
+    vendor/asus/Z01M/proprietary/vendor/etc/scve/facereco/gModel.dat:system/vendor/etc/scve/facereco/gModel.dat \
     
+    vendor/asus/Z01M/proprietary/vendor/etc/Splendid/LUT/LUT_GMC01.txt:system/vendor/etc/Splendid/LUT/LUT_GMC01.txt \
+    vendor/asus/Z01M/proprietary/vendor/etc/Splendid/LUT/LUT_Rd03.txt:system/vendor/etc/Splendid/LUT/LUT_Rd03.txt \
+    vendor/asus/Z01M/proprietary/vendor/etc/Splendid/asussplendid_config.xml:system/vendor/etc/Splendid/asussplendid_config.xml \
     
+    vendor/asus/Z01M/proprietary/vendor/etc/TW/ASUS/Launcher/default_workspace/default_allapp.xml:system/vendor/etc/TW/ASUS/Launcher/default_workspace/default_allapp.xml \
+    vendor/asus/Z01M/proprietary/vendor/etc/TW/ASUS/Launcher/default_workspace/phone_workspace.xml:system/vendor/etc/TW/ASUS/Launcher/default_workspace/phone_workspace.xml \
     
+    vendor/asus/Z01M/proprietary/vendor/etc/US/ASUS/Launcher/default_workspace/default_allapp.xml:system/vendor/etc/US/ASUS/Launcher/default_workspace/default_allapp.xml \
+    vendor/asus/Z01M/proprietary/vendor/etc/US/ASUS/Launcher/default_workspace/phone_workspace.xml:system/vendor/etc/US/ASUS/Launcher/default_workspace/phone_workspace.xml \
     
+    vendor/asus/Z01M/proprietary/vendor/etc/WW/ASUS/Launcher/default_workspace/default_allapp.xml:system/vendor/etc/WW/ASUS/Launcher/default_workspace/default_allapp.xml \
+    vendor/asus/Z01M/proprietary/vendor/etc/WW/ASUS/Launcher/default_workspace/phone_workspace.xml:system/vendor/etc/WW/ASUS/Launcher/default_workspace/phone_workspace.xml \
     
+    vendor/asus/Z01M/proprietary/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
+    vendor/asus/Z01M/proprietary/vendor/etc/audio_output_policy.conf:system/vendor/etc/audio_output_policy.conf \
+    vendor/asus/Z01M/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
+    vendor/asus/Z01M/proprietary/vendor/etc/public.libraries.txt:system/vendor/etc/public.libraries.txt \
+    vendor/asus/Z01M/proprietary/vendor/etc/style.cng:system/vendor/etc/style.cng \
+    vendor/asus/Z01M/proprietary/vendor/etc/workspace_grid_setting.xml:system/vendor/etc/workspace_grid_setting.xml \
     
+    vendor/asus/Z01M/proprietary/vendor/firmware/preisp.rkl:system/vendor/firmware/preisp.rkl \
     
+    vendor/asus/Z01M/proprietary/vendor/framework/oat/arm/qti-vzw-ims-internal.odex:system/vendor/framework/oat/arm/qti-vzw-ims-internal.odex \
+    vendor/asus/Z01M/proprietary/vendor/framework/oat/arm64/qti-vzw-ims-internal.odex:system/vendor/framework/oat/arm64/qti-vzw-ims-internal.odex \
+    vendor/asus/Z01M/proprietary/vendor/framework/qti-vzw-ims-internal.jar:system/vendor/framework/qti-vzw-ims-internal.jar \
     
+    vendor/asus/Z01M/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
+    vendor/asus/Z01M/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd \
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    vendor/asus/Z01M/proprietary/vendor/qcril.db:system/vendor/qcril.db \
+
 
 
 
