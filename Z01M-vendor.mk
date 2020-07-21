@@ -2217,9 +2217,28 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/xbin/zcat:system/xbin/zcat \
     vendor/asus/Z01M/proprietary/xbin/zcip:system/xbin/zcip \
     
+    vendor/asus/Z01M/proprietary/vendor/app/CABLService/oat/arm64/CABLService.odex:system/vendor/app/CABLService/oat/arm64/CABLService.odex \
+    vendor/asus/Z01M/proprietary/vendor/app/CABLService/CABLService.apk:system/vendor/app/CABLService/CABLService.apk \
     
+    vendor/asus/Z01M/proprietary/vendor/app/colorservice/oat/arm64/colorservice.odex:system/vendor/app/colorservice/oat/arm64/colorservice.odex \
+    vendor/asus/Z01M/proprietary/vendor/app/colorservice/colorservice.apk:system/vendor/app/colorservice/colorservice.apk \
     
+    vendor/asus/Z01M/proprietary/vendor/app/ims/lib/arm64/libimscamera_jni.so:system/vendor/app/ims/lib/arm64/libimscamera_jni.so \
+    vendor/asus/Z01M/proprietary/vendor/app/ims/lib/arm64/libimsmedia_jni.so:system/vendor/app/ims/lib/arm64/libimsmedia_jni.so \
+    vendor/asus/Z01M/proprietary/vendor/app/ims/oat/arm64/ims.odex:system/vendor/app/ims/oat/arm64/ims.odex \
+    vendor/asus/Z01M/proprietary/vendor/app/ims/ims.apk:system/vendor/app/ims/ims.apk \
     
+    vendor/asus/Z01M/proprietary/vendor/app/imssettings/oat/arm64/imssettings.odex:system/vendor/app/imssettings/oat/arm64/imssettings.odex \
+    vendor/asus/Z01M/proprietary/vendor/app/imssettings/imssettings.apk:system/vendor/app/imssettings/imssettings.apk \
+    
+    vendor/asus/Z01M/proprietary/vendor/app/RIDLClient/oat/arm64/RIDLClient.odex:system/vendor/app/RIDLClient/oat/arm64/RIDLClient.odex \
+    vendor/asus/Z01M/proprietary/vendor/app/RIDLClient/RIDLClient.apk:system/vendor/app/RIDLClient/RIDLClient.apk \
+    
+    vendor/asus/Z01M/proprietary/vendor/app/SmartcardService/oat/arm64/SmartcardService.odex:system/vendor/app/SmartcardService/oat/arm64/SmartcardService.odex \
+    vendor/asus/Z01M/proprietary/vendor/app/SmartcardService/SmartcardService.apk:system/vendor/app/SmartcardService/SmartcardService.apk \
+    
+    vendor/asus/Z01M/proprietary/vendor/app/SVIService/oat/arm64/SVIService.odex:system/vendor/app/SVIService/oat/arm64/SVIService.odex \
+    vendor/asus/Z01M/proprietary/vendor/app/SVIService/SVIService.apk:system/vendor/app/SVIService/SVIService.apk \
     
     
     
