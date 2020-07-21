@@ -1830,6 +1830,418 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/lib64/libz.so:system/lib64/libz.so \
     vendor/asus/Z01M/proprietary/lib64/sensors.PS_ALS.msm8953.so:system/lib64/sensors.PS_ALS.msm8953.so \
     
+    vendor/asus/Z01M/proprietary/priv-app/CNEService/oat/arm64/CNEService.odex:system/priv-app/CNEService/oat/arm64/CNEService.odex \
+    vendor/asus/Z01M/proprietary/priv-app/CNEService/CNEService.apk:system/priv-app/CNEService/CNEService.apk \
+    
+    vendor/asus/Z01M/proprietary/priv-app/com.qualcomm.location/oat/arm64/com.qualcomm.location.odex:system/com.qualcomm.location/oat/arm64/com.qualcomm.location.odex \
+    vendor/asus/Z01M/proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk:system/priv-app/com.qualcomm.location/com.qualcomm.location.apk \
+    
+    vendor/asus/Z01M/proprietary/priv-app/dpmserviceapp/oat/arm64/dpmserviceapp.odex:system/priv-app/dpmserviceapp/oat/arm64/dpmserviceapp.odex \
+    vendor/asus/Z01M/proprietary/priv-app/dpmserviceapp/dpmserviceapp.apk:system/priv-app/dpmserviceapp/dpmserviceapp.apk \
+        
+    vendor/asus/Z01M/proprietary/priv-app/qcrilmsgtunne/oat/arm64/qcrilmsgtunnel.odex:system/priv-app/qcrilmsgtunne/oat/arm64/qcrilmsgtunnel.odex \
+    vendor/asus/Z01M/proprietary/priv-app/qcrilmsgtunne/qcrilmsgtunnel.apk:system/priv-app/qcrilmsgtunne/qcrilmsgtunnel.apk \
+    
+    vendor/asus/Z01M/proprietary/priv-app/QtiTetherService/oat/arm64/QtiTetherService.odex:system/priv-app/QtiTetherService/oat/arm64/QtiTetherService.odex \
+    vendor/asus/Z01M/proprietary/priv-app/QtiTetherService/QtiTetherService.apk:system/priv-app/QtiTetherService/QtiTetherService.apk \
+    
+    vendor/asus/Z01M/proprietary/xbin/[:system/xbin/[ \
+    vendor/asus/Z01M/proprietary/xbin/[[:system/xbin/[[ \
+    vendor/asus/Z01M/proprietary/xbin/acpid:system/xbin/acpid \
+    vendor/asus/Z01M/proprietary/xbin/adjtimex:system/xbin/adjtimex \
+    vendor/asus/Z01M/proprietary/xbin/antradio_app:system/xbin/antradio_app \
+    vendor/asus/Z01M/proprietary/xbin/ar:system/xbin/ar \
+    vendor/asus/Z01M/proprietary/xbin/arch:system/xbin/arch \
+    vendor/asus/Z01M/proprietary/xbin/arp:system/xbin/arp \
+    vendor/asus/Z01M/proprietary/xbin/arping:system/xbin/arping \
+    vendor/asus/Z01M/proprietary/xbin/ash:system/xbin/ash \
+    vendor/asus/Z01M/proprietary/xbin/awk:system/xbin/awk \
+    vendor/asus/Z01M/proprietary/xbin/base64:system/xbin/base64 \
+    vendor/asus/Z01M/proprietary/xbin/basename:system/xbin/basename \
+    vendor/asus/Z01M/proprietary/xbin/bbconfig:system/xbin/bbconfig \
+    vendor/asus/Z01M/proprietary/xbin/beep:system/xbin/beep \
+    vendor/asus/Z01M/proprietary/xbin/blkdiscard:system/xbin/blkdiscard \
+    vendor/asus/Z01M/proprietary/xbin/blkid:system/xbin/blkid \
+    vendor/asus/Z01M/proprietary/xbin/blockdev:system/xbin/blockdev \
+    vendor/asus/Z01M/proprietary/xbin/brctl:system/xbin/brctl \
+    vendor/asus/Z01M/proprietary/xbin/bunzip2:system/xbin/bunzip2 \
+    vendor/asus/Z01M/proprietary/xbin/busybox:system/xbin/busybox \
+    vendor/asus/Z01M/proprietary/xbin/bzcat:system/xbin/bzcat \
+    vendor/asus/Z01M/proprietary/xbin/bzip2:system/xbin/bzip2 \
+    vendor/asus/Z01M/proprietary/xbin/cal:system/xbin/cal \
+    vendor/asus/Z01M/proprietary/xbin/cat:system/xbin/cat \
+    vendor/asus/Z01M/proprietary/xbin/chat:system/xbin/chat \
+    vendor/asus/Z01M/proprietary/xbin/chattr:system/xbin/chattr \
+    vendor/asus/Z01M/proprietary/xbin/chcon:system/xbin/chcon \
+    vendor/asus/Z01M/proprietary/xbin/chgrp:system/xbin/chgrp \
+    vendor/asus/Z01M/proprietary/xbin/chmod:system/xbin/chmod \
+    vendor/asus/Z01M/proprietary/xbin/chown:system/xbin/chown \
+    vendor/asus/Z01M/proprietary/xbin/chroot:system/xbin/chroot \
+    vendor/asus/Z01M/proprietary/xbin/chrt:system/xbin/chrt \
+    vendor/asus/Z01M/proprietary/xbin/chvt:system/xbin/chvt \
+    vendor/asus/Z01M/proprietary/xbin/cksum:system/xbin/cksum \
+    vendor/asus/Z01M/proprietary/xbin/clear:system/xbin/clear \
+    vendor/asus/Z01M/proprietary/xbin/cmp:system/xbin/cmp \
+    vendor/asus/Z01M/proprietary/xbin/comm:system/xbin/comm \
+    vendor/asus/Z01M/proprietary/xbin/conspy:system/xbin/conspy \
+    vendor/asus/Z01M/proprietary/xbin/cp:system/xbin/cp \
+    vendor/asus/Z01M/proprietary/xbin/cpio:system/xbin/cpio \
+    vendor/asus/Z01M/proprietary/xbin/crond:system/xbin/crond \
+    vendor/asus/Z01M/proprietary/xbin/crontab:system/xbin/crontab \
+    vendor/asus/Z01M/proprietary/xbin/cttyhack:system/xbin/cttyhack \
+    vendor/asus/Z01M/proprietary/xbin/cut:system/xbin/cut \
+    vendor/asus/Z01M/proprietary/xbin/date:system/xbin/date \
+    vendor/asus/Z01M/proprietary/xbin/dc:system/xbin/dc \
+    vendor/asus/Z01M/proprietary/xbin/dd:system/xbin/dd \
+    vendor/asus/Z01M/proprietary/xbin/deallocvt:system/xbin/deallocvt \
+    vendor/asus/Z01M/proprietary/xbin/depmod:system/xbin/depmod \
+    vendor/asus/Z01M/proprietary/xbin/devmem:system/xbin/devmem \
+    vendor/asus/Z01M/proprietary/xbin/dexlist:system/xbin/dexlist \
+    vendor/asus/Z01M/proprietary/xbin/df:system/xbin/df \
+    vendor/asus/Z01M/proprietary/xbin/dhcprelay:system/xbin/dhcprelay \
+    vendor/asus/Z01M/proprietary/xbin/diff:system/xbin/diff \
+    vendor/asus/Z01M/proprietary/xbin/dirname:system/xbin/dirname \
+    vendor/asus/Z01M/proprietary/xbin/dmesg:system/xbin/dmesg \
+    vendor/asus/Z01M/proprietary/xbin/dnsd:system/xbin/dnsd \
+    vendor/asus/Z01M/proprietary/xbin/dnsdomainname:system/xbin/dnsdomainname \
+    vendor/asus/Z01M/proprietary/xbin/dos2unix:system/xbin/dos2unix \
+    vendor/asus/Z01M/proprietary/xbin/du:system/xbin/du \
+    vendor/asus/Z01M/proprietary/xbin/dumpkmap:system/xbin/dumpkmap \
+    vendor/asus/Z01M/proprietary/xbin/dumpleases:system/xbin/dumpleases \
+    vendor/asus/Z01M/proprietary/xbin/echo:system/xbin/echo \
+    vendor/asus/Z01M/proprietary/xbin/ed:system/xbin/ed \
+    vendor/asus/Z01M/proprietary/xbin/egrep:system/xbin/egrep \
+    vendor/asus/Z01M/proprietary/xbin/eject:system/xbin/eject \
+    vendor/asus/Z01M/proprietary/xbin/env:system/xbin/env \
+    vendor/asus/Z01M/proprietary/xbin/ether-wake:system/xbin/ether-wake \
+    vendor/asus/Z01M/proprietary/xbin/expand:system/xbin/expand \
+    vendor/asus/Z01M/proprietary/xbin/expr:system/xbin/expr \
+    vendor/asus/Z01M/proprietary/xbin/factor:system/xbin/factor \
+    vendor/asus/Z01M/proprietary/xbin/fakeidentd:system/xbin/fakeidentd \
+    vendor/asus/Z01M/proprietary/xbin/false:system/xbin/false \
+    vendor/asus/Z01M/proprietary/xbin/fatattr:system/xbin/fatattr \
+    vendor/asus/Z01M/proprietary/xbin/fbset:system/xbin/fbset \
+    vendor/asus/Z01M/proprietary/xbin/fbsplash:system/xbin/fbsplash \
+    vendor/asus/Z01M/proprietary/xbin/fdflush:system/xbin/fdflush \
+    vendor/asus/Z01M/proprietary/xbin/fdformat:system/xbin/fdformat \
+    vendor/asus/Z01M/proprietary/xbin/fdisk:system/xbin/fdisk \
+    vendor/asus/Z01M/proprietary/xbin/fgconsole:system/xbin/fgconsole \
+    vendor/asus/Z01M/proprietary/xbin/fgrep:system/xbin/fgrep \
+    vendor/asus/Z01M/proprietary/xbin/find:system/xbin/find \
+    vendor/asus/Z01M/proprietary/xbin/findfs:system/xbin/findfs \
+    vendor/asus/Z01M/proprietary/xbin/flash_eraseall:system/xbin/flash_eraseall \
+    vendor/asus/Z01M/proprietary/xbin/flash_lock:system/xbin/flash_lock \
+    vendor/asus/Z01M/proprietary/xbin/flash_unlock:system/xbin/flash_unlock \
+    vendor/asus/Z01M/proprietary/xbin/flock:system/xbin/flock \
+    vendor/asus/Z01M/proprietary/xbin/fold:system/xbin/fold \
+    vendor/asus/Z01M/proprietary/xbin/free:system/xbin/free \
+    vendor/asus/Z01M/proprietary/xbin/freeramdisk:system/xbin/freeramdisk \
+    vendor/asus/Z01M/proprietary/xbin/fsck:system/xbin/fsck \
+    vendor/asus/Z01M/proprietary/xbin/fsck.minix:system/xbin/fsck.minix \
+    vendor/asus/Z01M/proprietary/xbin/fsfreeze:system/xbin/fsfreeze \
+    vendor/asus/Z01M/proprietary/xbin/fstrim:system/xbin/fstrim \
+    vendor/asus/Z01M/proprietary/xbin/fsync:system/xbin/fsync \
+    vendor/asus/Z01M/proprietary/xbin/ftpd:system/xbin/ftpd \
+    vendor/asus/Z01M/proprietary/xbin/ftpget:system/xbin/ftpget \
+    vendor/asus/Z01M/proprietary/xbin/ftpput:system/xbin/ftpput \
+    vendor/asus/Z01M/proprietary/xbin/fuser:system/xbin/fuser \
+    vendor/asus/Z01M/proprietary/xbin/getenforce:system/xbin/getenforce \
+    vendor/asus/Z01M/proprietary/xbin/getopt:system/xbin/getopt \
+    vendor/asus/Z01M/proprietary/xbin/grep:system/xbin/grep \
+    vendor/asus/Z01M/proprietary/xbin/groups:system/xbin/groups \
+    vendor/asus/Z01M/proprietary/xbin/gunzip:system/xbin/gunzip \
+    vendor/asus/Z01M/proprietary/xbin/gzip:system/xbin/gzip \
+    vendor/asus/Z01M/proprietary/xbin/hd:system/xbin/hd \
+    vendor/asus/Z01M/proprietary/xbin/hdparm:system/xbin/hdparm \
+    vendor/asus/Z01M/proprietary/xbin/head:system/xbin/head \
+    vendor/asus/Z01M/proprietary/xbin/hexdump:system/xbin/hexdump \
+    vendor/asus/Z01M/proprietary/xbin/hexedit:system/xbin/hexedit \
+    vendor/asus/Z01M/proprietary/xbin/hostname:system/xbin/hostname \
+    vendor/asus/Z01M/proprietary/xbin/httpd:system/xbin/httpd \
+    vendor/asus/Z01M/proprietary/xbin/hush:system/xbin/hush \
+    vendor/asus/Z01M/proprietary/xbin/hwclock:system/xbin/hwclock \
+    vendor/asus/Z01M/proprietary/xbin/id:system/xbin/id \
+    vendor/asus/Z01M/proprietary/xbin/ifconfig:system/xbin/ifconfig \
+    vendor/asus/Z01M/proprietary/xbin/ifdown:system/xbin/ifdown \
+    vendor/asus/Z01M/proprietary/xbin/ifenslave:system/xbin/ifenslave \
+    vendor/asus/Z01M/proprietary/xbin/ifplugd:system/xbin/ifplugd \
+    vendor/asus/Z01M/proprietary/xbin/ifup:system/xbin/ifup \
+    vendor/asus/Z01M/proprietary/xbin/inetd:system/xbin/inetd \
+    vendor/asus/Z01M/proprietary/xbin/inotifyd:system/xbin/inotifyd \
+    vendor/asus/Z01M/proprietary/xbin/insmod:system/xbin/insmod \
+    vendor/asus/Z01M/proprietary/xbin/install:system/xbin/install \
+    vendor/asus/Z01M/proprietary/xbin/ionice:system/xbin/ionice \
+    vendor/asus/Z01M/proprietary/xbin/iostat:system/xbin/iostat \
+    vendor/asus/Z01M/proprietary/xbin/ip:system/xbin/ip \
+    vendor/asus/Z01M/proprietary/xbin/ipaddr:system/xbin/ipaddr \
+    vendor/asus/Z01M/proprietary/xbin/ipcalc:system/xbin/ipcalc \
+    vendor/asus/Z01M/proprietary/xbin/ipcrm:system/xbin/ipcrm \
+    vendor/asus/Z01M/proprietary/xbin/ipcs:system/xbin/ipcs \
+    vendor/asus/Z01M/proprietary/xbin/iplink:system/xbin/iplink \
+    vendor/asus/Z01M/proprietary/xbin/ipneigh:system/xbin/ipneigh \
+    vendor/asus/Z01M/proprietary/xbin/iproute:system/xbin/iproute \
+    vendor/asus/Z01M/proprietary/xbin/iprule:system/xbin/iprule \
+    vendor/asus/Z01M/proprietary/xbin/iptunnel:system/xbin/iptunnel \
+    vendor/asus/Z01M/proprietary/xbin/kbd_mode:system/xbin/kbd_mode \
+    vendor/asus/Z01M/proprietary/xbin/kill:system/xbin/kill \
+    vendor/asus/Z01M/proprietary/xbin/killall:system/xbin/killall \
+    vendor/asus/Z01M/proprietary/xbin/killall5:system/xbin/killall5 \
+    vendor/asus/Z01M/proprietary/xbin/klogd:system/xbin/klogd \
+    vendor/asus/Z01M/proprietary/xbin/less:system/xbin/less \
+    vendor/asus/Z01M/proprietary/xbin/link:system/xbin/link \
+    vendor/asus/Z01M/proprietary/xbin/ln:system/xbin/ln \
+    vendor/asus/Z01M/proprietary/xbin/loadfont:system/xbin/loadfont \
+    vendor/asus/Z01M/proprietary/xbin/loadkmap:system/xbin/loadkmap \
+    vendor/asus/Z01M/proprietary/xbin/logread:system/xbin/logread \
+    vendor/asus/Z01M/proprietary/xbin/losetup:system/xbin/losetup \
+    vendor/asus/Z01M/proprietary/xbin/ls:system/xbin/ls \
+    vendor/asus/Z01M/proprietary/xbin/lsattr:system/xbin/lsattr \
+    vendor/asus/Z01M/proprietary/xbin/lsmod:system/xbin/lsmod \
+    vendor/asus/Z01M/proprietary/xbin/lsof:system/xbin/lsof \
+    vendor/asus/Z01M/proprietary/xbin/lspci:system/xbin/lspci \
+    vendor/asus/Z01M/proprietary/xbin/lsscsi:system/xbin/lsscsi \
+    vendor/asus/Z01M/proprietary/xbin/lsusb:system/xbin/lsusb \
+    vendor/asus/Z01M/proprietary/xbin/lzcat:system/xbin/lzcat \
+    vendor/asus/Z01M/proprietary/xbin/lzma:system/xbin/lzma \
+    vendor/asus/Z01M/proprietary/xbin/lzop:system/xbin/lzop \
+    vendor/asus/Z01M/proprietary/xbin/lzopcat:system/xbin/lzopcat \
+    vendor/asus/Z01M/proprietary/xbin/makedevs:system/xbin/makedevs \
+    vendor/asus/Z01M/proprietary/xbin/makemime:system/xbin/makemime \
+    vendor/asus/Z01M/proprietary/xbin/man:system/xbin/man \
+    vendor/asus/Z01M/proprietary/xbin/md5sum:system/xbin/md5sum \
+    vendor/asus/Z01M/proprietary/xbin/mesg:system/xbin/mesg \
+    vendor/asus/Z01M/proprietary/xbin/microcom:system/xbin/microcom \
+    vendor/asus/Z01M/proprietary/xbin/mkdir:system/xbin/mkdir \
+    vendor/asus/Z01M/proprietary/xbin/mkdosfs:system/xbin/mkdosfs \
+    vendor/asus/Z01M/proprietary/xbin/mke2fs:system/xbin/mke2fs \
+    vendor/asus/Z01M/proprietary/xbin/mkfifo:system/xbin/mkfifo \
+    vendor/asus/Z01M/proprietary/xbin/mkfs.ext2:system/xbin/mkfs.ext2 \
+    vendor/asus/Z01M/proprietary/xbin/mkfs.minix:system/xbin/mkfs.minix \
+    vendor/asus/Z01M/proprietary/xbin/mkfs.reiser:system/xbin/mkfs.reiser \
+    vendor/asus/Z01M/proprietary/xbin/mkfs.vfat:system/xbin/mkfs.vfat \
+    vendor/asus/Z01M/proprietary/xbin/mknod:system/xbin/mknod \
+    vendor/asus/Z01M/proprietary/xbin/mkswap:system/xbin/mkswap \
+    vendor/asus/Z01M/proprietary/xbin/mktemp:system/xbin/mktemp \
+    vendor/asus/Z01M/proprietary/xbin/modinfo:system/xbin/modinfo \
+    vendor/asus/Z01M/proprietary/xbin/modprobe:system/xbin/modprobe \
+    vendor/asus/Z01M/proprietary/xbin/more:system/xbin/more \
+    vendor/asus/Z01M/proprietary/xbin/mount:system/xbin/mount \
+    vendor/asus/Z01M/proprietary/xbin/mountpoint:system/xbin/mountpoint \
+    vendor/asus/Z01M/proprietary/xbin/mpstat:system/xbin/mpstat \
+    vendor/asus/Z01M/proprietary/xbin/mv:system/xbin/mv \
+    vendor/asus/Z01M/proprietary/xbin/nameif:system/xbin/nameif \
+    vendor/asus/Z01M/proprietary/xbin/nanddump:system/xbin/nanddump \
+    vendor/asus/Z01M/proprietary/xbin/nandwrite:system/xbin/nandwrite \
+    vendor/asus/Z01M/proprietary/xbin/nbd-client:system/xbin/nbd-client \
+    vendor/asus/Z01M/proprietary/xbin/nc:system/xbin/nc \
+    vendor/asus/Z01M/proprietary/xbin/netstat:system/xbin/netstat \
+    vendor/asus/Z01M/proprietary/xbin/nice:system/xbin/nice \
+    vendor/asus/Z01M/proprietary/xbin/nl:system/xbin/nl \
+    vendor/asus/Z01M/proprietary/xbin/nmeter:system/xbin/nmeter \
+    vendor/asus/Z01M/proprietary/xbin/nohup:system/xbin/nohup \
+    vendor/asus/Z01M/proprietary/xbin/nologin:system/xbin/nologin \
+    vendor/asus/Z01M/proprietary/xbin/nslookup:system/xbin/nslookup \
+    vendor/asus/Z01M/proprietary/xbin/nuke:system/xbin/nuke \
+    vendor/asus/Z01M/proprietary/xbin/od:system/xbin/od \
+    vendor/asus/Z01M/proprietary/xbin/openvt:system/xbin/openvt \
+    vendor/asus/Z01M/proprietary/xbin/partprobe:system/xbin/partprobe \
+    vendor/asus/Z01M/proprietary/xbin/paste:system/xbin/paste \
+    vendor/asus/Z01M/proprietary/xbin/patch:system/xbin/patch \
+    vendor/asus/Z01M/proprietary/xbin/pgrep:system/xbin/pgrep \
+    vendor/asus/Z01M/proprietary/xbin/pidof:system/xbin/pidof \
+    vendor/asus/Z01M/proprietary/xbin/ping:system/xbin/ping \
+    vendor/asus/Z01M/proprietary/xbin/ping6:system/xbin/ping6 \
+    vendor/asus/Z01M/proprietary/xbin/pipe_progress:system/xbin/pipe_progress \
+    vendor/asus/Z01M/proprietary/xbin/pivot_root:system/xbin/pivot_root \
+    vendor/asus/Z01M/proprietary/xbin/pkill:system/xbin/pkill \
+    vendor/asus/Z01M/proprietary/xbin/pmap:system/xbin/pmap \
+    vendor/asus/Z01M/proprietary/xbin/popmaildir:system/xbin/popmaildir \
+    vendor/asus/Z01M/proprietary/xbin/poweroff:system/xbin/poweroff \
+    vendor/asus/Z01M/proprietary/xbin/powertop:system/xbin/powertop \
+    vendor/asus/Z01M/proprietary/xbin/printenv:system/xbin/printenv \
+    vendor/asus/Z01M/proprietary/xbin/printf:system/xbin/printf \
+    vendor/asus/Z01M/proprietary/xbin/ps:system/xbin/ps \
+    vendor/asus/Z01M/proprietary/xbin/pscan:system/xbin/pscan \
+    vendor/asus/Z01M/proprietary/xbin/pstree:system/xbin/pstree \
+    vendor/asus/Z01M/proprietary/xbin/pwd:system/xbin/pwd \
+    vendor/asus/Z01M/proprietary/xbin/pwdx:system/xbin/pwdx \
+    vendor/asus/Z01M/proprietary/xbin/raidautorun:system/xbin/raidautorun \
+    vendor/asus/Z01M/proprietary/xbin/rdate:system/xbin/rdate \
+    vendor/asus/Z01M/proprietary/xbin/rdev:system/xbin/rdev \
+    vendor/asus/Z01M/proprietary/xbin/readlink:system/xbin/readlink \
+    vendor/asus/Z01M/proprietary/xbin/readprofile:system/xbin/readprofile \
+    vendor/asus/Z01M/proprietary/xbin/realpath:system/xbin/realpath \
+    vendor/asus/Z01M/proprietary/xbin/reboot:system/xbin/reboot \
+    vendor/asus/Z01M/proprietary/xbin/reformime:system/xbin/reformime \
+    vendor/asus/Z01M/proprietary/xbin/renice:system/xbin/renice \
+    vendor/asus/Z01M/proprietary/xbin/reset:system/xbin/reset \
+    vendor/asus/Z01M/proprietary/xbin/resize:system/xbin/resize \
+    vendor/asus/Z01M/proprietary/xbin/resume:system/xbin/resume \
+    vendor/asus/Z01M/proprietary/xbin/rev:system/xbin/rev \
+    vendor/asus/Z01M/proprietary/xbin/rfkill:system/xbin/rfkill \
+    vendor/asus/Z01M/proprietary/xbin/rm:system/xbin/rm \
+    vendor/asus/Z01M/proprietary/xbin/rmdir:system/xbin/rmdir \
+    vendor/asus/Z01M/proprietary/xbin/rmmod:system/xbin/rmmod \
+    vendor/asus/Z01M/proprietary/xbin/route:system/xbin/route \
+    vendor/asus/Z01M/proprietary/xbin/rtcwake:system/xbin/rtcwake \
+    vendor/asus/Z01M/proprietary/xbin/runcon:system/xbin/runcon \
+    vendor/asus/Z01M/proprietary/xbin/run-init:system/xbin/run-init \
+    vendor/asus/Z01M/proprietary/xbin/run-parts:system/xbin/run-parts \
+    vendor/asus/Z01M/proprietary/xbin/rx:system/xbin/rx \
+    vendor/asus/Z01M/proprietary/xbin/script:system/xbin/script \
+    vendor/asus/Z01M/proprietary/xbin/scriptreplay:system/xbin/scriptreplay \
+    vendor/asus/Z01M/proprietary/xbin/sed:system/xbin/sed \
+    vendor/asus/Z01M/proprietary/xbin/selinuxenabled:system/xbin/selinuxenabled \
+    vendor/asus/Z01M/proprietary/xbin/sendmail:system/xbin/sendmail \
+    vendor/asus/Z01M/proprietary/xbin/seq:system/xbin/seq \
+    vendor/asus/Z01M/proprietary/xbin/sestatus:system/xbin/sestatus \
+    vendor/asus/Z01M/proprietary/xbin/setconsole:system/xbin/setconsole \
+    vendor/asus/Z01M/proprietary/xbin/setenforce:system/xbin/setenforce \
+    vendor/asus/Z01M/proprietary/xbin/setfattr:system/xbin/setfattr \
+    vendor/asus/Z01M/proprietary/xbin/setfont:system/xbin/setfont \
+    vendor/asus/Z01M/proprietary/xbin/setkeycodes:system/xbin/setkeycodes \
+    vendor/asus/Z01M/proprietary/xbin/setlogcons:system/xbin/setlogcons \
+    vendor/asus/Z01M/proprietary/xbin/setpriv:system/xbin/setpriv \
+    vendor/asus/Z01M/proprietary/xbin/setserial:system/xbin/setserial \
+    vendor/asus/Z01M/proprietary/xbin/setsid:system/xbin/setsid \
+    vendor/asus/Z01M/proprietary/xbin/setuidgid:system/xbin/setuidgid \
+    vendor/asus/Z01M/proprietary/xbin/sh:system/xbin/sh \
+    vendor/asus/Z01M/proprietary/xbin/sha1sum:system/xbin/sha1sum \
+    vendor/asus/Z01M/proprietary/xbin/sha3sum:system/xbin/sha3sum \
+    vendor/asus/Z01M/proprietary/xbin/sha256sum:system/xbin/sha256sum \
+    vendor/asus/Z01M/proprietary/xbin/sha512sum:system/xbin/sha512sum \
+    vendor/asus/Z01M/proprietary/xbin/showkey:system/xbin/showkey \
+    vendor/asus/Z01M/proprietary/xbin/shred:system/xbin/shred \
+    vendor/asus/Z01M/proprietary/xbin/shuf:system/xbin/shuf \
+    vendor/asus/Z01M/proprietary/xbin/slattach:system/xbin/slattach \
+    vendor/asus/Z01M/proprietary/xbin/sleep:system/xbin/sleep \
+    vendor/asus/Z01M/proprietary/xbin/smemcap:system/xbin/smemcap \
+    vendor/asus/Z01M/proprietary/xbin/sort:system/xbin/sort \
+    vendor/asus/Z01M/proprietary/xbin/split:system/xbin/split \
+    vendor/asus/Z01M/proprietary/xbin/ssl_client:system/xbin/ssl_client \
+    vendor/asus/Z01M/proprietary/xbin/start-stop-daemon:system/xbin/start-stop-daemon \
+    vendor/asus/Z01M/proprietary/xbin/stat:system/xbin/stat \
+    vendor/asus/Z01M/proprietary/xbin/strace:system/xbin/strace \
+    vendor/asus/Z01M/proprietary/xbin/strings:system/xbin/strings \
+    vendor/asus/Z01M/proprietary/xbin/stty:system/xbin/stty \
+    vendor/asus/Z01M/proprietary/xbin/sum:system/xbin/sum \
+    vendor/asus/Z01M/proprietary/xbin/svc:system/xbin/svc \
+    vendor/asus/Z01M/proprietary/xbin/svok:system/xbin/svok \
+    vendor/asus/Z01M/proprietary/xbin/swapoff:system/xbin/swapoff \
+    vendor/asus/Z01M/proprietary/xbin/swapon:system/xbin/swapon \
+    vendor/asus/Z01M/proprietary/xbin/switch_root:system/xbin/switch_root \
+    vendor/asus/Z01M/proprietary/xbin/sync:system/xbin/sync \
+    vendor/asus/Z01M/proprietary/xbin/sysctl:system/xbin/sysctl \
+    vendor/asus/Z01M/proprietary/xbin/syslogd:system/xbin/syslogd \
+    vendor/asus/Z01M/proprietary/xbin/tac:system/xbin/tac \
+    vendor/asus/Z01M/proprietary/xbin/tail:system/xbin/tail \
+    vendor/asus/Z01M/proprietary/xbin/tar:system/xbin/tar \
+    vendor/asus/Z01M/proprietary/xbin/tc:system/xbin/tc \
+    vendor/asus/Z01M/proprietary/xbin/tcpdump:system/xbin/tcpdump \
+    vendor/asus/Z01M/proprietary/xbin/tcpsvd:system/xbin/tcpsvd \
+    vendor/asus/Z01M/proprietary/xbin/tee:system/xbin/tee \
+    vendor/asus/Z01M/proprietary/xbin/telnet:system/xbin/telnet \
+    vendor/asus/Z01M/proprietary/xbin/telnetd:system/xbin/telnetd \
+    vendor/asus/Z01M/proprietary/xbin/test:system/xbin/test \
+    vendor/asus/Z01M/proprietary/xbin/tftp:system/xbin/tftp \
+    vendor/asus/Z01M/proprietary/xbin/tftpd:system/xbin/tftpd \
+    vendor/asus/Z01M/proprietary/xbin/time:system/xbin/time \
+    vendor/asus/Z01M/proprietary/xbin/timeout:system/xbin/timeout \
+    vendor/asus/Z01M/proprietary/xbin/top:system/xbin/top \
+    vendor/asus/Z01M/proprietary/xbin/touch:system/xbin/touch \
+    vendor/asus/Z01M/proprietary/xbin/tr:system/xbin/tr \
+    vendor/asus/Z01M/proprietary/xbin/traceroute:system/xbin/traceroute \
+    vendor/asus/Z01M/proprietary/xbin/traceroute6:system/xbin/traceroute6 \
+    vendor/asus/Z01M/proprietary/xbin/true:system/xbin/true \
+    vendor/asus/Z01M/proprietary/xbin/truncate:system/xbin/truncate \
+    vendor/asus/Z01M/proprietary/xbin/ts:system/xbin/ts \
+    vendor/asus/Z01M/proprietary/xbin/tty:system/xbin/tty \
+    vendor/asus/Z01M/proprietary/xbin/ttysize:system/xbin/ttysize \
+    vendor/asus/Z01M/proprietary/xbin/tunctl:system/xbin/tunctl \
+    vendor/asus/Z01M/proprietary/xbin/tune2fs:system/xbin/tune2fs \
+    vendor/asus/Z01M/proprietary/xbin/ubiattach:system/xbin/ubiattach \
+    vendor/asus/Z01M/proprietary/xbin/ubidetach:system/xbin/ubidetach \
+    vendor/asus/Z01M/proprietary/xbin/ubimkvol:system/xbin/ubimkvol \
+    vendor/asus/Z01M/proprietary/xbin/ubirename:system/xbin/ubirename \
+    vendor/asus/Z01M/proprietary/xbin/ubirmvol:system/xbin/ubirmvol \
+    vendor/asus/Z01M/proprietary/xbin/ubirsvol:system/xbin/ubirsvol \
+    vendor/asus/Z01M/proprietary/xbin/ubiupdatevol:system/xbin/ubiupdatevol \
+    vendor/asus/Z01M/proprietary/xbin/udhcpc:system/xbin/udhcpc \
+    vendor/asus/Z01M/proprietary/xbin/udhcpc6:system/xbin/udhcpc6 \
+    vendor/asus/Z01M/proprietary/xbin/udhcpd:system/xbin/udhcpd \
+    vendor/asus/Z01M/proprietary/xbin/udpsvd:system/xbin/udpsvd \
+    vendor/asus/Z01M/proprietary/xbin/uevent:system/xbin/uevent \
+    vendor/asus/Z01M/proprietary/xbin/umount:system/xbin/umount \
+    vendor/asus/Z01M/proprietary/xbin/uname:system/xbin/uname \
+    vendor/asus/Z01M/proprietary/xbin/uncompress:system/xbin/uncompress \
+    vendor/asus/Z01M/proprietary/xbin/unexpand:system/xbin/unexpand \
+    vendor/asus/Z01M/proprietary/xbin/uniq:system/xbin/uniq \
+    vendor/asus/Z01M/proprietary/xbin/unix2dos:system/xbin/unix2dos \
+    vendor/asus/Z01M/proprietary/xbin/unlink:system/xbin/unlink \
+    vendor/asus/Z01M/proprietary/xbin/unlzma:system/xbin/unlzma \
+    vendor/asus/Z01M/proprietary/xbin/unlzop:system/xbin/unlzop \
+    vendor/asus/Z01M/proprietary/xbin/unshare:system/xbin/unshare \
+    vendor/asus/Z01M/proprietary/xbin/unxz:system/xbin/unxz \
+    vendor/asus/Z01M/proprietary/xbin/unzip:system/xbin/unzip \
+    vendor/asus/Z01M/proprietary/xbin/uptime:system/xbin/uptime \
+    vendor/asus/Z01M/proprietary/xbin/usleep:system/xbin/usleep \
+    vendor/asus/Z01M/proprietary/xbin/uudecode:system/xbin/uudecode \
+    vendor/asus/Z01M/proprietary/xbin/uuencode:system/xbin/uuencode \
+    vendor/asus/Z01M/proprietary/xbin/vconfig:system/xbin/vconfig \
+    vendor/asus/Z01M/proprietary/xbin/vi:system/xbin/vi \
+    vendor/asus/Z01M/proprietary/xbin/volname:system/xbin/volname \
+    vendor/asus/Z01M/proprietary/xbin/watch:system/xbin/watch \
+    vendor/asus/Z01M/proprietary/xbin/watchdog:system/xbin/watchdog \
+    vendor/asus/Z01M/proprietary/xbin/wc:system/xbin/wc \
+    vendor/asus/Z01M/proprietary/xbin/wget:system/xbin/wget \
+    vendor/asus/Z01M/proprietary/xbin/which:system/xbin/which \
+    vendor/asus/Z01M/proprietary/xbin/whoami:system/xbin/whoami \
+    vendor/asus/Z01M/proprietary/xbin/whois:system/xbin/whois \
+    vendor/asus/Z01M/proprietary/xbin/xargs:system/xbin/xargs \
+    vendor/asus/Z01M/proprietary/xbin/xxd:system/xbin/xxd \
+    vendor/asus/Z01M/proprietary/xbin/xz:system/xbin/xz \
+    vendor/asus/Z01M/proprietary/xbin/xzcat:system/xbin/xzcat \
+    vendor/asus/Z01M/proprietary/xbin/yes:system/xbin/yes \
+    vendor/asus/Z01M/proprietary/xbin/zcat:system/xbin/zcat \
+    vendor/asus/Z01M/proprietary/xbin/zcip:system/xbin/zcip \
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 
 
