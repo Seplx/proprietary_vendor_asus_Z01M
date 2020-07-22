@@ -3539,6 +3539,7 @@ PRODUCT_COPY_FILES += \
 
 
 #TODO:
+    vendor/asus/Z01M/proprietary/xbin/[:system/xbin/[ \
     vendor/asus/Z01M/proprietary/xbin/[[:system/xbin/[[ \
     vendor/asus/Z01M/proprietary/xbin/acpid:system/xbin/acpid \
     vendor/asus/Z01M/proprietary/xbin/adjtimex:system/xbin/adjtimex \
