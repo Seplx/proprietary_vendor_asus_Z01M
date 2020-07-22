@@ -490,6 +490,11 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/etc/cne/wqeclient/VZW/VZW_profile4.xml:system/etc/cne/wqeclient/VZW/VZW_profile4.xml \
     vendor/asus/Z01M/proprietary/etc/cne/wqeclient/VZW/VZW_profile5.xml:system/etc/cne/wqeclient/VZW/VZW_profile5.xml \
     vendor/asus/Z01M/proprietary/etc/cne/wqeclient/VZW/VZW_profile6.xml:system/etc/cne/wqeclient/VZW/VZW_profile6.xml \
+    vendor/asus/Z01M/proprietary/etc/cne/wqeclient/profile2.xml:system/etc/cne/wqeclient/profile1.xml \
+    vendor/asus/Z01M/proprietary/etc/cne/wqeclient/profile2.xml:system/etc/cne/wqeclient/profile2.xml \
+    vendor/asus/Z01M/proprietary/etc/cne/wqeclient/profile3.xml:system/etc/cne/wqeclient/profile3.xml \
+    vendor/asus/Z01M/proprietary/etc/cne/wqeclient/profile4.xml:system/etc/cne/wqeclient/profile4.xml \
+    vendor/asus/Z01M/proprietary/etc/cne/wqeclient/profile5.xml:system/etc/cne/wqeclient/profile5.xml \
     vendor/asus/Z01M/proprietary/etc/Compact_mode.cfg:system/etc/Compact_mode.cfg \
     vendor/asus/Z01M/proprietary/etc/compiled-classes:system/etc/compiled-classes \
     vendor/asus/Z01M/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
@@ -3534,6 +3539,7 @@ PRODUCT_COPY_FILES += \
 
 
 #TODO:
+    vendor/asus/Z01M/proprietary/xbin/[[:system/xbin/[[ \
     vendor/asus/Z01M/proprietary/xbin/acpid:system/xbin/acpid \
     vendor/asus/Z01M/proprietary/xbin/adjtimex:system/xbin/adjtimex \
     vendor/asus/Z01M/proprietary/xbin/antradio_app:system/xbin/antradio_app \
@@ -3623,8 +3629,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/xbin/fold:system/xbin/fold \
     vendor/asus/Z01M/proprietary/xbin/free:system/xbin/free \
     vendor/asus/Z01M/proprietary/xbin/freeramdisk:system/xbin/freeramdisk \
-    vendor/asus/Z01M/proprietary/xbin/fsck.minix:system/xbin/fsck.minix \
     vendor/asus/Z01M/proprietary/xbin/fsck:system/xbin/fsck \
+    vendor/asus/Z01M/proprietary/xbin/fsck.minix:system/xbin/fsck.minix \
     vendor/asus/Z01M/proprietary/xbin/fsfreeze:system/xbin/fsfreeze \
     vendor/asus/Z01M/proprietary/xbin/fstrim:system/xbin/fstrim \
     vendor/asus/Z01M/proprietary/xbin/fsync:system/xbin/fsync \
@@ -3671,8 +3677,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/xbin/iptunnel:system/xbin/iptunnel \
     vendor/asus/Z01M/proprietary/xbin/kbd_mode:system/xbin/kbd_mode \
     vendor/asus/Z01M/proprietary/xbin/kill:system/xbin/kill \
-    vendor/asus/Z01M/proprietary/xbin/killall5:system/xbin/killall5 \
     vendor/asus/Z01M/proprietary/xbin/killall:system/xbin/killall \
+    vendor/asus/Z01M/proprietary/xbin/killall5:system/xbin/killall5 \
     vendor/asus/Z01M/proprietary/xbin/klogd:system/xbin/klogd \
     vendor/asus/Z01M/proprietary/xbin/less:system/xbin/less \
     vendor/asus/Z01M/proprietary/xbin/link:system/xbin/link \
@@ -3736,8 +3742,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/xbin/patch:system/xbin/patch \
     vendor/asus/Z01M/proprietary/xbin/pgrep:system/xbin/pgrep \
     vendor/asus/Z01M/proprietary/xbin/pidof:system/xbin/pidof \
-    vendor/asus/Z01M/proprietary/xbin/ping6:system/xbin/ping6 \
     vendor/asus/Z01M/proprietary/xbin/ping:system/xbin/ping \
+    vendor/asus/Z01M/proprietary/xbin/ping6:system/xbin/ping6 \
     vendor/asus/Z01M/proprietary/xbin/pipe_progress:system/xbin/pipe_progress \
     vendor/asus/Z01M/proprietary/xbin/pivot_root:system/xbin/pivot_root \
     vendor/asus/Z01M/proprietary/xbin/pkill:system/xbin/pkill \
@@ -3771,9 +3777,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/xbin/rmmod:system/xbin/rmmod \
     vendor/asus/Z01M/proprietary/xbin/route:system/xbin/route \
     vendor/asus/Z01M/proprietary/xbin/rtcwake:system/xbin/rtcwake \
+    vendor/asus/Z01M/proprietary/xbin/runcon:system/xbin/runcon \
     vendor/asus/Z01M/proprietary/xbin/run-init:system/xbin/run-init \
     vendor/asus/Z01M/proprietary/xbin/run-parts:system/xbin/run-parts \
-    vendor/asus/Z01M/proprietary/xbin/runcon:system/xbin/runcon \
     vendor/asus/Z01M/proprietary/xbin/rx:system/xbin/rx \
     vendor/asus/Z01M/proprietary/xbin/script:system/xbin/script \
     vendor/asus/Z01M/proprietary/xbin/scriptreplay:system/xbin/scriptreplay \
@@ -3794,8 +3800,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/xbin/setuidgid:system/xbin/setuidgid \
     vendor/asus/Z01M/proprietary/xbin/sh:system/xbin/sh \
     vendor/asus/Z01M/proprietary/xbin/sha1sum:system/xbin/sha1sum \
-    vendor/asus/Z01M/proprietary/xbin/sha3sum:system/xbin/sha3sum \
     vendor/asus/Z01M/proprietary/xbin/sha256sum:system/xbin/sha256sum \
+    vendor/asus/Z01M/proprietary/xbin/sha3sum:system/xbin/sha3sum \
     vendor/asus/Z01M/proprietary/xbin/sha512sum:system/xbin/sha512sum \
     vendor/asus/Z01M/proprietary/xbin/showkey:system/xbin/showkey \
     vendor/asus/Z01M/proprietary/xbin/shred:system/xbin/shred \
@@ -3837,8 +3843,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/xbin/top:system/xbin/top \
     vendor/asus/Z01M/proprietary/xbin/touch:system/xbin/touch \
     vendor/asus/Z01M/proprietary/xbin/tr:system/xbin/tr \
-    vendor/asus/Z01M/proprietary/xbin/traceroute6:system/xbin/traceroute6 \
     vendor/asus/Z01M/proprietary/xbin/traceroute:system/xbin/traceroute \
+    vendor/asus/Z01M/proprietary/xbin/traceroute6:system/xbin/traceroute6 \
     vendor/asus/Z01M/proprietary/xbin/true:system/xbin/true \
     vendor/asus/Z01M/proprietary/xbin/truncate:system/xbin/truncate \
     vendor/asus/Z01M/proprietary/xbin/ts:system/xbin/ts \
@@ -3853,8 +3859,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/xbin/ubirmvol:system/xbin/ubirmvol \
     vendor/asus/Z01M/proprietary/xbin/ubirsvol:system/xbin/ubirsvol \
     vendor/asus/Z01M/proprietary/xbin/ubiupdatevol:system/xbin/ubiupdatevol \
-    vendor/asus/Z01M/proprietary/xbin/udhcpc6:system/xbin/udhcpc6 \
     vendor/asus/Z01M/proprietary/xbin/udhcpc:system/xbin/udhcpc \
+    vendor/asus/Z01M/proprietary/xbin/udhcpc6:system/xbin/udhcpc6 \
     vendor/asus/Z01M/proprietary/xbin/udhcpd:system/xbin/udhcpd \
     vendor/asus/Z01M/proprietary/xbin/udpsvd:system/xbin/udpsvd \
     vendor/asus/Z01M/proprietary/xbin/uevent:system/xbin/uevent \
