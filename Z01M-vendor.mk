@@ -3858,7 +3858,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/xbin/xzcat:system/xbin/xzcat \
     vendor/asus/Z01M/proprietary/xbin/yes:system/xbin/yes \
     vendor/asus/Z01M/proprietary/xbin/zcat:system/xbin/zcat \
-    vendor/asus/Z01M/proprietary/xbin/zcip:system/xbin/zcip \
+    vendor/asus/Z01M/proprietary/xbin/zcip:system/xbin/zcip
 
 PRODUCT_PACKAGES += \
     com.quicinc.cne.api@1.0 \
