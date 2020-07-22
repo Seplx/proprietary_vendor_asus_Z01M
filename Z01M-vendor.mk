@@ -61,7 +61,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/bin/bzcat:system/bin/bzcat \
     vendor/asus/Z01M/proprietary/bin/cal:system/bin/cal \
     vendor/asus/Z01M/proprietary/bin/cameraserver:system/bin/cameraserver \
-    vendor/asus/Z01M/proprietary/bin/cat:system/bin/cat \
+    vendor/asus/Z01M/proprietary/bin/cat:system/bin/cat \ 
     vendor/asus/Z01M/proprietary/bin/cksum:system/bin/cksum \
     vendor/asus/Z01M/proprietary/bin/clatd:system/bin/clatd \
     vendor/asus/Z01M/proprietary/bin/clear:system/bin/clear \
@@ -150,7 +150,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/asus/Z01M/proprietary/bin/gptest:system/bin/gptest \
     vendor/asus/Z01M/proprietary/bin/grep:system/bin/grep \
-    vendor/asus/Z01M/proprietary/bin/group:system/bin/groups \
+    vendor/asus/Z01M/proprietary/bin/groups:system/bin/groups \
     vendor/asus/Z01M/proprietary/bin/gx_fpd:system/bin/gx_fpd \
     vendor/asus/Z01M/proprietary/bin/gzip:system/bin/gzip \
     vendor/asus/Z01M/proprietary/bin/hal_proxy_daemon:system/bin/hal_proxy_daemon \
@@ -277,6 +277,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/bin/pm:system/bin/pm \
     vendor/asus/Z01M/proprietary/bin/pmap:system/bin/pmap \
     vendor/asus/Z01M/proprietary/bin/pm-proxy:system/bin/pm-proxy \
+    vendor/asus/Z01M/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/asus/Z01M/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/asus/Z01M/proprietary/bin/pppd:system/bin/pppd \
     vendor/asus/Z01M/proprietary/bin/preisp_debugger:system/bin/preisp_debugger \
@@ -300,6 +301,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/bin/requestsync:system/bin/requestsync \
     vendor/asus/Z01M/proprietary/bin/resize2fs:system/bin/resize2fs \
     vendor/asus/Z01M/proprietary/bin/restorecon:system/bin/restorecon \
+    vendor/asus/Z01M/proprietary/bin/rild:system/bin/rild \
     vendor/asus/Z01M/proprietary/bin/rm:system/bin/rm \
     vendor/asus/Z01M/proprietary/bin/rmdir:system/bin/rmdir \
     vendor/asus/Z01M/proprietary/bin/rmmod:system/bin/rmmod \
@@ -407,6 +409,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \
     vendor/asus/Z01M/proprietary/bin/xargs:system/bin/xargs \
     vendor/asus/Z01M/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
+    vendor/asus/Z01M/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/asus/Z01M/proprietary/bin/xxd:system/bin/xxd \
     vendor/asus/Z01M/proprietary/bin/yes:system/bin/yes \
 	
@@ -442,8 +445,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
     vendor/asus/Z01M/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal \
     vendor/asus/Z01M/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
-	
-	
+
     vendor/asus/Z01M/proprietary/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:system/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb/
     vendor/asus/Z01M/proprietary/etc/acdbdata/QRD/QRD_General_cal.acdb:system/etc/acdbdata/QRD/QRD_General_cal.acdb \
     vendor/asus/Z01M/proprietary/etc/acdbdata/QRD/QRD_Global_cal.acdb:system/etc/acdbdata/QRD/QRD_Global_cal.acdb \
@@ -451,7 +453,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:system/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
     vendor/asus/Z01M/proprietary/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/etc/acdbdata/QRD/QRD_Headset_cal \
     vendor/asus/Z01M/proprietary/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
-
 
     vendor/asus/Z01M/proprietary/etc/cne/wqeclient/ATT/ATT_profile1.xml:system/etc/cne/wqeclient/ATT/ATT_profile1.xml \
     vendor/asus/Z01M/proprietary/etc/cne/wqeclient/ATT/ATT_profile2.xml:system/etc/cne/wqeclient/ATT/ATT_profile2.xml \
