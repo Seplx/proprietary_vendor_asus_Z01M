@@ -410,6 +410,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/asus/Z01M/proprietary/bin/xxd:system/bin/xxd \
     vendor/asus/Z01M/proprietary/bin/yes:system/bin/yes \
+
+
+#TODO:
     vendor/asus/Z01M/proprietary/etc/a2dp_audio_policy_configuration.xml:system/etc/a2dp_audio_policy_configuration.xml \
     vendor/asus/Z01M/proprietary/etc/aanc_tuning_mixer.txt:system/etc/aanc_tuning_mixer.txt \
     vendor/asus/Z01M/proprietary/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_Bluetooth_cal.acdb \
@@ -823,6 +826,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/etc/wifi_bt.cfg:system/etc/wifi_bt.cfg \
     vendor/asus/Z01M/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/asus/Z01M/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
+
     vendor/asus/Z01M/proprietary/framework/am.jar:system/framework/am.jar \
     vendor/asus/Z01M/proprietary/framework/android.test.runner.jar:system/framework/android.test.runner.jar \
     vendor/asus/Z01M/proprietary/framework/apache-xml.jar:system/framework/apache-xml.jar \
@@ -1083,6 +1087,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/framework/WfdCommon.jar:system/framework/WfdCommon.jar \
     vendor/asus/Z01M/proprietary/framework/wifi-service.jar:system/framework/wifi-service.jar \
     vendor/asus/Z01M/proprietary/framework/wm.jar:system/framework/wm.jar \
+
     vendor/asus/Z01M/proprietary/lib64/crtbegin_so.o:system/lib64/crtbegin_so.o \
     vendor/asus/Z01M/proprietary/lib64/crtend_so.o:system/lib64/crtend_so.o \
     vendor/asus/Z01M/proprietary/lib64/drm/libfwdlockengine.so:system/lib64/drm/libfwdlockengine.so \
@@ -1427,6 +1432,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/lib64/soundfx/libqcomvoiceprocessing.so:system/lib64/soundfx/libqcomvoiceprocessing.so \
     vendor/asus/Z01M/proprietary/lib64/soundfx/libreverbwrapper.so:system/lib64/soundfx/libreverbwrapper.so \
     vendor/asus/Z01M/proprietary/lib64/soundfx/libvisualizer.so:system/lib64/soundfx/libvisualizer.so \
+
+
+#TODO:
     vendor/asus/Z01M/proprietary/lib/crtbegin_so.o:system/lib/crtbegin_so.o \
     vendor/asus/Z01M/proprietary/lib/crtend_so.o:system/lib/crtend_so.o \
     vendor/asus/Z01M/proprietary/lib/DataSet/arch/DIT_List.cfg:system/lib/DataSet/arch/DIT_List.cfg \
@@ -1801,6 +1809,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/lib/soundfx/libreverbwrapper.so:system/lib/soundfx/libreverbwrapper.so \
     vendor/asus/Z01M/proprietary/lib/soundfx/libvisualizer.so:system/lib/soundfx/libvisualizer.so \
     vendor/asus/Z01M/proprietary/lib/style.cng:system/lib/style.cng \
+
+
+
     vendor/asus/Z01M/proprietary/priv-app/CNEService/CNEService.apk:system/priv-app/CNEService/CNEService.apk \
     vendor/asus/Z01M/proprietary/priv-app/CNEService/oat/arm64/CNEService.odex:system/priv-app/CNEService/oat/arm64/CNEService.odex \
     vendor/asus/Z01M/proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk:system/priv-app/com.qualcomm.location/com.qualcomm.location.apk \
@@ -1811,6 +1822,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/priv-app/qcrilmsgtunne/qcrilmsgtunnel.apk:system/priv-app/qcrilmsgtunne/qcrilmsgtunnel.apk \
     vendor/asus/Z01M/proprietary/priv-app/QtiTetherService/oat/arm64/QtiTetherService.odex:system/priv-app/QtiTetherService/oat/arm64/QtiTetherService.odex \
     vendor/asus/Z01M/proprietary/priv-app/QtiTetherService/QtiTetherService.apk:system/priv-app/QtiTetherService/QtiTetherService.apk \
+
     vendor/asus/Z01M/proprietary/vendor/app/CABLService/CABLService.apk:system/vendor/app/CABLService/CABLService.apk \
     vendor/asus/Z01M/proprietary/vendor/app/CABLService/oat/arm64/CABLService.odex:system/vendor/app/CABLService/oat/arm64/CABLService.odex \
     vendor/asus/Z01M/proprietary/vendor/app/colorservice/colorservice.apk:system/vendor/app/colorservice/colorservice.apk \
@@ -1827,6 +1839,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/vendor/app/SmartcardService/SmartcardService.apk:system/vendor/app/SmartcardService/SmartcardService.apk \
     vendor/asus/Z01M/proprietary/vendor/app/SVIService/oat/arm64/SVIService.odex:system/vendor/app/SVIService/oat/arm64/SVIService.odex \
     vendor/asus/Z01M/proprietary/vendor/app/SVIService/SVIService.apk:system/vendor/app/SVIService/SVIService.apk \
+
+
+
     vendor/asus/Z01M/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
     vendor/asus/Z01M/proprietary/vendor/bin/chamomile_provision:system/vendor/bin/chamomile_provision \
     vendor/asus/Z01M/proprietary/vendor/bin/mm-qjpeg-dec-test:system/vendor/bin/mm-qjpeg-dec-test \
@@ -1834,6 +1849,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/vendor/bin/mm-qomx-idec-test:system/vendor/bin/mm-qomx-idec-test \
     vendor/asus/Z01M/proprietary/vendor/bin/mm-qomx-ienc-test:system/vendor/bin/mm-qomx-ienc-test \
     vendor/asus/Z01M/proprietary/vendor/bin/qjpeg-dma-test:system/vendor/bin/qjpeg-dma-test \
+
+
+#TODO:
     vendor/asus/Z01M/proprietary/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
     vendor/asus/Z01M/proprietary/vendor/etc/audio_output_policy.conf:system/vendor/etc/audio_output_policy.conf \
     vendor/asus/Z01M/proprietary/vendor/etc/Generic/Launcher/default_workspace/default_allapp.xml:system/vendor/etc/Generic/Launcher/default_workspace/default_allapp.xml \
@@ -1871,10 +1889,13 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/vendor/etc/workspace_grid_setting.xml:system/vendor/etc/workspace_grid_setting.xml \
     vendor/asus/Z01M/proprietary/vendor/etc/WW/ASUS/Launcher/default_workspace/default_allapp.xml:system/vendor/etc/WW/ASUS/Launcher/default_workspace/default_allapp.xml \
     vendor/asus/Z01M/proprietary/vendor/etc/WW/ASUS/Launcher/default_workspace/phone_workspace.xml:system/vendor/etc/WW/ASUS/Launcher/default_workspace/phone_workspace.xml \
+
     vendor/asus/Z01M/proprietary/vendor/firmware/preisp.rkl:system/vendor/firmware/preisp.rkl \
+	
     vendor/asus/Z01M/proprietary/vendor/framework/oat/arm64/qti-vzw-ims-internal.odex:system/vendor/framework/oat/arm64/qti-vzw-ims-internal.odex \
     vendor/asus/Z01M/proprietary/vendor/framework/oat/arm/qti-vzw-ims-internal.odex:system/vendor/framework/oat/arm/qti-vzw-ims-internal.odex \
     vendor/asus/Z01M/proprietary/vendor/framework/qti-vzw-ims-internal.jar:system/vendor/framework/qti-vzw-ims-internal.jar \
+	
     vendor/asus/Z01M/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/asus/Z01M/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
     vendor/asus/Z01M/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
@@ -2171,6 +2192,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/vendor/lib64/soundfx/libqcbassboost.so:system/vendor/lib64/soundfx/libqcbassboost.so \
     vendor/asus/Z01M/proprietary/vendor/lib64/soundfx/libqcreverb.so:system/vendor/lib64/soundfx/libqcreverb.so \
     vendor/asus/Z01M/proprietary/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so \
+
+
+#TODO:
     vendor/asus/Z01M/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/asus/Z01M/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/asus/Z01M/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -3499,9 +3523,17 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/asus/Z01M/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/asus/Z01M/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+
+
+
     vendor/asus/Z01M/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
     vendor/asus/Z01M/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd \
+	
     vendor/asus/Z01M/proprietary/vendor/qcril.db:system/vendor/qcril.db \
+
+
+
+#TODO:
     vendor/asus/Z01M/proprietary/xbin/acpid:system/xbin/acpid \
     vendor/asus/Z01M/proprietary/xbin/adjtimex:system/xbin/adjtimex \
     vendor/asus/Z01M/proprietary/xbin/antradio_app:system/xbin/antradio_app \
