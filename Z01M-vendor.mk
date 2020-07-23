@@ -506,7 +506,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/etc/drc/drc_cfg_5.1.txt:system/etc/drc/drc_cfg_5.1.txt \
     vendor/asus/Z01M/proprietary/etc/drc/drc_cfg_AZ.txt:system/etc/drc/drc_cfg_AZ.txt \
     vendor/asus/Z01M/proprietary/etc/ethertypes:system/etc/ethertypes \
-    vendor/asus/Z01M/proprietary/etc/event-log-tags:system/etc/event-log-tags \
     vendor/asus/Z01M/proprietary/etc/Experience.conf:system/etc/Experience.conf \
     vendor/asus/Z01M/proprietary/etc/FacebookAppManager:system/etc/FacebookAppManager \
     vendor/asus/Z01M/proprietary/etc/FacebookInstaller:system/etc/FacebookInstaller \
@@ -767,7 +766,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/etc/mmosal_logmask_debug.cfg:system/etc/mmosal_logmask_debug.cfg \
     vendor/asus/Z01M/proprietary/etc/modemlog.sh:system/etc/modemlog.sh \
     vendor/asus/Z01M/proprietary/etc/modem_and_audio.cfg:system/etc/modem_and_audio.cfg \
-    vendor/asus/Z01M/proprietary/etc/NOTICE.html.gz:system/etc/NOTICE.html.gz \
     vendor/asus/Z01M/proprietary/etc/persist/WCNSS_qcom_wlan_nv.bin:system/etc/yes/persist/WCNSS_qcom_wlan_nv.bin \
     vendor/asus/Z01M/proprietary/etc/persist/WCNSS_qcom_wlan_nv_Phoenix.bin:system/etc/yes/persist/WCNSS_qcom_wlan_nv_Phoenix.bin \
     vendor/asus/Z01M/proprietary/etc/persist/WCNSS_wlan_dictionary.dat:system/etc/yes/persist/WCNSS_wlan_dictionary.dat \
@@ -779,7 +777,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/etc/public.libraries.txt:system/etc/public.libraries.txt \
     vendor/asus/Z01M/proprietary/etc/qca6234-service.sh:system/etc/qca6234-service.sh \
     vendor/asus/Z01M/proprietary/etc/qdcm_calib_data_phoenix_tm_rm67198_1080p_command_mode_dsi_panel.xml:system/etc/qdcm_calib_data_phoenix_tm_rm67198_1080p_command_mode_dsi_panel.xml \
-    vendor/asus/Z01M/proprietary/etc/recovery-resource.dat:system/etc/recovery-resource.dat \
     vendor/asus/Z01M/proprietary/etc/r_submix_audio_policy_configuration.xml:system/etc/r_submix_audio_policy_configuration.xml \
     vendor/asus/Z01M/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/asus/Z01M/proprietary/etc/savelogclear.sh:system/etc/savelogclear.sh \
@@ -1934,7 +1931,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/vendor/lib64/libautocct.so:system/vendor/lib64/libautocct.so \
     vendor/asus/Z01M/proprietary/vendor/lib64/libavenhancements.so:system/vendor/lib64/libavenhancements.so \
     vendor/asus/Z01M/proprietary/vendor/lib64/libbccQTI.so:system/vendor/lib64/libbccQTI.so \
-    vendor/asus/Z01M/proprietary/vendor/lib64/libbt-vendor.so:system/vendor/lib64/libbt-vendor.so \
     vendor/asus/Z01M/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
     vendor/asus/Z01M/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
     vendor/asus/Z01M/proprietary/vendor/lib64/libc2d30-a3xx.so:system/vendor/lib64/libc2d30-a3xx.so \
@@ -2170,7 +2166,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/vendor/lib64/libxt_native.so:system/vendor/lib64/libxt_native.so \
     vendor/asus/Z01M/proprietary/vendor/lib64/lib_drplugin_server.so:system/vendor/lib64/lib_drplugin_server.so \
     vendor/asus/Z01M/proprietary/vendor/lib64/lib_remote_simlock.so:system/vendor/lib64/lib_remote_simlock.so \
-    vendor/asus/Z01M/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
     vendor/asus/Z01M/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
     vendor/asus/Z01M/proprietary/vendor/lib64/sensor_calibrate.so:system/vendor/lib64/sensor_calibrate.so \
     vendor/asus/Z01M/proprietary/vendor/lib64/soundfx/libqcbassboost.so:system/vendor/lib64/soundfx/libqcbassboost.so \
@@ -2253,7 +2248,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/vendor/lib/libavenhancements.so:system/vendor/lib/libavenhancements.so \
     vendor/asus/Z01M/proprietary/vendor/lib/libbase64.so:system/vendor/lib/libbase64.so \
     vendor/asus/Z01M/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
-    vendor/asus/Z01M/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     vendor/asus/Z01M/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/asus/Z01M/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/asus/Z01M/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
@@ -3511,7 +3505,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/xbin/[[:system/xbin/[[ \
     vendor/asus/Z01M/proprietary/xbin/acpid:system/xbin/acpid \
     vendor/asus/Z01M/proprietary/xbin/adjtimex:system/xbin/adjtimex \
-    vendor/asus/Z01M/proprietary/xbin/antradio_app:system/xbin/antradio_app \
     vendor/asus/Z01M/proprietary/xbin/ar:system/xbin/ar \
     vendor/asus/Z01M/proprietary/xbin/arch:system/xbin/arch \
     vendor/asus/Z01M/proprietary/xbin/arp:system/xbin/arp \
@@ -3529,7 +3522,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/xbin/bunzip2:system/xbin/bunzip2 \
     vendor/asus/Z01M/proprietary/xbin/busybox:system/xbin/busybox \
     vendor/asus/Z01M/proprietary/xbin/bzcat:system/xbin/bzcat \
-    vendor/asus/Z01M/proprietary/xbin/bzip2:system/xbin/bzip2 \
     vendor/asus/Z01M/proprietary/xbin/cal:system/xbin/cal \
     vendor/asus/Z01M/proprietary/xbin/cat:system/xbin/cat \
     vendor/asus/Z01M/proprietary/xbin/chat:system/xbin/chat \
@@ -3558,7 +3550,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/xbin/deallocvt:system/xbin/deallocvt \
     vendor/asus/Z01M/proprietary/xbin/depmod:system/xbin/depmod \
     vendor/asus/Z01M/proprietary/xbin/devmem:system/xbin/devmem \
-    vendor/asus/Z01M/proprietary/xbin/dexlist:system/xbin/dexlist \
     vendor/asus/Z01M/proprietary/xbin/df:system/xbin/df \
     vendor/asus/Z01M/proprietary/xbin/dhcprelay:system/xbin/dhcprelay \
     vendor/asus/Z01M/proprietary/xbin/diff:system/xbin/diff \
@@ -3695,7 +3686,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/xbin/nanddump:system/xbin/nanddump \
     vendor/asus/Z01M/proprietary/xbin/nandwrite:system/xbin/nandwrite \
     vendor/asus/Z01M/proprietary/xbin/nbd-client:system/xbin/nbd-client \
-    vendor/asus/Z01M/proprietary/xbin/nc:system/xbin/nc \
     vendor/asus/Z01M/proprietary/xbin/netstat:system/xbin/netstat \
     vendor/asus/Z01M/proprietary/xbin/nice:system/xbin/nice \
     vendor/asus/Z01M/proprietary/xbin/nl:system/xbin/nl \
@@ -3719,7 +3709,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/xbin/pmap:system/xbin/pmap \
     vendor/asus/Z01M/proprietary/xbin/popmaildir:system/xbin/popmaildir \
     vendor/asus/Z01M/proprietary/xbin/poweroff:system/xbin/poweroff \
-    vendor/asus/Z01M/proprietary/xbin/powertop:system/xbin/powertop \
     vendor/asus/Z01M/proprietary/xbin/printenv:system/xbin/printenv \
     vendor/asus/Z01M/proprietary/xbin/printf:system/xbin/printf \
     vendor/asus/Z01M/proprietary/xbin/ps:system/xbin/ps \
@@ -3783,7 +3772,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/xbin/ssl_client:system/xbin/ssl_client \
     vendor/asus/Z01M/proprietary/xbin/start-stop-daemon:system/xbin/start-stop-daemon \
     vendor/asus/Z01M/proprietary/xbin/stat:system/xbin/stat \
-    vendor/asus/Z01M/proprietary/xbin/strace:system/xbin/strace \
     vendor/asus/Z01M/proprietary/xbin/strings:system/xbin/strings \
     vendor/asus/Z01M/proprietary/xbin/stty:system/xbin/stty \
     vendor/asus/Z01M/proprietary/xbin/sum:system/xbin/sum \
@@ -3799,7 +3787,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/xbin/tail:system/xbin/tail \
     vendor/asus/Z01M/proprietary/xbin/tar:system/xbin/tar \
     vendor/asus/Z01M/proprietary/xbin/tc:system/xbin/tc \
-    vendor/asus/Z01M/proprietary/xbin/tcpdump:system/xbin/tcpdump \
     vendor/asus/Z01M/proprietary/xbin/tcpsvd:system/xbin/tcpsvd \
     vendor/asus/Z01M/proprietary/xbin/tee:system/xbin/tee \
     vendor/asus/Z01M/proprietary/xbin/telnet:system/xbin/telnet \
@@ -3844,7 +3831,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/xbin/unlzop:system/xbin/unlzop \
     vendor/asus/Z01M/proprietary/xbin/unshare:system/xbin/unshare \
     vendor/asus/Z01M/proprietary/xbin/unxz:system/xbin/unxz \
-    vendor/asus/Z01M/proprietary/xbin/unzip:system/xbin/unzip \
     vendor/asus/Z01M/proprietary/xbin/uptime:system/xbin/uptime \
     vendor/asus/Z01M/proprietary/xbin/usleep:system/xbin/usleep \
     vendor/asus/Z01M/proprietary/xbin/uudecode:system/xbin/uudecode \
@@ -3855,7 +3841,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/xbin/watch:system/xbin/watch \
     vendor/asus/Z01M/proprietary/xbin/watchdog:system/xbin/watchdog \
     vendor/asus/Z01M/proprietary/xbin/wc:system/xbin/wc \
-    vendor/asus/Z01M/proprietary/xbin/wget:system/xbin/wget \
     vendor/asus/Z01M/proprietary/xbin/which:system/xbin/which \
     vendor/asus/Z01M/proprietary/xbin/whoami:system/xbin/whoami \
     vendor/asus/Z01M/proprietary/xbin/whois:system/xbin/whois \
@@ -3893,7 +3878,7 @@ PRODUCT_PACKAGES += \
     TimeService \
     com.quicinc.cne.api-V1.0-java \
     com.quicinc.cne
-endif
+#endif
 
 -include vendor/extra/devices.mk
 ifneq ($(call is-qc-perf-target),true)
