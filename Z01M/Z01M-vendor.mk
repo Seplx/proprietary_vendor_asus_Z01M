@@ -27,37 +27,18 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/app/WfdService/WfdService.apk:system/app/WfdService/WfdService.apk \
     vendor/asus/Z01M/proprietary/bin/acpi:system/bin/acpi \
     vendor/asus/Z01M/proprietary/bin/adsprpcd:system/bin/adsprpcd \
-    vendor/asus/Z01M/proprietary/bin/am:system/bin/am \
-    vendor/asus/Z01M/proprietary/bin/applypatch:system/bin/applypatch \
-    vendor/asus/Z01M/proprietary/bin/appops:system/bin/appops \
-    vendor/asus/Z01M/proprietary/bin/appwidget:system/bin/appwidget \
-    vendor/asus/Z01M/proprietary/bin/app_process32:system/bin/app_process32 \
-    vendor/asus/Z01M/proprietary/bin/app_process64:system/bin/app_process64 \
-    vendor/asus/Z01M/proprietary/bin/app_process:system/bin/app_process \
     vendor/asus/Z01M/proprietary/bin/asuskeyd:system/bin/asuskeyd \
     vendor/asus/Z01M/proprietary/bin/asus_fpd:system/bin/asus_fpd \
     vendor/asus/Z01M/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/asus/Z01M/proprietary/bin/athdiag:system/bin/athdiag \
-    vendor/asus/Z01M/proprietary/bin/atrace:system/bin/atrace \
     vendor/asus/Z01M/proprietary/bin/audiod:system/bin/audiod \
-    vendor/asus/Z01M/proprietary/bin/audioserver:system/bin/audioserver \
     vendor/asus/Z01M/proprietary/bin/audio_voice:system/bin/audio_voice \
     vendor/asus/Z01M/proprietary/bin/base64:system/bin/base64 \
     vendor/asus/Z01M/proprietary/bin/basename:system/bin/basename \
-    vendor/asus/Z01M/proprietary/bin/bcc:system/bin/bcc \
-    vendor/asus/Z01M/proprietary/bin/blkid:system/bin/blkid \
     vendor/asus/Z01M/proprietary/bin/blockdev:system/bin/blockdev \
-    vendor/asus/Z01M/proprietary/bin/bmgr:system/bin/bmgr \
-    vendor/asus/Z01M/proprietary/bin/bootanimation:system/bin/bootanimation \
-    vendor/asus/Z01M/proprietary/bin/bootstat:system/bin/bootstat \
-    vendor/asus/Z01M/proprietary/bin/brctl:system/bin/brctl \
     vendor/asus/Z01M/proprietary/bin/btnvtool:system/bin/btnvtool \
-    vendor/asus/Z01M/proprietary/bin/bu:system/bin/bu \
-    vendor/asus/Z01M/proprietary/bin/bugreport:system/bin/bugreport \
-    vendor/asus/Z01M/proprietary/bin/bugreportz:system/bin/bugreportz \
     vendor/asus/Z01M/proprietary/bin/bzcat:system/bin/bzcat \
     vendor/asus/Z01M/proprietary/bin/cal:system/bin/cal \
-    vendor/asus/Z01M/proprietary/bin/cameraserver:system/bin/cameraserver \
     vendor/asus/Z01M/proprietary/bin/cat:system/bin/cat \
     vendor/asus/Z01M/proprietary/bin/chcon:system/bin/chcon \
     vendor/asus/Z01M/proprietary/bin/checksum:system/bin/checksum \
@@ -67,34 +48,22 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/bin/chown:system/bin/chown \
     vendor/asus/Z01M/proprietary/bin/chroot:system/bin/chroot \
     vendor/asus/Z01M/proprietary/bin/cksum:system/bin/cksum \
-    vendor/asus/Z01M/proprietary/bin/clatd:system/bin/clatd \
     vendor/asus/Z01M/proprietary/bin/clear:system/bin/clear \
     vendor/asus/Z01M/proprietary/bin/cli:system/bin/cli \
     vendor/asus/Z01M/proprietary/bin/climax:system/bin/climax \
-    vendor/asus/Z01M/proprietary/bin/cmd:system/bin/cmd \
     vendor/asus/Z01M/proprietary/bin/cmp:system/bin/cmp \
     vendor/asus/Z01M/proprietary/bin/cnd:system/bin/cnd \
     vendor/asus/Z01M/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/asus/Z01M/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/asus/Z01M/proprietary/bin/comm:system/bin/comm \
-    vendor/asus/Z01M/proprietary/bin/content:system/bin/content \
     vendor/asus/Z01M/proprietary/bin/cp:system/bin/cp \
     vendor/asus/Z01M/proprietary/bin/cpio:system/bin/cpio \
-    vendor/asus/Z01M/proprietary/bin/cplay:system/bin/cplay \
-    vendor/asus/Z01M/proprietary/bin/curl:system/bin/curl \
     vendor/asus/Z01M/proprietary/bin/customize_early:system/bin/customize_early \
     vendor/asus/Z01M/proprietary/bin/customize_late:system/bin/customize_late \
     vendor/asus/Z01M/proprietary/bin/customize_mount:system/bin/customize_mount \
     vendor/asus/Z01M/proprietary/bin/cut:system/bin/cut \
-    vendor/asus/Z01M/proprietary/bin/dalvikvm32:system/bin/dalvikvm32 \
-    vendor/asus/Z01M/proprietary/bin/dalvikvm64:system/bin/dalvikvm64 \
-    vendor/asus/Z01M/proprietary/bin/dalvikvm:system/bin/dalvikvm \
     vendor/asus/Z01M/proprietary/bin/date:system/bin/date \
     vendor/asus/Z01M/proprietary/bin/dd:system/bin/dd \
-    vendor/asus/Z01M/proprietary/bin/debuggerd64:system/bin/debuggerd64 \
-    vendor/asus/Z01M/proprietary/bin/debuggerd:system/bin/debuggerd \
-    vendor/asus/Z01M/proprietary/bin/dex2oat:system/bin/dex2oat \
-    vendor/asus/Z01M/proprietary/bin/dexdump:system/bin/dexdump \
     vendor/asus/Z01M/proprietary/bin/df:system/bin/df \
     vendor/asus/Z01M/proprietary/bin/diag_callback_sample:system/bin/diag_callback_sample \
     vendor/asus/Z01M/proprietary/bin/diag_dci_sample:system/bin/diag_dci_sample \
@@ -104,20 +73,13 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/bin/diag_uart_log:system/bin/diag_uart_log \
     vendor/asus/Z01M/proprietary/bin/dirname:system/bin/dirname \
     vendor/asus/Z01M/proprietary/bin/dmesg:system/bin/dmesg \
-    vendor/asus/Z01M/proprietary/bin/dnsmasq:system/bin/dnsmasq \
     vendor/asus/Z01M/proprietary/bin/dos2unix:system/bin/dos2unix \
-    vendor/asus/Z01M/proprietary/bin/dpm:system/bin/dpm \
     vendor/asus/Z01M/proprietary/bin/dpmd:system/bin/dpmd \
-    vendor/asus/Z01M/proprietary/bin/drmserver:system/bin/drmserver \
     vendor/asus/Z01M/proprietary/bin/DR_AP_Service:system/bin/DR_AP_Service \
     vendor/asus/Z01M/proprietary/bin/dts_hpx_service:system/bin/dts_hpx_service \
     vendor/asus/Z01M/proprietary/bin/du:system/bin/du \
     vendor/asus/Z01M/proprietary/bin/dumps:system/bin/dumps \
-    vendor/asus/Z01M/proprietary/bin/dumpstate:system/bin/dumpstate \
-    vendor/asus/Z01M/proprietary/bin/dumpsys:system/bin/dumpsys \
     vendor/asus/Z01M/proprietary/bin/dun-server:system/bin/dun-server \
-    vendor/asus/Z01M/proprietary/bin/e2fsck:system/bin/e2fsck \
-    vendor/asus/Z01M/proprietary/bin/ebtables:system/bin/ebtables \
     vendor/asus/Z01M/proprietary/bin/echo:system/bin/echo \
     vendor/asus/Z01M/proprietary/bin/egrep:system/bin/egrep \
     vendor/asus/Z01M/proprietary/bin/energy-awareness:system/bin/energy-awareness \
@@ -132,103 +94,69 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/bin/false:system/bin/false \
     vendor/asus/Z01M/proprietary/bin/fgrep:system/bin/fgrep \
     vendor/asus/Z01M/proprietary/bin/find:system/bin/find \
-    vendor/asus/Z01M/proprietary/bin/fingerprintd:system/bin/fingerprintd \
     vendor/asus/Z01M/proprietary/bin/flock:system/bin/flock \
     vendor/asus/Z01M/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/asus/Z01M/proprietary/bin/fmfactorytest:system/bin/fmfactorytest \
     vendor/asus/Z01M/proprietary/bin/fmfactorytestserver:system/bin/fmfactorytestserver \
-    vendor/asus/Z01M/proprietary/bin/fmhal_service:system/bin/fmhal_service \
     vendor/asus/Z01M/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/asus/Z01M/proprietary/bin/free:system/bin/free \
-    vendor/asus/Z01M/proprietary/bin/fsck.f2fs:system/bin/fsck.f2fs \
-    vendor/asus/Z01M/proprietary/bin/fsck_msdos:system/bin/fsck_msdos \
-    vendor/asus/Z01M/proprietary/bin/fstman:system/bin/fstman \
     vendor/asus/Z01M/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
     vendor/asus/Z01M/proprietary/bin/GammaSetting:system/bin/GammaSetting \
     vendor/asus/Z01M/proprietary/bin/garden_app:system/bin/garden_app \
-    vendor/asus/Z01M/proprietary/bin/gatekeeperd:system/bin/gatekeeperd \
     vendor/asus/Z01M/proprietary/bin/getenforce:system/bin/getenforce \
     vendor/asus/Z01M/proprietary/bin/getevent:system/bin/getevent \
     vendor/asus/Z01M/proprietary/bin/getprop:system/bin/getprop \
     vendor/asus/Z01M/proprietary/bin/GMSetting:system/bin/GMSetting \
     vendor/asus/Z01M/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/asus/Z01M/proprietary/bin/gptest:system/bin/gptest \
-    vendor/asus/Z01M/proprietary/bin/grep:system/bin/grep \
     vendor/asus/Z01M/proprietary/bin/groups:system/bin/groups \
     vendor/asus/Z01M/proprietary/bin/gx_fpd:system/bin/gx_fpd \
-    vendor/asus/Z01M/proprietary/bin/gzip:system/bin/gzip \
     vendor/asus/Z01M/proprietary/bin/hal_proxy_daemon:system/bin/hal_proxy_daemon \
     vendor/asus/Z01M/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/asus/Z01M/proprietary/bin/head:system/bin/head \
-    vendor/asus/Z01M/proprietary/bin/hostapd:system/bin/hostapd \
-    vendor/asus/Z01M/proprietary/bin/hostapd_cli:system/bin/hostapd_cli \
     vendor/asus/Z01M/proprietary/bin/hostapd_cmd:system/bin/hostapd_cmd \
     vendor/asus/Z01M/proprietary/bin/hostname:system/bin/hostname \
-    vendor/asus/Z01M/proprietary/bin/hs20-osu-client:system/bin/hs20-osu-client \
     vendor/asus/Z01M/proprietary/bin/HSVSetting:system/bin/HSVSetting \
     vendor/asus/Z01M/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
     vendor/asus/Z01M/proprietary/bin/hwclock:system/bin/hwclock \
     vendor/asus/Z01M/proprietary/bin/id:system/bin/id \
-    vendor/asus/Z01M/proprietary/bin/idmap:system/bin/idmap \
     vendor/asus/Z01M/proprietary/bin/ifconfig:system/bin/ifconfig \
     vendor/asus/Z01M/proprietary/bin/iftop:system/bin/iftop \
-    vendor/asus/Z01M/proprietary/bin/ime:system/bin/ime \
     vendor/asus/Z01M/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/asus/Z01M/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/asus/Z01M/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/asus/Z01M/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/asus/Z01M/proprietary/bin/inotifyd:system/bin/inotifyd \
-    vendor/asus/Z01M/proprietary/bin/input:system/bin/input \
     vendor/asus/Z01M/proprietary/bin/insmod:system/bin/insmod \
     vendor/asus/Z01M/proprietary/bin/install-recovery.sh:system/bin/install-recovery.sh \
-    vendor/asus/Z01M/proprietary/bin/installd:system/bin/installd \
     vendor/asus/Z01M/proprietary/bin/ioctl:system/bin/ioctl \
     vendor/asus/Z01M/proprietary/bin/ionice:system/bin/ionice \
     vendor/asus/Z01M/proprietary/bin/iop:system/bin/iop \
     vendor/asus/Z01M/proprietary/bin/iorenice:system/bin/iorenice \
     vendor/asus/Z01M/proprietary/bin/ip6tables-restore:system/bin/ip6tables-restore \
     vendor/asus/Z01M/proprietary/bin/ip6tables-save:system/bin/ip6tables-save \
-    vendor/asus/Z01M/proprietary/bin/ip6tables:system/bin/ip6tables \
-    vendor/asus/Z01M/proprietary/bin/ip:system/bin/ip \
     vendor/asus/Z01M/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
-    vendor/asus/Z01M/proprietary/bin/ipacm:system/bin/ipacm \
     vendor/asus/Z01M/proprietary/bin/iptables-restore:system/bin/iptables-restore \
     vendor/asus/Z01M/proprietary/bin/iptables-save:system/bin/iptables-save \
-    vendor/asus/Z01M/proprietary/bin/iptables:system/bin/iptables \
     vendor/asus/Z01M/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/asus/Z01M/proprietary/bin/is_keybox_valid:system/bin/is_keybox_valid \
     vendor/asus/Z01M/proprietary/bin/keybox_selftest:system/bin/keybox_selftest \
-    vendor/asus/Z01M/proprietary/bin/keystore:system/bin/keystore \
     vendor/asus/Z01M/proprietary/bin/kill:system/bin/kill \
     vendor/asus/Z01M/proprietary/bin/killall:system/bin/killall \
-    vendor/asus/Z01M/proprietary/bin/ld.mc:system/bin/ld.mc \
-    vendor/asus/Z01M/proprietary/bin/linker64:system/bin/linker64 \
-    vendor/asus/Z01M/proprietary/bin/linker:system/bin/linker \
-    vendor/asus/Z01M/proprietary/bin/lmkd:system/bin/lmkd \
     vendor/asus/Z01M/proprietary/bin/ln:system/bin/ln \
     vendor/asus/Z01M/proprietary/bin/load-policy:system/bin/load-policy \
     vendor/asus/Z01M/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/asus/Z01M/proprietary/bin/log:system/bin/log \
-    vendor/asus/Z01M/proprietary/bin/logcat:system/bin/logcat \
     vendor/asus/Z01M/proprietary/bin/logcommand:system/bin/logcommand \
-    vendor/asus/Z01M/proprietary/bin/logd:system/bin/logd \
     vendor/asus/Z01M/proprietary/bin/logname:system/bin/logname \
-    vendor/asus/Z01M/proprietary/bin/logwrapper:system/bin/logwrapper \
     vendor/asus/Z01M/proprietary/bin/losetup:system/bin/losetup \
     vendor/asus/Z01M/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/asus/Z01M/proprietary/bin/ls:system/bin/ls \
     vendor/asus/Z01M/proprietary/bin/lsmod:system/bin/lsmod \
     vendor/asus/Z01M/proprietary/bin/lsof:system/bin/lsof \
     vendor/asus/Z01M/proprietary/bin/lsusb:system/bin/lsusb \
-    vendor/asus/Z01M/proprietary/bin/make_ext4fs:system/bin/make_ext4fs \
     vendor/asus/Z01M/proprietary/bin/make_f2fs:system/bin/make_f2fs \
     vendor/asus/Z01M/proprietary/bin/md5sum:system/bin/md5sum \
-    vendor/asus/Z01M/proprietary/bin/mdnsd:system/bin/mdnsd \
-    vendor/asus/Z01M/proprietary/bin/media:system/bin/media \
-    vendor/asus/Z01M/proprietary/bin/mediacodec:system/bin/mediacodec \
-    vendor/asus/Z01M/proprietary/bin/mediadrmserver:system/bin/mediadrmserver \
-    vendor/asus/Z01M/proprietary/bin/mediaextractor:system/bin/mediaextractor \
-    vendor/asus/Z01M/proprietary/bin/mediaserver:system/bin/mediaserver \
     vendor/asus/Z01M/proprietary/bin/mkdir:system/bin/mkdir \
     vendor/asus/Z01M/proprietary/bin/mkexfat:system/bin/mkexfat \
     vendor/asus/Z01M/proprietary/bin/mknod:system/bin/mknod \
@@ -240,16 +168,12 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/bin/modem_country:system/bin/modem_country \
     vendor/asus/Z01M/proprietary/bin/ModeSetting:system/bin/ModeSetting \
     vendor/asus/Z01M/proprietary/bin/modinfo:system/bin/modinfo \
-    vendor/asus/Z01M/proprietary/bin/monkey:system/bin/monkey \
     vendor/asus/Z01M/proprietary/bin/more:system/bin/more \
     vendor/asus/Z01M/proprietary/bin/mount:system/bin/mount \
     vendor/asus/Z01M/proprietary/bin/mountpoint:system/bin/mountpoint \
     vendor/asus/Z01M/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
-    vendor/asus/Z01M/proprietary/bin/mtpd:system/bin/mtpd \
     vendor/asus/Z01M/proprietary/bin/mv:system/bin/mv \
     vendor/asus/Z01M/proprietary/bin/nandread:system/bin/nandread \
-    vendor/asus/Z01M/proprietary/bin/ndc:system/bin/ndc \
-    vendor/asus/Z01M/proprietary/bin/netd:system/bin/netd \
     vendor/asus/Z01M/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/asus/Z01M/proprietary/bin/netstat:system/bin/netstat \
     vendor/asus/Z01M/proprietary/bin/newfs_msdos:system/bin/newfs_msdos \
@@ -257,82 +181,55 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/bin/nl:system/bin/nl \
     vendor/asus/Z01M/proprietary/bin/nl_listener:system/bin/nl_listener \
     vendor/asus/Z01M/proprietary/bin/nohup:system/bin/nohup \
-    vendor/asus/Z01M/proprietary/bin/oatdump:system/bin/oatdump \
     vendor/asus/Z01M/proprietary/bin/od:system/bin/od \
     vendor/asus/Z01M/proprietary/bin/onFgAppChanged:system/bin/onFgAppChanged \
     vendor/asus/Z01M/proprietary/bin/paste:system/bin/paste \
     vendor/asus/Z01M/proprietary/bin/patch:system/bin/patch \
-    vendor/asus/Z01M/proprietary/bin/patchoat:system/bin/patchoat \
     vendor/asus/Z01M/proprietary/bin/pgrep:system/bin/pgrep \
     vendor/asus/Z01M/proprietary/bin/phoenix_fp:system/bin/phoenix_fp \
     vendor/asus/Z01M/proprietary/bin/pidof:system/bin/pidof \
-    vendor/asus/Z01M/proprietary/bin/ping6:system/bin/ping6 \
-    vendor/asus/Z01M/proprietary/bin/ping:system/bin/ping \
     vendor/asus/Z01M/proprietary/bin/pkill:system/bin/pkill \
     vendor/asus/Z01M/proprietary/bin/pktlogconf:system/bin/pktlogconf \
     vendor/asus/Z01M/proprietary/bin/PktRspTest:system/bin/PktRspTest \
     vendor/asus/Z01M/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/asus/Z01M/proprietary/bin/pm-service:system/bin/pm-service \
-    vendor/asus/Z01M/proprietary/bin/pm:system/bin/pm \
     vendor/asus/Z01M/proprietary/bin/pmap:system/bin/pmap \
     vendor/asus/Z01M/proprietary/bin/port-bridge:system/bin/port-bridge \
-    vendor/asus/Z01M/proprietary/bin/pppd:system/bin/pppd \
     vendor/asus/Z01M/proprietary/bin/preisp_debugger:system/bin/preisp_debugger \
     vendor/asus/Z01M/proprietary/bin/preisp_io:system/bin/preisp_io \
     vendor/asus/Z01M/proprietary/bin/printenv:system/bin/printenv \
     vendor/asus/Z01M/proprietary/bin/printf:system/bin/printf \
     vendor/asus/Z01M/proprietary/bin/prlimit:system/bin/prlimit \
-    vendor/asus/Z01M/proprietary/bin/profman:system/bin/profman \
     vendor/asus/Z01M/proprietary/bin/ps:system/bin/ps \
     vendor/asus/Z01M/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
     vendor/asus/Z01M/proprietary/bin/pwd:system/bin/pwd \
     vendor/asus/Z01M/proprietary/bin/qmi-framework-tests/qmi_test_mt_client_init_instance:system/bin/qmi-framework-tests/qmi_test_mt_client_init_instance \
     vendor/asus/Z01M/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/asus/Z01M/proprietary/bin/qseecom_sample_client:system/bin/qseecom_sample_client \
-    vendor/asus/Z01M/proprietary/bin/racoon:system/bin/racoon \
     vendor/asus/Z01M/proprietary/bin/radish:system/bin/radish \
     vendor/asus/Z01M/proprietary/bin/raw_sender:system/bin/raw_sender \
     vendor/asus/Z01M/proprietary/bin/readlink:system/bin/readlink \
     vendor/asus/Z01M/proprietary/bin/realpath:system/bin/realpath \
-    vendor/asus/Z01M/proprietary/bin/reboot:system/bin/reboot \
     vendor/asus/Z01M/proprietary/bin/renice:system/bin/renice \
-    vendor/asus/Z01M/proprietary/bin/requestsync:system/bin/requestsync \
-    vendor/asus/Z01M/proprietary/bin/resize2fs:system/bin/resize2fs \
     vendor/asus/Z01M/proprietary/bin/restorecon:system/bin/restorecon \
-    vendor/asus/Z01M/proprietary/bin/rild:system/bin/rild \
     vendor/asus/Z01M/proprietary/bin/rm:system/bin/rm \
     vendor/asus/Z01M/proprietary/bin/rmdir:system/bin/rmdir \
     vendor/asus/Z01M/proprietary/bin/rmmod:system/bin/rmmod \
-    vendor/asus/Z01M/proprietary/bin/rmnetcli:system/bin/rmnetcli \
     vendor/asus/Z01M/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/asus/Z01M/proprietary/bin/route:system/bin/route \
-    vendor/asus/Z01M/proprietary/bin/run-as:system/bin/run-as \
     vendor/asus/Z01M/proprietary/bin/runcon:system/bin/runcon \
-    vendor/asus/Z01M/proprietary/bin/schedtest:system/bin/schedtest \
-    vendor/asus/Z01M/proprietary/bin/screencap:system/bin/screencap \
-    vendor/asus/Z01M/proprietary/bin/screenrecord:system/bin/screenrecord \
-    vendor/asus/Z01M/proprietary/bin/sdcard:system/bin/sdcard \
-    vendor/asus/Z01M/proprietary/bin/secdiscard:system/bin/secdiscard \
     vendor/asus/Z01M/proprietary/bin/secure_ui_sample_client:system/bin/secure_ui_sample_client \
     vendor/asus/Z01M/proprietary/bin/sed:system/bin/sed \
     vendor/asus/Z01M/proprietary/bin/sedsit:system/bin/setsid \
     vendor/asus/Z01M/proprietary/bin/sendevent:system/bin/sendevent \
     vendor/asus/Z01M/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
-    vendor/asus/Z01M/proprietary/bin/sensorservice:system/bin/sensorservice \
     vendor/asus/Z01M/proprietary/bin/seq:system/bin/seq \
     vendor/asus/Z01M/proprietary/bin/serial_client:system/bin/serial_client \
-    vendor/asus/Z01M/proprietary/bin/service:system/bin/service \
-    vendor/asus/Z01M/proprietary/bin/servicemanager:system/bin/servicemanager \
     vendor/asus/Z01M/proprietary/bin/setenforce:system/bin/setenforce \
     vendor/asus/Z01M/proprietary/bin/setprop:system/bin/setprop \
-    vendor/asus/Z01M/proprietary/bin/settings:system/bin/settings \
-    vendor/asus/Z01M/proprietary/bin/setup_fs:system/bin/setup_fs \
-    vendor/asus/Z01M/proprietary/bin/sgdisk:system/bin/sgdisk \
-    vendor/asus/Z01M/proprietary/bin/sh:system/bin/sh \
     vendor/asus/Z01M/proprietary/bin/sha1sum:system/bin/sha1sum \
     vendor/asus/Z01M/proprietary/bin/sigma_dut:system/bin/sigma_dut \
     vendor/asus/Z01M/proprietary/bin/sleep:system/bin/sleep \
-    vendor/asus/Z01M/proprietary/bin/sm:system/bin/sm \
     vendor/asus/Z01M/proprietary/bin/sort:system/bin/sort \
     vendor/asus/Z01M/proprietary/bin/soter_client:system/bin/soter_client \
     vendor/asus/Z01M/proprietary/bin/split:system/bin/split \
@@ -344,8 +241,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/bin/StoreKeybox:system/bin/StoreKeybox \
     vendor/asus/Z01M/proprietary/bin/strings:system/bin/strings \
     vendor/asus/Z01M/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
-    vendor/asus/Z01M/proprietary/bin/surfaceflinger:system/bin/surfaceflinger \
-    vendor/asus/Z01M/proprietary/bin/svc:system/bin/svc \
     vendor/asus/Z01M/proprietary/bin/swapoff:system/bin/swapoff \
     vendor/asus/Z01M/proprietary/bin/swapon:system/bin/swapon \
     vendor/asus/Z01M/proprietary/bin/sync:system/bin/sync \
@@ -356,10 +251,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/bin/tail:system/bin/tail \
     vendor/asus/Z01M/proprietary/bin/tar:system/bin/tar \
     vendor/asus/Z01M/proprietary/bin/tasket:system/bin/tasket \
-    vendor/asus/Z01M/proprietary/bin/tc:system/bin/tc \
     vendor/asus/Z01M/proprietary/bin/tee:system/bin/tee \
     vendor/asus/Z01M/proprietary/bin/teeserver:system/bin/teeserver \
-    vendor/asus/Z01M/proprietary/bin/telecom:system/bin/telecom \
     vendor/asus/Z01M/proprietary/bin/test_diag:system/bin/test_diag \
     vendor/asus/Z01M/proprietary/bin/test_module_pproc:system/bin/test_module_pproc \
     vendor/asus/Z01M/proprietary/bin/tfamode:system/bin/tfamode \
@@ -368,50 +261,34 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/bin/time:system/bin/time \
     vendor/asus/Z01M/proprietary/bin/timeout:system/bin/timeout \
     vendor/asus/Z01M/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/asus/Z01M/proprietary/bin/tinycap:system/bin/tinycap \
-    vendor/asus/Z01M/proprietary/bin/tinymix:system/bin/tinymix \
-    vendor/asus/Z01M/proprietary/bin/tinypcminfo:system/bin/tinypcminfo \
-    vendor/asus/Z01M/proprietary/bin/tinyplay:system/bin/tinyplay \
-    vendor/asus/Z01M/proprietary/bin/toolbox:system/bin/toolbox \
     vendor/asus/Z01M/proprietary/bin/top:system/bin/top \
     vendor/asus/Z01M/proprietary/bin/touch:system/bin/touch \
-    vendor/asus/Z01M/proprietary/bin/toybox:system/bin/toybox \
     vendor/asus/Z01M/proprietary/bin/tr:system/bin/tr \
     vendor/asus/Z01M/proprietary/bin/true:system/bin/true \
     vendor/asus/Z01M/proprietary/bin/truncate:system/bin/truncate \
     vendor/asus/Z01M/proprietary/bin/tty:system/bin/tty \
-    vendor/asus/Z01M/proprietary/bin/tzdatacheck:system/bin/tzdatacheck \
-    vendor/asus/Z01M/proprietary/bin/uiautomator:system/bin/uiautomator \
     vendor/asus/Z01M/proprietary/bin/ulimit:system/bin/ulimit \
     vendor/asus/Z01M/proprietary/bin/umount:system/bin/umount \
     vendor/asus/Z01M/proprietary/bin/uname:system/bin/uname \
-    vendor/asus/Z01M/proprietary/bin/uncrypt:system/bin/uncrypt \
     vendor/asus/Z01M/proprietary/bin/uniq:system/bin/uniq \
     vendor/asus/Z01M/proprietary/bin/unix2dos:system/bin/unix2dos \
     vendor/asus/Z01M/proprietary/bin/uptime:system/bin/uptime \
     vendor/asus/Z01M/proprietary/bin/usleep:system/bin/usleep \
-    vendor/asus/Z01M/proprietary/bin/vdc:system/bin/vdc \
     vendor/asus/Z01M/proprietary/bin/vendor_cmd_tool:system/bin/vendor_cmd_tool \
     vendor/asus/Z01M/proprietary/bin/VerifyVouchers:system/bin/VerifyVouchers \
     vendor/asus/Z01M/proprietary/bin/vmstat:system/bin/vmstat \
-    vendor/asus/Z01M/proprietary/bin/vold:system/bin/vold \
     vendor/asus/Z01M/proprietary/bin/wc:system/bin/wc \
     vendor/asus/Z01M/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
-    vendor/asus/Z01M/proprietary/bin/wcnss_service:system/bin/wcnss_service \
     vendor/asus/Z01M/proprietary/bin/wdsdaemon:system/bin/wdsdaemon \
     vendor/asus/Z01M/proprietary/bin/wfdservice:system/bin/wfdservice \
     vendor/asus/Z01M/proprietary/bin/which:system/bin/which \
     vendor/asus/Z01M/proprietary/bin/whoami:system/bin/whoami \
     vendor/asus/Z01M/proprietary/bin/WifiLogger_app:system/bin/WifiLogger_app \
-    vendor/asus/Z01M/proprietary/bin/wm:system/bin/wm \
-    vendor/asus/Z01M/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \
     vendor/asus/Z01M/proprietary/bin/xargs:system/bin/xargs \
     vendor/asus/Z01M/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/asus/Z01M/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/asus/Z01M/proprietary/bin/xxd:system/bin/xxd \
     vendor/asus/Z01M/proprietary/bin/yes:system/bin/yes \
-    vendor/asus/Z01M/proprietary/etc/a2dp_audio_policy_configuration.xml:system/etc/a2dp_audio_policy_configuration.xml \
-    vendor/asus/Z01M/proprietary/etc/aanc_tuning_mixer.txt:system/etc/aanc_tuning_mixer.txt \
     vendor/asus/Z01M/proprietary/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_Bluetooth_cal.acdb \
     vendor/asus/Z01M/proprietary/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_General_cal.acdb:system/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_General_cal.acdb \
     vendor/asus/Z01M/proprietary/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_Global_cal.acdb:system/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_Global_cal.acdb \
@@ -449,26 +326,18 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
     vendor/asus/Z01M/proprietary/etc/adsp.cfg:system/etc/adsp.cfg \
     vendor/asus/Z01M/proprietary/etc/apdr.conf:system/etc/apdr.conf \
-    vendor/asus/Z01M/proprietary/etc/apns-conf.xml:system/etc/apns-conf.xml \
     vendor/asus/Z01M/proprietary/etc/appmanager.conf:system/etc/appmanager.conf \
     vendor/asus/Z01M/proprietary/etc/appops_policy.xml:system/etc/appops_policy.xml \
     vendor/asus/Z01M/proprietary/etc/audio.cfg:system/etc/audio.cfg \
-    vendor/asus/Z01M/proprietary/etc/audio_effects.conf:system/etc/audio_effects.conf \
-    vendor/asus/Z01M/proprietary/etc/audio_platform_info.xml:system/etc/audio_platform_info.xml \
     vendor/asus/Z01M/proprietary/etc/audio_platform_info_extcodec.xml:system/etc/audio_platform_info_extcodec.xml \
-    vendor/asus/Z01M/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
-    vendor/asus/Z01M/proprietary/etc/audio_policy_configuration.xml:system/etc/audio_policy_configuration.xml \
     vendor/asus/Z01M/proprietary/etc/audio_policy_non_eu_configuration.xml:system/etc/audio_policy_non_eu_configuration.xml \
     vendor/asus/Z01M/proprietary/etc/audio_policy_non_eu_volumes_Z01H.xml:system/etc/audio_policy_non_eu_volumes_Z01H.xml \
     vendor/asus/Z01M/proprietary/etc/audio_policy_non_eu_volumes_Z01M.xml:system/etc/audio_policy_non_eu_volumes_Z01M.xml \
     vendor/asus/Z01M/proprietary/etc/audio_policy_volumes_Z01H.xml:system/etc/audio_policy_volumes_Z01H.xml \
     vendor/asus/Z01M/proprietary/etc/audio_policy_volumes_Z01M.xml:system/etc/audio_policy_volumes_Z01M.xml \
     vendor/asus/Z01M/proprietary/etc/blist.conf:system/etc/blist.conf \
-    vendor/asus/Z01M/proprietary/etc/bspcapability.xml:system/etc/bspcapability.xml \
     vendor/asus/Z01M/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem \
-    vendor/asus/Z01M/proprietary/etc/capability.xml:system/etc/capability.xml \
     vendor/asus/Z01M/proprietary/etc/cdma_call_conf.xml:system/etc/cdma_call_conf.xml \
-    vendor/asus/Z01M/proprietary/etc/clatd.conf:system/etc/clatd.conf \
     vendor/asus/Z01M/proprietary/etc/close_thermal-engine.sh:system/etc/close_thermal-engine.sh \
     vendor/asus/Z01M/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/asus/Z01M/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
@@ -493,11 +362,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/etc/cne/wqeclient/profile4.xml:system/etc/cne/wqeclient/profile4.xml \
     vendor/asus/Z01M/proprietary/etc/cne/wqeclient/profile5.xml:system/etc/cne/wqeclient/profile5.xml \
     vendor/asus/Z01M/proprietary/etc/Compact_mode.cfg:system/etc/Compact_mode.cfg \
-    vendor/asus/Z01M/proprietary/etc/compiled-classes:system/etc/compiled-classes \
     vendor/asus/Z01M/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/asus/Z01M/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/asus/Z01M/proprietary/etc/default_volume_non_eu_tables.xml:system/etc/default_volume_non_eu_tables.xml \
-    vendor/asus/Z01M/proprietary/etc/default_volume_tables.xml:system/etc/default_volume_tables.xml \
     vendor/asus/Z01M/proprietary/etc/devconf.json:system/etc/devconf.json \
     vendor/asus/Z01M/proprietary/etc/Diag.cfg:system/etc/Diag.cfg \
     vendor/asus/Z01M/proprietary/etc/disable_sepolicy.sh:system/etc/disable_sepolicy.sh \
@@ -505,7 +372,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/asus/Z01M/proprietary/etc/drc/drc_cfg_5.1.txt:system/etc/drc/drc_cfg_5.1.txt \
     vendor/asus/Z01M/proprietary/etc/drc/drc_cfg_AZ.txt:system/etc/drc/drc_cfg_AZ.txt \
-    vendor/asus/Z01M/proprietary/etc/ethertypes:system/etc/ethertypes \
     vendor/asus/Z01M/proprietary/etc/Experience.conf:system/etc/Experience.conf \
     vendor/asus/Z01M/proprietary/etc/FacebookAppManager:system/etc/FacebookAppManager \
     vendor/asus/Z01M/proprietary/etc/FacebookInstaller:system/etc/FacebookInstaller \
@@ -613,11 +479,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/etc/firmware/widevine.b06:system/etc/firmware/widevine.b06 \
     vendor/asus/Z01M/proprietary/etc/firmware/widevine.mbn:system/etc/firmware/widevine.mbn \
     vendor/asus/Z01M/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
-    vendor/asus/Z01M/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
-    vendor/asus/Z01M/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
-    vendor/asus/Z01M/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/asus/Z01M/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Phoenix.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Phoenix.bin \
-    vendor/asus/Z01M/proprietary/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat:system/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat \
     vendor/asus/Z01M/proprietary/etc/firmware/ZD552KL_PHOENIX/adsp.b00:system/etc/firmware/ZD552KL_PHOENIX/adsp.b00 \
     vendor/asus/Z01M/proprietary/etc/firmware/ZD552KL_PHOENIX/adsp.b01:system/etc/firmware/ZD552KL_PHOENIX/adsp.b01 \
     vendor/asus/Z01M/proprietary/etc/firmware/ZD552KL_PHOENIX/adsp.b02:system/etc/firmware/ZD552KL_PHOENIX/adsp.b02 \
@@ -656,22 +518,15 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/etc/firmware/ZD552KL_PHOENIX/wcnss.b11:system/etc/firmware/ZD552KL_PHOENIX/wcnss.b11 \
     vendor/asus/Z01M/proprietary/etc/firmware/ZD552KL_PHOENIX/wcnss.b12:system/etc/firmware/ZD552KL_PHOENIX/wcnss.b12 \
     vendor/asus/Z01M/proprietary/etc/firmware/ZD552KL_PHOENIX/wcnss.mdt:system/etc/firmware/ZD552KL_PHOENIX/wcnss.mdt \
-    vendor/asus/Z01M/proprietary/etc/flp.conf:system/etc/flp.conf \
     vendor/asus/Z01M/proprietary/etc/fm.cfg:system/etc/fm.cfg \
-    vendor/asus/Z01M/proprietary/etc/fonts.xml:system/etc/fonts.xml \
-    vendor/asus/Z01M/proprietary/etc/fs_config_files:system/etc/fs_config_files \
     vendor/asus/Z01M/proprietary/etc/ftm_test_config:system/etc/ftm_test_config \
     vendor/asus/Z01M/proprietary/etc/ftm_test_config_msm8953-sku3-tasha-snd-card:system/etc/ftm_test_config_msm8953-sku3-tasha-snd-card \
     vendor/asus/Z01M/proprietary/etc/ftm_test_config_mtp:system/etc/ftm_test_config_mtp \
     vendor/asus/Z01M/proprietary/etc/ftm_test_config_wcd9335:system/etc/ftm_test_config_wcd9335 \
     vendor/asus/Z01M/proprietary/etc/gamedwhitelist.xml:system/etc/gamedwhitelist.xml \
-    vendor/asus/Z01M/proprietary/etc/gps.cfg:system/etc/gps.cfg \
-    vendor/asus/Z01M/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/asus/Z01M/proprietary/etc/hcidump.sh:system/etc/hcidump.sh \
-    vendor/asus/Z01M/proprietary/etc/hostapd/hostapd.accept:system/etc/hostapd/hostapd.accept \
     vendor/asus/Z01M/proprietary/etc/hostapd/hostapd.deny:system/etc/hostapd/hostapd.deny \
     vendor/asus/Z01M/proprietary/etc/hostapd/hostapd_default.conf:system/etc/hostapd/hostapd_default.conf \
-    vendor/asus/Z01M/proprietary/etc/hosts:system/etc/hosts \
     vendor/asus/Z01M/proprietary/etc/hsic.control.bt.sh:system/etc/hsic.control.bt.sh \
     vendor/asus/Z01M/proprietary/etc/init.asus.about_info.sh:system/etc/init.asus.about_info.sh \
     vendor/asus/Z01M/proprietary/etc/init.asus.audbg.sh:system/etc/init.asus.audbg.sh \
@@ -702,66 +557,15 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/etc/init.qcom.uicc.sh:system/etc/init.qcom.uicc.sh \
     vendor/asus/Z01M/proprietary/etc/init.qcom.wifi.sh:system/etc/init.qcom.wifi.sh \
     vendor/asus/Z01M/proprietary/etc/init.qti.ims.sh:system/etc/init.qti.ims.sh \
-    vendor/asus/Z01M/proprietary/etc/init/atrace.rc:system/etc/init/atrace.rc \
-    vendor/asus/Z01M/proprietary/etc/init/audioserver.rc:system/etc/init/audioserver.rc \
-    vendor/asus/Z01M/proprietary/etc/init/bootanim.rc:system/etc/init/bootanim.rc \
-    vendor/asus/Z01M/proprietary/etc/init/bootstat.rc:system/etc/init/bootstat.rc \
-    vendor/asus/Z01M/proprietary/etc/init/cameraserver.rc:system/etc/init/cameraserver.rc \
-    vendor/asus/Z01M/proprietary/etc/init/debuggerd.rc:system/etc/init/debuggerd.rc \
-    vendor/asus/Z01M/proprietary/etc/init/debuggerd64.rc:system/etc/init/debuggerd64.rc \
-    vendor/asus/Z01M/proprietary/etc/init/drmserver.rc:system/etc/init/drmserver.rc \
-    vendor/asus/Z01M/proprietary/etc/init/dumpstate.rc:system/etc/init/dumpstate.rc \
-    vendor/asus/Z01M/proprietary/etc/init/gatekeeperd.rc:system/etc/init/gatekeeperd.rc \
-    vendor/asus/Z01M/proprietary/etc/init/installd.rc:system/etc/init/installd.rc \
-    vendor/asus/Z01M/proprietary/etc/init/keystore.rc:system/etc/init/keystore.rc \
-    vendor/asus/Z01M/proprietary/etc/init/lmkd.rc:system/etc/init/lmkd.rc \
-    vendor/asus/Z01M/proprietary/etc/init/logd.rc:system/etc/init/logd.rc \
-    vendor/asus/Z01M/proprietary/etc/init/mdnsd.rc:system/etc/init/mdnsd.rc \
-    vendor/asus/Z01M/proprietary/etc/init/mediacodec.rc:system/etc/init/mediacodec.rc \
-    vendor/asus/Z01M/proprietary/etc/init/mediadrmserver.rc:system/etc/init/mediadrmserver.rc \
-    vendor/asus/Z01M/proprietary/etc/init/mediaextractor.rc:system/etc/init/mediaextractor.rc \
-    vendor/asus/Z01M/proprietary/etc/init/mediaserver.rc:system/etc/init/mediaserver.rc \
-    vendor/asus/Z01M/proprietary/etc/init/mtpd.rc:system/etc/init/mtpd.rc \
-    vendor/asus/Z01M/proprietary/etc/init/netd.rc:system/etc/init/netd.rc \
-    vendor/asus/Z01M/proprietary/etc/init/racoon.rc:system/etc/init/racoon.rc \
-    vendor/asus/Z01M/proprietary/etc/init/rild.rc:system/etc/init/rild.rc \
-    vendor/asus/Z01M/proprietary/etc/init/servicemanager.rc:system/etc/init/servicemanager.rc \
-    vendor/asus/Z01M/proprietary/etc/init/surfaceflinger.rc:system/etc/init/surfaceflinger.rc \
-    vendor/asus/Z01M/proprietary/etc/init/uncrypt.rc:system/etc/init/uncrypt.rc \
-    vendor/asus/Z01M/proprietary/etc/init/vdc.rc:system/etc/init/vdc.rc \
-    vendor/asus/Z01M/proprietary/etc/init/vold.rc:system/etc/init/vold.rc \
     vendor/asus/Z01M/proprietary/etc/init_factorylogtool.sh:system/etc/init_factorylogtool.sh \
-    vendor/asus/Z01M/proprietary/etc/IPACM_cfg.xml:system/etc/IPACM_cfg.xml \
-    vendor/asus/Z01M/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/asus/Z01M/proprietary/etc/logtool_clear.sh:system/etc/logtool_clear.sh \
-    vendor/asus/Z01M/proprietary/etc/lowi.conf:system/etc/lowi.conf \
-    vendor/asus/Z01M/proprietary/etc/media_codecs.xml:system/etc/media_codecs.xml \
     vendor/asus/Z01M/proprietary/etc/media_codecs_8953_v1.xml:system/etc/media_codecs_8953_v1.xml \
-    vendor/asus/Z01M/proprietary/etc/media_codecs_google_audio.xml:system/etc/media_codecs_google_audio.xml \
-    vendor/asus/Z01M/proprietary/etc/media_codecs_google_telephony.xml:system/etc/media_codecs_google_telephony.xml \
-    vendor/asus/Z01M/proprietary/etc/media_codecs_google_video.xml:system/etc/media_codecs_google_video.xml \
-    vendor/asus/Z01M/proprietary/etc/media_codecs_performance.xml:system/etc/media_codecs_performance.xml \
     vendor/asus/Z01M/proprietary/etc/media_codecs_performance_8953_v1.xml:system/etc/media_codecs_performance_8953_v1.xml \
-    vendor/asus/Z01M/proprietary/etc/media_profiles.xml:system/etc/media_profiles.xml \
     vendor/asus/Z01M/proprietary/etc/media_profiles_8953_v1.xml:system/etc/media_profiles_8953_v1.xml \
-    vendor/asus/Z01M/proprietary/etc/mixer_paths.xml:system/etc/mixer_paths.xml \
-    vendor/asus/Z01M/proprietary/etc/mixer_paths_mtp.xml:system/etc/mixer_paths_mtp.xml \
     vendor/asus/Z01M/proprietary/etc/mixer_paths_mtp_ZD552KL.xml:system/etc/mixer_paths_mtp_ZD552KL.xml \
     vendor/asus/Z01M/proprietary/etc/mixer_paths_mtp_ZD552KL_EU.xml:system/etc/mixer_paths_mtp_ZD552KL_EU.xml \
     vendor/asus/Z01M/proprietary/etc/mixer_paths_mtp_ZE553KL.xml:system/etc/mixer_paths_mtp_ZE553KL.xml \
     vendor/asus/Z01M/proprietary/etc/mixer_paths_mtp_ZE553KL_EU.xml:system/etc/mixer_paths_mtp_ZE553KL_EU.xml \
-    vendor/asus/Z01M/proprietary/etc/mixer_paths_qrd_sku3.xml:system/etc/mixer_paths_qrd_sku3.xml \
-    vendor/asus/Z01M/proprietary/etc/mixer_paths_qrd_skuh.xml:system/etc/mixer_paths_qrd_skuh.xml \
-    vendor/asus/Z01M/proprietary/etc/mixer_paths_qrd_skuhf.xml:system/etc/mixer_paths_qrd_skuhf.xml \
-    vendor/asus/Z01M/proprietary/etc/mixer_paths_qrd_skui.xml:system/etc/mixer_paths_qrd_skui.xml \
-    vendor/asus/Z01M/proprietary/etc/mixer_paths_qrd_skum.xml:system/etc/mixer_paths_qrd_skum.xml \
-    vendor/asus/Z01M/proprietary/etc/mixer_paths_qrd_skun.xml:system/etc/mixer_paths_qrd_skun.xml \
-    vendor/asus/Z01M/proprietary/etc/mixer_paths_skuk.xml:system/etc/mixer_paths_skuk.xml \
-    vendor/asus/Z01M/proprietary/etc/mixer_paths_wcd9306.xml:system/etc/mixer_paths_wcd9306.xml \
-    vendor/asus/Z01M/proprietary/etc/mixer_paths_wcd9326.xml:system/etc/mixer_paths_wcd9326.xml \
-    vendor/asus/Z01M/proprietary/etc/mixer_paths_wcd9330.xml:system/etc/mixer_paths_wcd9330.xml \
-    vendor/asus/Z01M/proprietary/etc/mixer_paths_wcd9335.xml:system/etc/mixer_paths_wcd9335.xml \
-    vendor/asus/Z01M/proprietary/etc/mkshrc:system/etc/mkshrc \
     vendor/asus/Z01M/proprietary/etc/mmosal_logmask.cfg:system/etc/mmosal_logmask.cfg \
     vendor/asus/Z01M/proprietary/etc/mmosal_logmask_debug.cfg:system/etc/mmosal_logmask_debug.cfg \
     vendor/asus/Z01M/proprietary/etc/modemlog.sh:system/etc/modemlog.sh \
@@ -772,20 +576,15 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/etc/plmn-conf.xml:system/etc/plmn-conf.xml \
     vendor/asus/Z01M/proprietary/etc/preisp_profiles.xml:system/etc/preisp_profiles.xml \
     vendor/asus/Z01M/proprietary/etc/preisp_profiles_ZD552KL_PHOENIX.xml:system/etc/preisp_profiles_ZD552KL_PHOENIX.xml \
-    vendor/asus/Z01M/proprietary/etc/preloaded-classes:system/etc/preloaded-classes \
     vendor/asus/Z01M/proprietary/etc/prepare_asusdebug.sh:system/etc/prepare_asusdebug.sh \
-    vendor/asus/Z01M/proprietary/etc/public.libraries.txt:system/etc/public.libraries.txt \
     vendor/asus/Z01M/proprietary/etc/qca6234-service.sh:system/etc/qca6234-service.sh \
     vendor/asus/Z01M/proprietary/etc/qdcm_calib_data_phoenix_tm_rm67198_1080p_command_mode_dsi_panel.xml:system/etc/qdcm_calib_data_phoenix_tm_rm67198_1080p_command_mode_dsi_panel.xml \
-    vendor/asus/Z01M/proprietary/etc/r_submix_audio_policy_configuration.xml:system/etc/r_submix_audio_policy_configuration.xml \
-    vendor/asus/Z01M/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/asus/Z01M/proprietary/etc/savelogclear.sh:system/etc/savelogclear.sh \
     vendor/asus/Z01M/proprietary/etc/savelogmtp.sh:system/etc/savelogmtp.sh \
     vendor/asus/Z01M/proprietary/etc/savelogs.sh:system/etc/savelogs.sh \
     vendor/asus/Z01M/proprietary/etc/savelogsd.sh:system/etc/savelogsd.sh \
     vendor/asus/Z01M/proprietary/etc/savelogs_dumpstate.sh:system/etc/savelogs_dumpstate.sh \
     vendor/asus/Z01M/proprietary/etc/saveramdump.sh:system/etc/saveramdump.sh \
-    vendor/asus/Z01M/proprietary/etc/sec_config:system/etc/sec_config \
     vendor/asus/Z01M/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
     vendor/asus/Z01M/proprietary/etc/sensors/sensor_def_qcomdev_aquarius.conf:system/etc/sensors/sensor_def_qcomdev_aquarius.conf \
     vendor/asus/Z01M/proprietary/etc/sensors/sensor_def_qcomdev_hades.conf:system/etc/sensors/sensor_def_qcomdev_hades.conf \
@@ -798,25 +597,12 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/etc/settings/TFA9891N1A_Dec2015.config:system/etc/settings/TFA9891N1A_Dec2015.config \
     vendor/asus/Z01M/proprietary/etc/settings/TFA9891N1A_N1A_11_1_34_NL3_HQLOUD.patch:system/etc/settings/TFA9891N1A_N1A_11_1_34_NL3_HQLOUD.patch \
     vendor/asus/Z01M/proprietary/etc/settings/Tfa9891_mono.cnt:system/etc/settings/Tfa9891_mono.cnt \
-    vendor/asus/Z01M/proprietary/etc/sound_trigger_mixer_paths.xml:system/etc/sound_trigger_mixer_paths.xml \
-    vendor/asus/Z01M/proprietary/etc/sound_trigger_mixer_paths_wcd9306.xml:system/etc/sound_trigger_mixer_paths_wcd9306.xml \
-    vendor/asus/Z01M/proprietary/etc/sound_trigger_mixer_paths_wcd9330.xml:system/etc/sound_trigger_mixer_paths_wcd9330.xml \
-    vendor/asus/Z01M/proprietary/etc/sound_trigger_mixer_paths_wcd9335.xml:system/etc/sound_trigger_mixer_paths_wcd9335.xml \
-    vendor/asus/Z01M/proprietary/etc/sound_trigger_platform_info.xml:system/etc/sound_trigger_platform_info.xml \
     vendor/asus/Z01M/proprietary/etc/spn-conf.xml:system/etc/spn-conf.xml \
     vendor/asus/Z01M/proprietary/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:system/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
     vendor/asus/Z01M/proprietary/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
     vendor/asus/Z01M/proprietary/etc/sysconfig/asus_data_saver_config.xml:system/etc/sysconfig/asus_data_saver_config.xml \
     vendor/asus/Z01M/proprietary/etc/sysconfig/google.xml:system/etc/sysconfig/google.xml \
-    vendor/asus/Z01M/proprietary/etc/thermal-engine-8064.conf:system/etc/thermal-engine-8064.conf \
-    vendor/asus/Z01M/proprietary/etc/thermal-engine-8064ab.conf:system/etc/thermal-engine-8064ab.conf \
-    vendor/asus/Z01M/proprietary/etc/thermal-engine-8930.conf:system/etc/thermal-engine-8930.conf \
-    vendor/asus/Z01M/proprietary/etc/thermal-engine-8953-zd552kl.conf:system/etc/thermal-engine-8953-zd552kl.conf \
-    vendor/asus/Z01M/proprietary/etc/thermal-engine-8953-ze553kl.conf:system/etc/thermal-engine-8953-ze553kl.conf \
-    vendor/asus/Z01M/proprietary/etc/thermal-engine-8953.conf:system/etc/thermal-engine-8953.conf \
-    vendor/asus/Z01M/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
     vendor/asus/Z01M/proprietary/etc/thermald-ultimate-mode.conf:system/etc/thermald-ultimate-mode.conf \
-    vendor/asus/Z01M/proprietary/etc/usb_audio_policy_configuration.xml:system/etc/usb_audio_policy_configuration.xml \
     vendor/asus/Z01M/proprietary/etc/voicemail-conf.xml:system/etc/voicemail-conf.xml \
     vendor/asus/Z01M/proprietary/etc/vold.fstab:system/etc/vold.fstab \
     vendor/asus/Z01M/proprietary/etc/wfdconfig.xml:system/etc/wfdconfig.xml \
@@ -824,100 +610,32 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/etc/whitelistedapps.xml:system/etc/whitelistedapps.xml \
     vendor/asus/Z01M/proprietary/etc/wifi_bt.cfg:system/etc/wifi_bt.cfg \
     vendor/asus/Z01M/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
-    vendor/asus/Z01M/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
-    vendor/asus/Z01M/proprietary/framework/am.jar:system/framework/am.jar \
-    vendor/asus/Z01M/proprietary/framework/android.test.runner.jar:system/framework/android.test.runner.jar \
-    vendor/asus/Z01M/proprietary/framework/apache-xml.jar:system/framework/apache-xml.jar \
-    vendor/asus/Z01M/proprietary/framework/appwidget.jar:system/framework/appwidget.jar \
-    vendor/asus/Z01M/proprietary/framework/arm64/boot-apache-xml.art:system/framework/arm64/boot-apache-xml.art \
-    vendor/asus/Z01M/proprietary/framework/arm64/boot-apache-xml.oat:system/framework/arm64/boot-apache-xml.oat \
-    vendor/asus/Z01M/proprietary/framework/arm64/boot-bouncycastle.art:system/framework/arm64/boot-bouncycastle.art \
-    vendor/asus/Z01M/proprietary/framework/arm64/boot-bouncycastle.oat:system/framework/arm64/boot-bouncycastle.oat \
-    vendor/asus/Z01M/proprietary/framework/arm64/boot-conscrypt.art:system/framework/arm64/boot-conscrypt.art \
-    vendor/asus/Z01M/proprietary/framework/arm64/boot-conscrypt.oat:system/framework/arm64/boot-conscrypt.oat \
-    vendor/asus/Z01M/proprietary/framework/arm64/boot-core-junit.art:system/framework/arm64/boot-core-junit.art \
-    vendor/asus/Z01M/proprietary/framework/arm64/boot-core-junit.oat:system/framework/arm64/boot-core-junit.oat \
-    vendor/asus/Z01M/proprietary/framework/arm64/boot-core-libart.art:system/framework/arm64/boot-core-libart.art \
-    vendor/asus/Z01M/proprietary/framework/arm64/boot-core-libart.oat:system/framework/arm64/boot-core-libart.oat \
-    vendor/asus/Z01M/proprietary/framework/arm64/boot-ext.art:system/framework/arm64/boot-ext.art \
-    vendor/asus/Z01M/proprietary/framework/arm64/boot-ext.oat:system/framework/arm64/boot-ext.oat \
-    vendor/asus/Z01M/proprietary/framework/arm64/boot-framework.art:system/framework/arm64/boot-framework.art \
-    vendor/asus/Z01M/proprietary/framework/arm64/boot-framework.oat:system/framework/arm64/boot-framework.oat \
     vendor/asus/Z01M/proprietary/framework/arm64/boot-ifaamanager.art:system/framework/arm64/boot-ifaamanager.art \
     vendor/asus/Z01M/proprietary/framework/arm64/boot-ifaamanager.oat:system/framework/arm64/boot-ifaamanager.oat \
-    vendor/asus/Z01M/proprietary/framework/arm64/boot-ims-common.art:system/framework/arm64/boot-ims-common.art \
-    vendor/asus/Z01M/proprietary/framework/arm64/boot-ims-common.oat:system/framework/arm64/boot-ims-common.oat \
     vendor/asus/Z01M/proprietary/framework/arm64/boot-oem-services.art:system/framework/arm64/boot-oem-services.art \
     vendor/asus/Z01M/proprietary/framework/arm64/boot-oem-services.oat:system/framework/arm64/boot-oem-services.oat \
-    vendor/asus/Z01M/proprietary/framework/arm64/boot-okhttp.art:system/framework/arm64/boot-okhttp.art \
-    vendor/asus/Z01M/proprietary/framework/arm64/boot-okhttp.oat:system/framework/arm64/boot-okhttp.oat \
-    vendor/asus/Z01M/proprietary/framework/arm64/boot-org.apache.http.legacy.boot.art:system/framework/arm64/boot-org.apache.http.legacy.boot.art \
-    vendor/asus/Z01M/proprietary/framework/arm64/boot-org.apache.http.legacy.boot.oat:system/framework/arm64/boot-org.apache.http.legacy.boot.oat \
     vendor/asus/Z01M/proprietary/framework/arm64/boot-qcmediaplayer.art:system/framework/arm64/boot-qcmediaplayer.art \
     vendor/asus/Z01M/proprietary/framework/arm64/boot-qcmediaplayer.oat:system/framework/arm64/boot-qcmediaplayer.oat \
     vendor/asus/Z01M/proprietary/framework/arm64/boot-qcom.fmradio.art:system/framework/arm64/boot-qcom.fmradio.art \
     vendor/asus/Z01M/proprietary/framework/arm64/boot-qcom.fmradio.oat:system/framework/arm64/boot-qcom.fmradio.oat \
     vendor/asus/Z01M/proprietary/framework/arm64/boot-tcmiface.art:system/framework/arm64/boot-tcmiface.art \
     vendor/asus/Z01M/proprietary/framework/arm64/boot-tcmiface.oat:system/framework/arm64/boot-tcmiface.oat \
-    vendor/asus/Z01M/proprietary/framework/arm64/boot-telephony-common.art:system/framework/arm64/boot-telephony-common.art \
-    vendor/asus/Z01M/proprietary/framework/arm64/boot-telephony-common.oat:system/framework/arm64/boot-telephony-common.oat \
-    vendor/asus/Z01M/proprietary/framework/arm64/boot-telephony-ext.art:system/framework/arm64/boot-telephony-ext.art \
-    vendor/asus/Z01M/proprietary/framework/arm64/boot-telephony-ext.oat:system/framework/arm64/boot-telephony-ext.oat \
-    vendor/asus/Z01M/proprietary/framework/arm64/boot-voip-common.art:system/framework/arm64/boot-voip-common.art \
-    vendor/asus/Z01M/proprietary/framework/arm64/boot-voip-common.oat:system/framework/arm64/boot-voip-common.oat \
     vendor/asus/Z01M/proprietary/framework/arm64/boot-WfdCommon.art:system/framework/arm64/boot-WfdCommon.art \
     vendor/asus/Z01M/proprietary/framework/arm64/boot-WfdCommon.oat:system/framework/arm64/boot-WfdCommon.oat \
-    vendor/asus/Z01M/proprietary/framework/arm64/boot.art:system/framework/arm64/boot.art \
-    vendor/asus/Z01M/proprietary/framework/arm64/boot.oat:system/framework/arm64/boot.oat \
-    vendor/asus/Z01M/proprietary/framework/arm/boot-apache-xml.art:system/framework/arm/boot-apache-xml.art \
-    vendor/asus/Z01M/proprietary/framework/arm/boot-apache-xml.oat:system/framework/arm/boot-apache-xml.oat \
-    vendor/asus/Z01M/proprietary/framework/arm/boot-bouncycastle.art:system/framework/arm/boot-bouncycastle.art \
-    vendor/asus/Z01M/proprietary/framework/arm/boot-bouncycastle.oat:system/framework/arm/boot-bouncycastle.oat \
-    vendor/asus/Z01M/proprietary/framework/arm/boot-conscrypt.art:system/framework/arm/boot-conscrypt.art \
-    vendor/asus/Z01M/proprietary/framework/arm/boot-conscrypt.oat:system/framework/arm/boot-conscrypt.oat \
-    vendor/asus/Z01M/proprietary/framework/arm/boot-core-junit.art:system/framework/arm/boot-core-junit.art \
-    vendor/asus/Z01M/proprietary/framework/arm/boot-core-junit.oat:system/framework/arm/boot-core-junit.oat \
-    vendor/asus/Z01M/proprietary/framework/arm/boot-core-libart.art:system/framework/arm/boot-core-libart.art \
-    vendor/asus/Z01M/proprietary/framework/arm/boot-core-libart.oat:system/framework/arm/boot-core-libart.oat \
-    vendor/asus/Z01M/proprietary/framework/arm/boot-ext.art:system/framework/arm/boot-ext.art \
-    vendor/asus/Z01M/proprietary/framework/arm/boot-ext.oat:system/framework/arm/boot-ext.oat \
-    vendor/asus/Z01M/proprietary/framework/arm/boot-framework.art:system/framework/arm/boot-framework.art \
     vendor/asus/Z01M/proprietary/framework/arm/boot-framework.oat:system/framework/arm/framework/arm/boot-framework.oat \
     vendor/asus/Z01M/proprietary/framework/arm/boot-ifaamanager.art:system/framework/arm/boot-ifaamanager.art \
     vendor/asus/Z01M/proprietary/framework/arm/boot-ifaamanager.oat:system/framework/arm/boot-ifaamanager.oat \
-    vendor/asus/Z01M/proprietary/framework/arm/boot-ims-common.art:system/framework/arm/boot-ims-common.art \
-    vendor/asus/Z01M/proprietary/framework/arm/boot-ims-common.oat:system/framework/arm/boot-ims-common.oat \
     vendor/asus/Z01M/proprietary/framework/arm/boot-oem-services.art:system/framework/arm/boot-oem-services.art \
     vendor/asus/Z01M/proprietary/framework/arm/boot-oem-services.oat:system/framework/arm/boot-oem-services.oat \
-    vendor/asus/Z01M/proprietary/framework/arm/boot-okhttp.art:system/framework/arm/boot-okhttp.art \
-    vendor/asus/Z01M/proprietary/framework/arm/boot-okhttp.oat:system/framework/arm/boot-okhttp.oat \
-    vendor/asus/Z01M/proprietary/framework/arm/boot-org.apache.http.legacy.boot.art:system/framework/arm/boot-org.apache.http.legacy.boot.art \
-    vendor/asus/Z01M/proprietary/framework/arm/boot-org.apache.http.legacy.boot.oat:system/framework/arm/boot-org.apache.http.legacy.boot.oat \
     vendor/asus/Z01M/proprietary/framework/arm/boot-qcmediaplayer.art:system/framework/arm/boot-qcmediaplayer.art \
     vendor/asus/Z01M/proprietary/framework/arm/boot-qcmediaplayer.oat:system/framework/arm/boot-qcmediaplayer.oat \
     vendor/asus/Z01M/proprietary/framework/arm/boot-qcom.fmradio.art:system/framework/arm/boot-qcom.fmradio.art \
     vendor/asus/Z01M/proprietary/framework/arm/boot-qcom.fmradio.oat:system/framework/arm/boot-qcom.fmradio.oat \
     vendor/asus/Z01M/proprietary/framework/arm/boot-tcmiface.art:system/framework/arm/boot-tcmiface.art \
     vendor/asus/Z01M/proprietary/framework/arm/boot-tcmiface.oat:system/framework/arm/boot-tcmiface.oat \
-    vendor/asus/Z01M/proprietary/framework/arm/boot-telephony-common.art:system/framework/arm/boot-telephony-common.art \
-    vendor/asus/Z01M/proprietary/framework/arm/boot-telephony-common.oat:system/framework/arm/boot-telephony-common.oat \
-    vendor/asus/Z01M/proprietary/framework/arm/boot-telephony-ext.art:system/framework/arm/boot-telephony-ext.art \
-    vendor/asus/Z01M/proprietary/framework/arm/boot-telephony-ext.oat:system/framework/arm/boot-telephony-ext.oat \
-    vendor/asus/Z01M/proprietary/framework/arm/boot-voip-common.art:system/framework/arm/boot-voip-common.art \
-    vendor/asus/Z01M/proprietary/framework/arm/boot-voip-common.oat:system/framework/arm/boot-voip-common.oat \
     vendor/asus/Z01M/proprietary/framework/arm/boot-WfdCommon.art:system/framework/arm/boot-WfdCommon.art \
     vendor/asus/Z01M/proprietary/framework/arm/boot-WfdCommon.oat:system/framework/arm/boot-WfdCommon.oat \
-    vendor/asus/Z01M/proprietary/framework/arm/boot.art:system/framework/arm/boot.art \
-    vendor/asus/Z01M/proprietary/framework/arm/boot.oat:system/framework/arm/boot.oat \
-    vendor/asus/Z01M/proprietary/framework/bmgr.jar:system/framework/bmgr.jar \
-    vendor/asus/Z01M/proprietary/framework/bouncycastle.jar:system/framework/bouncycastle.jar \
-    vendor/asus/Z01M/proprietary/framework/bspcapability.jar:system/framework/bspcapability.jar \
-    vendor/asus/Z01M/proprietary/framework/bu.jar:system/framework/bu.jar \
     vendor/asus/Z01M/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
-    vendor/asus/Z01M/proprietary/framework/com.android.future.usb.accessory.jar:system/framework/com.android.future.usb.accessory.jar \
-    vendor/asus/Z01M/proprietary/framework/com.android.location.provider.jar:system/framework/com.android.location.provider.jar \
-    vendor/asus/Z01M/proprietary/framework/com.android.media.remotedisplay.jar:system/framework/com.android.media.remotedisplay.jar \
-    vendor/asus/Z01M/proprietary/framework/com.android.mediadrm.signer.jar:system/framework/com.android.mediadrm.signer.jar \
     vendor/asus/Z01M/proprietary/framework/com.asus.fm.jar:system/framework/com.asus.fm.jar \
     vendor/asus/Z01M/proprietary/framework/com.asus.weatherwidget.jar:system/framework/com.asus.weatherwidget.jar \
     vendor/asus/Z01M/proprietary/framework/com.google.android.maps.jar:system/framework/com.google.android.maps.jar \
@@ -931,28 +649,12 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/framework/com.quicinc.wbc.jar:system/framework/com.quicinc.wbc.jar \
     vendor/asus/Z01M/proprietary/framework/com.quicinc.wbcservice.jar:system/framework/com.quicinc.wbcservice.jar \
     vendor/asus/Z01M/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
-    vendor/asus/Z01M/proprietary/framework/conscrypt.jar:system/framework/conscrypt.jar \
-    vendor/asus/Z01M/proprietary/framework/content.jar:system/framework/content.jar \
-    vendor/asus/Z01M/proprietary/framework/core-junit.jar:system/framework/core-junit.jar \
-    vendor/asus/Z01M/proprietary/framework/core-libart.jar:system/framework/core-libart.jar \
-    vendor/asus/Z01M/proprietary/framework/core-oj.jar:system/framework/core-oj.jar \
-    vendor/asus/Z01M/proprietary/framework/dpm.jar:system/framework/dpm.jar \
     vendor/asus/Z01M/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/asus/Z01M/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
-    vendor/asus/Z01M/proprietary/framework/ethernet-service.jar:system/framework/ethernet-service.jar \
-    vendor/asus/Z01M/proprietary/framework/ext.jar:system/framework/ext.jar \
-    vendor/asus/Z01M/proprietary/framework/framework-res.apk:system/framework/framework-res.apk \
-    vendor/asus/Z01M/proprietary/framework/framework.jar:system/framework/framework.jar \
     vendor/asus/Z01M/proprietary/framework/ifaamanager.jar:system/framework/ifaamanager.jar \
     vendor/asus/Z01M/proprietary/framework/im-novo.jar:system/framework/im-novo.jar \
-    vendor/asus/Z01M/proprietary/framework/ime.jar:system/framework/ime.jar \
-    vendor/asus/Z01M/proprietary/framework/ims-common.jar:system/framework/ims-common.jar \
     vendor/asus/Z01M/proprietary/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar \
-    vendor/asus/Z01M/proprietary/framework/input.jar:system/framework/input.jar \
     vendor/asus/Z01M/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
-    vendor/asus/Z01M/proprietary/framework/javax.obex.jar:system/framework/javax.obex.jar \
-    vendor/asus/Z01M/proprietary/framework/media_cmd.jar:system/framework/media_cmd.jar \
-    vendor/asus/Z01M/proprietary/framework/monkey.jar:system/framework/monkey.jar \
     vendor/asus/Z01M/proprietary/framework/myinksearch-novo.jar:system/framework/myinksearch-novo.jar \
     vendor/asus/Z01M/proprietary/framework/myscriptengine-novo.jar:system/framework/myscriptengine-novo.jar \
     vendor/asus/Z01M/proprietary/framework/myscripthwr-novo.jar:system/framework/myscripthwr-novo.jar \
@@ -1053,13 +755,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/framework/oat/arm/vcard.odex:system/framework/oat/arm/vcard.odex \
     vendor/asus/Z01M/proprietary/framework/oat/arm/wm.odex:system/framework/oat/arm/wm.odex \
     vendor/asus/Z01M/proprietary/framework/oem-services.jar:system/framework/oem-services.jar \
-    vendor/asus/Z01M/proprietary/framework/okhttp.jar:system/framework/okhttp.jar \
-    vendor/asus/Z01M/proprietary/framework/org.apache.http.legacy.boot.jar:system/framework/org.apache.http.legacy.boot.jar \
-    vendor/asus/Z01M/proprietary/framework/org.codeaurora.camera.jar:system/framework/org.codeaurora.camera.jar \
     vendor/asus/Z01M/proprietary/framework/org.simalliance.openmobileapi.jar:system/framework/org.simalliance.openmobileapi.jar \
-    vendor/asus/Z01M/proprietary/framework/pm.jar:system/framework/pm.jar \
     vendor/asus/Z01M/proprietary/framework/qcmediaplayer.jar:system/framework/qcmediaplayer.jar \
-    vendor/asus/Z01M/proprietary/framework/qcom.fmradio.jar:system/framework/qcom.fmradio.jar \
     vendor/asus/Z01M/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/asus/Z01M/proprietary/framework/qmapbridge.jar:system/framework/qmapbridge.jar \
     vendor/asus/Z01M/proprietary/framework/QPerformance.jar:system/framework/QPerformance.jar \
@@ -1069,104 +766,18 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/framework/rcsservice.jar:system/framework/rcsservice.jar \
     vendor/asus/Z01M/proprietary/framework/rcs_service_aidl.jar:system/framework/rcs_service_aidl.jar \
     vendor/asus/Z01M/proprietary/framework/rcs_service_api.jar:system/framework/rcs_service_api.jar \
-    vendor/asus/Z01M/proprietary/framework/requestsync.jar:system/framework/requestsync.jar \
-    vendor/asus/Z01M/proprietary/framework/services.jar:system/framework/services.jar \
-    vendor/asus/Z01M/proprietary/framework/settings.jar:system/framework/settings.jar \
-    vendor/asus/Z01M/proprietary/framework/sm.jar:system/framework/sm.jar \
-    vendor/asus/Z01M/proprietary/framework/svc.jar:system/framework/svc.jar \
     vendor/asus/Z01M/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/asus/Z01M/proprietary/framework/tcmiface.jar:system/framework/tcmiface.jar \
-    vendor/asus/Z01M/proprietary/framework/telecom.jar:system/framework/telecom.jar \
-    vendor/asus/Z01M/proprietary/framework/telephony-common.jar:system/framework/telephony-common.jar \
-    vendor/asus/Z01M/proprietary/framework/telephony-ext.jar:system/framework/telephony-ext.jar \
-    vendor/asus/Z01M/proprietary/framework/uiautomator.jar:system/framework/uiautomator.jar \
-    vendor/asus/Z01M/proprietary/framework/vcard.jar:system/framework/vcard.jar \
-    vendor/asus/Z01M/proprietary/framework/voip-common.jar:system/framework/voip-common.jar \
     vendor/asus/Z01M/proprietary/framework/WfdCommon.jar:system/framework/WfdCommon.jar \
-    vendor/asus/Z01M/proprietary/framework/wifi-service.jar:system/framework/wifi-service.jar \
-    vendor/asus/Z01M/proprietary/framework/wm.jar:system/framework/wm.jar \
-    vendor/asus/Z01M/proprietary/lib64/crtbegin_so.o:system/lib64/crtbegin_so.o \
-    vendor/asus/Z01M/proprietary/lib64/crtend_so.o:system/lib64/crtend_so.o \
-    vendor/asus/Z01M/proprietary/lib64/drm/libfwdlockengine.so:system/lib64/drm/libfwdlockengine.so \
-    vendor/asus/Z01M/proprietary/lib64/egl/libGLES_android.so:system/lib64/egl/libGLES_android.so \
-    vendor/asus/Z01M/proprietary/lib64/fm_helium.so:system/lib64/fm_helium.so \
-    vendor/asus/Z01M/proprietary/lib64/hw/audio.a2dp.default.so:system/lib64/hw/audio.a2dp.default.so \
-    vendor/asus/Z01M/proprietary/lib64/hw/audio.primary.default.so:system/lib64/hw/audio.primary.default.so \
     vendor/asus/Z01M/proprietary/lib64/hw/audio.primary.msm8953.so:system/lib64/hw/audio.primary.msm8953.so \
-    vendor/asus/Z01M/proprietary/lib64/hw/audio.r_submix.default.so:system/lib64/hw/audio.r_submix.default.so \
-    vendor/asus/Z01M/proprietary/lib64/hw/audio.usb.default.so:system/lib64/hw/audio.usb.default.so \
-    vendor/asus/Z01M/proprietary/lib64/hw/audio_policy.default.so:system/lib64/hw/audio_policy.default.so \
-    vendor/asus/Z01M/proprietary/lib64/hw/copybit.msm8953.so:system/lib64/hw/copybit.msm8953.so \
-    vendor/asus/Z01M/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
     vendor/asus/Z01M/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
-    vendor/asus/Z01M/proprietary/lib64/hw/gralloc.default.so:system/lib64/hw/gralloc.default.so \
-    vendor/asus/Z01M/proprietary/lib64/hw/gralloc.msm8953.so:system/lib64/hw/gralloc.msm8953.so \
     vendor/asus/Z01M/proprietary/lib64/hw/gxfingerprint.default.so:system/lib64/hw/gxfingerprint.default.so \
-    vendor/asus/Z01M/proprietary/lib64/hw/hwcomposer.msm8953.so:system/lib64/hw/hwcomposer.msm8953.so \
-    vendor/asus/Z01M/proprietary/lib64/hw/keystore.default.so:system/lib64/hw/keystore.default.so \
-    vendor/asus/Z01M/proprietary/lib64/hw/lights.msm8953.so:system/lib64/hw/lights.msm8953.so \
-    vendor/asus/Z01M/proprietary/lib64/hw/local_time.default.so:system/lib64/hw/local_time.default.so \
-    vendor/asus/Z01M/proprietary/lib64/hw/memtrack.msm8953.so:system/lib64/hw/memtrack.msm8953.so \
-    vendor/asus/Z01M/proprietary/lib64/hw/power.default.so:system/lib64/hw/power.default.so \
     vendor/asus/Z01M/proprietary/lib64/hw/power.qcom.so:system/lib64/hw/power.qcom.so \
-    vendor/asus/Z01M/proprietary/lib64/hw/sensors.msm8953.so:system/lib64/hw/sensors.msm8953.so \
-    vendor/asus/Z01M/proprietary/lib64/hw/thermal.default.so:system/lib64/hw/thermal.default.so \
-    vendor/asus/Z01M/proprietary/lib64/hw/vibrator.default.so:system/lib64/hw/vibrator.default.so \
-    vendor/asus/Z01M/proprietary/lib64/libalsautils.so:system/lib64/libalsautils.so \
-    vendor/asus/Z01M/proprietary/lib64/libandroid.so:system/lib64/libandroid.so \
-    vendor/asus/Z01M/proprietary/lib64/libandroidfw.so:system/lib64/libandroidfw.so \
-    vendor/asus/Z01M/proprietary/lib64/libandroid_runtime.so:system/lib64/libandroid_runtime.so \
-    vendor/asus/Z01M/proprietary/lib64/libandroid_servers.so:system/lib64/libandroid_servers.so \
-    vendor/asus/Z01M/proprietary/lib64/libantradio.so:system/lib64/libantradio.so \
-    vendor/asus/Z01M/proprietary/lib64/libappfuse_jni.so:system/lib64/libappfuse_jni.so \
-    vendor/asus/Z01M/proprietary/lib64/libart-compiler.so:system/lib64/libart-compiler.so \
-    vendor/asus/Z01M/proprietary/lib64/libart-disassembler.so:system/lib64/libart-disassembler.so \
-    vendor/asus/Z01M/proprietary/lib64/libart.so:system/lib64/libart.so \
     vendor/asus/Z01M/proprietary/lib64/libAsusRGBSensorHAL.so:system/lib64/libAsusRGBSensorHAL.so \
-    vendor/asus/Z01M/proprietary/lib64/libaudio-resampler.so:system/lib64/libaudio-resampler.so \
-    vendor/asus/Z01M/proprietary/lib64/libaudioeffect_jni.so:system/lib64/libaudioeffect_jni.so \
-    vendor/asus/Z01M/proprietary/lib64/libaudioflinger.so:system/lib64/libaudioflinger.so \
-    vendor/asus/Z01M/proprietary/lib64/libaudiopolicyenginedefault.so:system/lib64/libaudiopolicyenginedefault.so \
-    vendor/asus/Z01M/proprietary/lib64/libaudiopolicymanager.so:system/lib64/libaudiopolicymanager.so \
-    vendor/asus/Z01M/proprietary/lib64/libaudiopolicymanagerdefault.so:system/lib64/libaudiopolicymanagerdefault.so \
-    vendor/asus/Z01M/proprietary/lib64/libaudiopolicyservice.so:system/lib64/libaudiopolicyservice.so \
-    vendor/asus/Z01M/proprietary/lib64/libaudioresampler.so:system/lib64/libaudioresampler.so \
-    vendor/asus/Z01M/proprietary/lib64/libaudioroute.so:system/lib64/libaudioroute.so \
-    vendor/asus/Z01M/proprietary/lib64/libaudiospdif.so:system/lib64/libaudiospdif.so \
-    vendor/asus/Z01M/proprietary/lib64/libaudioutils.so:system/lib64/libaudioutils.so \
-    vendor/asus/Z01M/proprietary/lib64/libbacktrace.so:system/lib64/libbacktrace.so \
-    vendor/asus/Z01M/proprietary/lib64/libbase.so:system/lib64/libbase.so \
-    vendor/asus/Z01M/proprietary/lib64/libbcc.so:system/lib64/libbcc.so \
-    vendor/asus/Z01M/proprietary/lib64/libbcinfo.so:system/lib64/libbcinfo.so \
-    vendor/asus/Z01M/proprietary/lib64/libbinary_parse.so:system/lib64/libbinary_parse.so \
-    vendor/asus/Z01M/proprietary/lib64/libbinder.so:system/lib64/libbinder.so \
-    vendor/asus/Z01M/proprietary/lib64/libblas.so:system/lib64/libblas.so \
-    vendor/asus/Z01M/proprietary/lib64/libbthost_if.so:system/lib64/libbthost_if.so \
-    vendor/asus/Z01M/proprietary/lib64/libc.so:system/lib64/libc.so \
-    vendor/asus/Z01M/proprietary/lib64/libc2dcolorconvert.so:system/lib64/libc2dcolorconvert.so \
-    vendor/asus/Z01M/proprietary/lib64/libcamera2ndk.so:system/lib64/libcamera2ndk.so \
-    vendor/asus/Z01M/proprietary/lib64/libcameraservice.so:system/lib64/libcameraservice.so \
-    vendor/asus/Z01M/proprietary/lib64/libcamera_client.so:system/lib64/libcamera_client.so \
-    vendor/asus/Z01M/proprietary/lib64/libcamera_metadata.so:system/lib64/libcamera_metadata.so \
     vendor/asus/Z01M/proprietary/lib64/libcctapi.bc:system/lib64/libcctapi.bc \
-    vendor/asus/Z01M/proprietary/lib64/libclcore.bc:system/lib64/libclcore.bc \
-    vendor/asus/Z01M/proprietary/lib64/libclcore_debug.bc:system/lib64/libclcore_debug.bc \
-    vendor/asus/Z01M/proprietary/lib64/libclcore_g.bc:system/lib64/libclcore_g.bc \
-    vendor/asus/Z01M/proprietary/lib64/libcompiler_rt.so:system/lib64/libcompiler_rt.so \
     vendor/asus/Z01M/proprietary/lib64/libc++.so:system/lib64/libc++ \
-    vendor/asus/Z01M/proprietary/lib64/libcryptfs_hw.so:system/lib64/libcryptfs_hw.so \
-    vendor/asus/Z01M/proprietary/lib64/libcrypto.so:system/lib64/libcrypto.so \
-    vendor/asus/Z01M/proprietary/lib64/libcurl.so:system/lib64/libcurl.so \
-    vendor/asus/Z01M/proprietary/lib64/libcutils.so:system/lib64/libcutils.so \
-    vendor/asus/Z01M/proprietary/lib64/libc_malloc_debug.so:system/lib64/libc_malloc_debug.so \
     vendor/asus/Z01M/proprietary/lib64/libdashplayer.so:system/lib64/libdashplayer.so \
-    vendor/asus/Z01M/proprietary/lib64/libdefcontainer_jni.so:system/lib64/libdefcontainer_jni.so \
     vendor/asus/Z01M/proprietary/lib64/libdhcpcd.so:system/lib64/libdhcpcd.so \
-    vendor/asus/Z01M/proprietary/lib64/libdiskconfig.so:system/lib64/libdiskconfig.so \
-    vendor/asus/Z01M/proprietary/lib64/libdl.so:system/lib64/libdl.so \
-    vendor/asus/Z01M/proprietary/lib64/libdng_skd.so:system/lib64/libdng_sdk.so \
-    vendor/asus/Z01M/proprietary/lib64/libdrmframework.so:system/lib64/libdrmframework.so \
-    vendor/asus/Z01M/proprietary/lib64/libdrmframework_jni.so:system/lib64/libdrmframework_jni.so \
     vendor/asus/Z01M/proprietary/lib64/libdts-eagle-shared.so:system/lib64/libdts-eagle-shared.so \
     vendor/asus/Z01M/proprietary/lib64/libdumpsys_logtool.so:system/lib64/libdumpsys_logtool.so \
     vendor/asus/Z01M/proprietary/lib64/libDUTUtil-JNI.so:system/lib64/libDUTUtil-JNI.so \
@@ -1192,280 +803,39 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/lib64/libebt_stp.so:system/lib64/libebt_stp.so \
     vendor/asus/Z01M/proprietary/lib64/libebt_ulog.so:system/lib64/libebt_ulog.so \
     vendor/asus/Z01M/proprietary/lib64/libebt_vlan.so:system/lib64/libebt_vlan.so \
-    vendor/asus/Z01M/proprietary/lib64/libeffects.so:system/lib64/libeffects.so \
-    vendor/asus/Z01M/proprietary/lib64/libEGL.so:system/lib64/libEGL.so \
-    vendor/asus/Z01M/proprietary/lib64/libETC1.so:system/lib64/libETC1.so \
-    vendor/asus/Z01M/proprietary/lib64/libexif.so:system/lib64/libexif.so \
-    vendor/asus/Z01M/proprietary/lib64/libexpat.so:system/lib64/libexpat.so \
-    vendor/asus/Z01M/proprietary/lib64/libext2fs.so:system/lib64/libext2fs.so \
-    vendor/asus/Z01M/proprietary/lib64/libext2_blkid.so:system/lib64/libext2_blkid.so \
-    vendor/asus/Z01M/proprietary/lib64/libext2_com_err.so:system/lib64/libext2_com_err.so \
-    vendor/asus/Z01M/proprietary/lib64/libext2_e2p.so:system/lib64/libext2_e2p.so \
-    vendor/asus/Z01M/proprietary/lib64/libext2_profile.so:system/lib64/libext2_profile.so \
-    vendor/asus/Z01M/proprietary/lib64/libext2_quota.so:system/lib64/libext2_quota.so \
-    vendor/asus/Z01M/proprietary/lib64/libext2_uuid.so:system/lib64/libext2_uuid.so \
-    vendor/asus/Z01M/proprietary/lib64/libext4_utils.so:system/lib64/libext4_utils.so \
     vendor/asus/Z01M/proprietary/lib64/libextmedia_jni.so:system/lib64/libextmedia_jni.so \
-    vendor/asus/Z01M/proprietary/lib64/libf2fs_sparseblock.so:system/lib64/libf2fs_sparseblock.so \
-    vendor/asus/Z01M/proprietary/lib64/libFFTEm.so:system/lib64/libFFTEm.so \
-    vendor/asus/Z01M/proprietary/lib64/libfilterfw.so:system/lib64/libfilterfw.so \
     vendor/asus/Z01M/proprietary/lib64/libfilterpack_facedetect.so:system/lib64/libfilterpack_facedetect.so \
-    vendor/asus/Z01M/proprietary/lib64/libfilterpack_imageproc.so:system/lib64/libfilterpack_imageproc.so \
-    vendor/asus/Z01M/proprietary/lib64/libfm-hci.so:system/lib64/libfm-hci.so \
-    vendor/asus/Z01M/proprietary/lib64/libfmjni.so:system/lib64/libfmjni.so \
     vendor/asus/Z01M/proprietary/lib64/libfpjni.so:system/lib64/libfpjni.so \
     vendor/asus/Z01M/proprietary/lib64/libfpservice.so:system/lib64/libfpservice.so \
     vendor/asus/Z01M/proprietary/lib64/libfp_client.so:system/lib64/libfp_client.so \
-    vendor/asus/Z01M/proprietary/lib64/libft2.so:system/lib64/libft2.so \
-    vendor/asus/Z01M/proprietary/lib64/libgabi++.so:system/lib64/libgabi++.so \
-    vendor/asus/Z01M/proprietary/lib64/libgatekeeper.so:system/lib64/libgatekeeper.so \
-    vendor/asus/Z01M/proprietary/lib64/libGLESv1_CM.so:system/lib64/libGLESv1_CM.so \
-    vendor/asus/Z01M/proprietary/lib64/libGLESv2.so:system/lib64/libGLESv2.so \
-    vendor/asus/Z01M/proprietary/lib64/libGLESv3.so:system/lib64/libGLESv3.so \
-    vendor/asus/Z01M/proprietary/lib64/libgnsspps.so:system/lib64/libgnsspps.so \
-    vendor/asus/Z01M/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
-    vendor/asus/Z01M/proprietary/lib64/libgui.so:system/lib64/libgui.so \
     vendor/asus/Z01M/proprietary/lib64/libGVoucher.so:system/lib64/libGVoucher.so \
-    vendor/asus/Z01M/proprietary/lib64/libhardware.so:system/lib64/libhardware.so \
-    vendor/asus/Z01M/proprietary/lib64/libhardware_legacy.so:system/lib64/libhardware_legacy.so \
-    vendor/asus/Z01M/proprietary/lib64/libharfbuzz_ng.so:system/lib64/libharfbuzz_ng.so \
-    vendor/asus/Z01M/proprietary/lib64/libhwui.so:system/lib64/libhwui.so \
-    vendor/asus/Z01M/proprietary/lib64/libicui18n.so:system/lib64/libicui18n.so \
-    vendor/asus/Z01M/proprietary/lib64/libicuuc.so:system/lib64/libicuuc.so \
-    vendor/asus/Z01M/proprietary/lib64/libimage_type_recognition.so:system/lib64/libimage_type_recognition.so \
-    vendor/asus/Z01M/proprietary/lib64/libimg_utils.so:system/lib64/libimg_utils.so \
-    vendor/asus/Z01M/proprietary/lib64/libinput.so:system/lib64/libinput.so \
-    vendor/asus/Z01M/proprietary/lib64/libinputflinger.so:system/lib64/libinputflinger.so \
-    vendor/asus/Z01M/proprietary/lib64/libinputservice.so:system/lib64/libinputservice.so \
-    vendor/asus/Z01M/proprietary/lib64/libipanat.so:system/lib64/libipanat.so \
-    vendor/asus/Z01M/proprietary/lib64/libiprouteutil.so:system/lib64/libiprouteutil.so \
-    vendor/asus/Z01M/proprietary/lib64/libjavacore.so:system/lib64/libjavacore.so \
-    vendor/asus/Z01M/proprietary/lib64/libjavacrypto.so:system/lib64/libjavacrypto.so \
     vendor/asus/Z01M/proprietary/lib64/libjni.so:system/lib64/libjni.so \
-    vendor/asus/Z01M/proprietary/lib64/libjnigraphics.so:system/lib64/libjnigraphics.so \
-    vendor/asus/Z01M/proprietary/lib64/libjni_pacprocessor.so:system/lib64/libjni_pacprocessor.so \
-    vendor/asus/Z01M/proprietary/lib64/libjpeg.so:system/lib64/libjpeg.so \
-    vendor/asus/Z01M/proprietary/lib64/libjson.so:system/lib64/libjson.so \
-    vendor/asus/Z01M/proprietary/lib64/libkeymaster1.so:system/lib64/libkeymaster1.so \
-    vendor/asus/Z01M/proprietary/lib64/libkeymaster_messages.so:system/lib64/libkeymaster_messages.so \
-    vendor/asus/Z01M/proprietary/lib64/libkeystore-engine.so:system/lib64/libkeystore-engine.so \
-    vendor/asus/Z01M/proprietary/lib64/libkeystore_binder.so:system/lib64/libkeystore_binder.so \
-    vendor/asus/Z01M/proprietary/lib64/libLLVM.so:system/lib64/libLLVM.so \
     vendor/asus/Z01M/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
-    vendor/asus/Z01M/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
     vendor/asus/Z01M/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
-    vendor/asus/Z01M/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
-    vendor/asus/Z01M/proprietary/lib64/libloc_pla.so:system/lib64/libloc_pla.so \
-    vendor/asus/Z01M/proprietary/lib64/libloc_stub.so:system/lib64/libloc_stub.so \
-    vendor/asus/Z01M/proprietary/lib64/liblog.so:system/lib64/liblog.so \
-    vendor/asus/Z01M/proprietary/lib64/liblogwrap.so:system/lib64/liblogwrap.so \
-    vendor/asus/Z01M/proprietary/lib64/liblz4.so:system/lib64/liblz4.so \
-    vendor/asus/Z01M/proprietary/lib64/liblzma.so:system/lib64/liblzma.so \
-    vendor/asus/Z01M/proprietary/lib64/libm.so:system/lib64/libm.so \
-    vendor/asus/Z01M/proprietary/lib64/libmdnssd.so:system/lib64/libmdnssd.so \
-    vendor/asus/Z01M/proprietary/lib64/libmedia.so:system/lib64/libmedia.so \
-    vendor/asus/Z01M/proprietary/lib64/libmediadrm.so:system/lib64/libmediadrm.so \
-    vendor/asus/Z01M/proprietary/lib64/libmediandk.so:system/lib64/libmediandk.so \
-    vendor/asus/Z01M/proprietary/lib64/libmediaplayerservice.so:system/lib64/libmediaplayerservice.so \
-    vendor/asus/Z01M/proprietary/lib64/libmediautils.so:system/lib64/libmediautils.so \
-    vendor/asus/Z01M/proprietary/lib64/libmedia_jni.so:system/lib64/libmedia_jni.so \
-    vendor/asus/Z01M/proprietary/lib64/libmemalloc.so:system/lib64/libmemalloc.so \
-    vendor/asus/Z01M/proprietary/lib64/libmemtrack.so:system/lib64/libmemtrack.so \
-    vendor/asus/Z01M/proprietary/lib64/libmemunreachable.so:system/lib64/libmemunreachable.so \
-    vendor/asus/Z01M/proprietary/lib64/libminikin.so:system/lib64/libminikin.so \
-    vendor/asus/Z01M/proprietary/lib64/libmm-omxcore.so:system/lib64/libmm-omxcore.so \
     vendor/asus/Z01M/proprietary/lib64/libmms_gyro_vstab.so:system/lib64/libmms_gyro_vstab.so \
     vendor/asus/Z01M/proprietary/lib64/libmms_gyro_vstab_auth.so:system/lib64/libmms_gyro_vstab_auth.so \
-    vendor/asus/Z01M/proprietary/lib64/libmtp.so:system/lib64/libmtp.so \
-    vendor/asus/Z01M/proprietary/lib64/libnativebridge.so:system/lib64/libnativebridge.so \
-    vendor/asus/Z01M/proprietary/lib64/libnativehelper.so:system/lib64/libnativehelper.so \
-    vendor/asus/Z01M/proprietary/lib64/libnativeloader.so:system/lib64/libnativeloader.so \
-    vendor/asus/Z01M/proprietary/lib64/libnbaio.so:system/lib64/libnbaio.so \
-    vendor/asus/Z01M/proprietary/lib64/libnetdaidl.so:system/lib64/libnetdaidl.so \
-    vendor/asus/Z01M/proprietary/lib64/libnetd_client.so:system/lib64/libnetd_client.so \
-    vendor/asus/Z01M/proprietary/lib64/libnetfilter_conntrack.so:system/lib64/libnetfilter_conntrack.so \
-    vendor/asus/Z01M/proprietary/lib64/libnetlink.so:system/lib64/libnetlink.so \
-    vendor/asus/Z01M/proprietary/lib64/libnetutils.so:system/lib64/libnetutils.so \
-    vendor/asus/Z01M/proprietary/lib64/libnfc_ndef.so:system/lib64/libnfc_ndef.so \
-    vendor/asus/Z01M/proprietary/lib64/libnfnetlink.so:system/lib64/libnfnetlink.so \
-    vendor/asus/Z01M/proprietary/lib64/libnl.so:system/lib64/libnl.so \
     vendor/asus/Z01M/proprietary/lib64/libOmxAacEnc.so:system/lib64/libOmxAacEnc.so \
     vendor/asus/Z01M/proprietary/lib64/libOmxAmrEnc.so:system/lib64/libOmxAmrEnc.so \
-    vendor/asus/Z01M/proprietary/lib64/libOmxCore.so:system/lib64/libOmxCore.so \
     vendor/asus/Z01M/proprietary/lib64/libOmxEvrcEnc.so:system/lib64/libOmxEvrcEnc.so \
     vendor/asus/Z01M/proprietary/lib64/libOmxQcelp13Enc.so:system/lib64/libOmxQcelp13Enc.so \
-    vendor/asus/Z01M/proprietary/lib64/libOmxVdec.so:system/lib64/libOmxVdec.so \
-    vendor/asus/Z01M/proprietary/lib64/libOmxVenc.so:system/lib64/libOmxVenc.so \
     vendor/asus/Z01M/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
-    vendor/asus/Z01M/proprietary/lib64/libopenjdk.so:system/lib64/libopenjdk.so \
-    vendor/asus/Z01M/proprietary/lib64/libopenjdkjvm.so:system/lib64/libopenjdkjvm.so \
-    vendor/asus/Z01M/proprietary/lib64/libOpenMAXAL.so:system/lib64/libOpenMAXAL.so \
-    vendor/asus/Z01M/proprietary/lib64/libOpenSLES.so:system/lib64/libOpenSLES.so \
-    vendor/asus/Z01M/proprietary/lib64/libopus.so:system/lib64/libopus.so \
-    vendor/asus/Z01M/proprietary/lib64/libpac.so:system/lib64/libpac.so \
-    vendor/asus/Z01M/proprietary/lib64/libpackagelistparser.so:system/lib64/libpackagelistparser.so \
-    vendor/asus/Z01M/proprietary/lib64/libpcre.so:system/lib64/libpcre.so \
-    vendor/asus/Z01M/proprietary/lib64/libpcrecpp.so:system/lib64/libpcrecpp.so \
-    vendor/asus/Z01M/proprietary/lib64/libpdfium.so:system/lib64/libpdfium.so \
     vendor/asus/Z01M/proprietary/lib64/libpdmapper.so:system/lib64/libpdmapper.so \
-    vendor/asus/Z01M/proprietary/lib64/libpiex.so:system/lib64/libpiex.so \
-    vendor/asus/Z01M/proprietary/lib64/libpixelflinger.so:system/lib64/libpixelflinger.so \
-    vendor/asus/Z01M/proprietary/lib64/libpng.so:system/lib64/libpng.so \
-    vendor/asus/Z01M/proprietary/lib64/libpower.so:system/lib64/libpower.so \
-    vendor/asus/Z01M/proprietary/lib64/libpowermanager.so:system/lib64/libpowermanager.so \
     vendor/asus/Z01M/proprietary/lib64/libpreisp_camera.so:system/lib64/libpreisp_camera.so \
-    vendor/asus/Z01M/proprietary/lib64/libprintspooler_jni.so:system/lib64/libprintspooler_jni.so \
-    vendor/asus/Z01M/proprietary/lib64/libprocessgroup.so:system/lib64/libprocessgroup.so \
-    vendor/asus/Z01M/proprietary/lib64/libprotobuf-cpp-full.so:system/lib64/libprotobuf-cpp-full.so \
-    vendor/asus/Z01M/proprietary/lib64/libprotobuf-cpp-lite.so:system/lib64/libprotobuf-cpp-lite.so \
     vendor/asus/Z01M/proprietary/lib64/libqcmediaplayer.so:system/lib64/libqcmediaplayer.so \
-    vendor/asus/Z01M/proprietary/lib64/libqcomfm_jni.so:system/lib64/libqcomfm_jni.so \
-    vendor/asus/Z01M/proprietary/lib64/libqdMetaData.so:system/lib64/libqdMetaData.so \
-    vendor/asus/Z01M/proprietary/lib64/libqdutils.so:system/lib64/libqdutils.so \
-    vendor/asus/Z01M/proprietary/lib64/libqsap_sdk.so:system/lib64/libqsap_sdk.so \
-    vendor/asus/Z01M/proprietary/lib64/libqservice.so:system/lib64/libqservice.so \
-    vendor/asus/Z01M/proprietary/lib64/libradio.so:system/lib64/libradio.so \
-    vendor/asus/Z01M/proprietary/lib64/libradioservice.so:system/lib64/libradioservice.so \
-    vendor/asus/Z01M/proprietary/lib64/libradio_metadata.so:system/lib64/libradio_metadata.so \
     vendor/asus/Z01M/proprietary/lib64/librecovery_updater_msm.so:system/lib64/librecovery_updater_msm.so \
-    vendor/asus/Z01M/proprietary/lib64/libreference-ril.so:system/lib64/libreference-ril.so \
     vendor/asus/Z01M/proprietary/lib64/libregionalization.so:system/lib64/libregionalization.so \
-    vendor/asus/Z01M/proprietary/lib64/libril.so:system/lib64/libril.so \
-    vendor/asus/Z01M/proprietary/lib64/librilutils.so:system/lib64/librilutils.so \
-    vendor/asus/Z01M/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
-    vendor/asus/Z01M/proprietary/lib64/libRS.so:system/lib64/libRS.so \
-    vendor/asus/Z01M/proprietary/lib64/libRScpp.so:system/lib64/libRScpp.so \
-    vendor/asus/Z01M/proprietary/lib64/libRSCpuRef.so:system/lib64/libRSCpuRef.so \
-    vendor/asus/Z01M/proprietary/lib64/libRSDriver.so:system/lib64/libRSDriver.so \
-    vendor/asus/Z01M/proprietary/lib64/libRS_internal.so:system/lib64/libRS_internal.so \
-    vendor/asus/Z01M/proprietary/lib64/librs_jni.so:system/lib64/librs_jni.so \
-    vendor/asus/Z01M/proprietary/lib64/librtp_jni.so:system/lib64/librtp_jni.so \
-    vendor/asus/Z01M/proprietary/lib64/libsdmcore.so:system/lib64/libsdmcore.so \
-    vendor/asus/Z01M/proprietary/lib64/libsdmutils.so:system/lib64/libsdmutils.so \
-    vendor/asus/Z01M/proprietary/lib64/libselinux.so:system/lib64/libselinux.so \
-    vendor/asus/Z01M/proprietary/lib64/libsensorservice.so:system/lib64/libsensorservice.so \
-    vendor/asus/Z01M/proprietary/lib64/libserviceutility.so:system/lib64/libserviceutility.so \
-    vendor/asus/Z01M/proprietary/lib64/libsigchain.so:system/lib64/libsigchain.so \
-    vendor/asus/Z01M/proprietary/lib64/libskia.so:system/lib64/libskia.so \
-    vendor/asus/Z01M/proprietary/lib64/libsoftkeymaster.so:system/lib64/libsoftkeymaster.so \
-    vendor/asus/Z01M/proprietary/lib64/libsoftkeymasterdevice.so:system/lib64/libsoftkeymasterdevice.so \
-    vendor/asus/Z01M/proprietary/lib64/libsonic.so:system/lib64/libsonic.so \
-    vendor/asus/Z01M/proprietary/lib64/libsonivox.so:system/lib64/libsonivox.so \
-    vendor/asus/Z01M/proprietary/lib64/libsoundpool.so:system/lib64/libsoundpool.so \
-    vendor/asus/Z01M/proprietary/lib64/libsoundtrigger.so:system/lib64/libsoundtrigger.so \
-    vendor/asus/Z01M/proprietary/lib64/libsoundtriggerservice.so:system/lib64/libsoundtriggerservice.so \
-    vendor/asus/Z01M/proprietary/lib64/libsparse.so:system/lib64/libsparse.so \
-    vendor/asus/Z01M/proprietary/lib64/libspeexresampler.so:system/lib64/libspeexresampler.so \
-    vendor/asus/Z01M/proprietary/lib64/libsqlite.so:system/lib64/libsqlite.so \
-    vendor/asus/Z01M/proprietary/lib64/libssl.so:system/lib64/libssl.so \
-    vendor/asus/Z01M/proprietary/lib64/libstagefright.so:system/lib64/libstagefright.so \
-    vendor/asus/Z01M/proprietary/lib64/libstagefrighthw.so:system/lib64/libstagefrighthw.so \
-    vendor/asus/Z01M/proprietary/lib64/libstagefright_amrnb_common.so:system/lib64/libstagefright_amrnb_common.so \
-    vendor/asus/Z01M/proprietary/lib64/libstagefright_avc_common.so:system/lib64/libstagefright_avc_common.so \
-    vendor/asus/Z01M/proprietary/lib64/libstagefright_enc_common.so:system/lib64/libstagefright_enc_common.so \
-    vendor/asus/Z01M/proprietary/lib64/libstagefright_foundation.so:system/lib64/libstagefright_foundation.so \
-    vendor/asus/Z01M/proprietary/lib64/libstagefright_httplive.so:system/lib64/libstagefright_httplive.so \
-    vendor/asus/Z01M/proprietary/lib64/libstagefright_http_support.so:system/lib64/libstagefright_http_support.so \
-    vendor/asus/Z01M/proprietary/lib64/libstagefright_omx.so:system/lib64/libstagefright_omx.so \
-    vendor/asus/Z01M/proprietary/lib64/libstagefright_soft_aacdec.so:system/lib64/libstagefright_soft_aacdec.so \
-    vendor/asus/Z01M/proprietary/lib64/libstagefright_soft_aacenc.so:system/lib64/libstagefright_soft_aacenc.so \
-    vendor/asus/Z01M/proprietary/lib64/libstagefright_soft_amrdec.so:system/lib64/libstagefright_soft_amrdec.so \
-    vendor/asus/Z01M/proprietary/lib64/libstagefright_soft_amrnbenc.so:system/lib64/libstagefright_soft_amrnbenc.so \
-    vendor/asus/Z01M/proprietary/lib64/libstagefright_soft_amrwbenc.so:system/lib64/libstagefright_soft_amrwbenc.so \
-    vendor/asus/Z01M/proprietary/lib64/libstagefright_soft_avcdec.so:system/lib64/libstagefright_soft_avcdec.so \
-    vendor/asus/Z01M/proprietary/lib64/libstagefright_soft_avcenc.so:system/lib64/libstagefright_soft_avcenc.so \
     vendor/asus/Z01M/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
-    vendor/asus/Z01M/proprietary/lib64/libstagefright_soft_flacenc.so:system/lib64/libstagefright_soft_flacenc.so \
-    vendor/asus/Z01M/proprietary/lib64/libstagefright_soft_g711dec.so:system/lib64/libstagefright_soft_g711dec.so \
-    vendor/asus/Z01M/proprietary/lib64/libstagefright_soft_gsmdec.so:system/lib64/libstagefright_soft_gsmdec.so \
-    vendor/asus/Z01M/proprietary/lib64/libstagefright_soft_hevcdec.so:system/lib64/libstagefright_soft_hevcdec.so \
-    vendor/asus/Z01M/proprietary/lib64/libstagefright_soft_mp3dec.so:system/lib64/libstagefright_soft_mp3dec.so \
-    vendor/asus/Z01M/proprietary/lib64/libstagefright_soft_mpeg2dec.so:system/lib64/libstagefright_soft_mpeg2dec.so \
-    vendor/asus/Z01M/proprietary/lib64/libstagefright_soft_mpeg4dec.so:system/lib64/libstagefright_soft_mpeg4dec.so \
-    vendor/asus/Z01M/proprietary/lib64/libstagefright_soft_mpeg4enc.so:system/lib64/libstagefright_soft_mpeg4enc.so \
-    vendor/asus/Z01M/proprietary/lib64/libstagefright_soft_opusdec.so:system/lib64/libstagefright_soft_opusdec.so \
-    vendor/asus/Z01M/proprietary/lib64/libstagefright_soft_rawdec.so:system/lib64/libstagefright_soft_rawdec.so \
-    vendor/asus/Z01M/proprietary/lib64/libstagefright_soft_vorbisdec.so:system/lib64/libstagefright_soft_vorbisdec.so \
-    vendor/asus/Z01M/proprietary/lib64/libstagefright_soft_vpxdec.so:system/lib64/libstagefright_soft_vpxdec.so \
-    vendor/asus/Z01M/proprietary/lib64/libstagefright_soft_vpxenc.so:system/lib64/libstagefright_soft_vpxenc.so \
-    vendor/asus/Z01M/proprietary/lib64/libstagefright_wfd.so:system/lib64/libstagefright_wfd.so \
-    vendor/asus/Z01M/proprietary/lib64/libstagefright_yuv.so:system/lib64/libstagefright_yuv.so \
-    vendor/asus/Z01M/proprietary/lib64/libstdc++.so:system/lib64/libstdc++.so \
-    vendor/asus/Z01M/proprietary/lib64/libsurfaceflinger.so:system/lib64/libsurfaceflinger.so \
-    vendor/asus/Z01M/proprietary/lib64/libsurfaceflinger_ddmconnection.so:system/lib64/libsurfaceflinger_ddmconnection.so \
-    vendor/asus/Z01M/proprietary/lib64/libsuspend.so:system/lib64/libsuspend.so \
-    vendor/asus/Z01M/proprietary/lib64/libsync.so:system/lib64/libsync.so \
-    vendor/asus/Z01M/proprietary/lib64/libsysutils.so:system/lib64/libsysutils.so \
-    vendor/asus/Z01M/proprietary/lib64/libtiff_directory.so:system/lib64/libtiff_directory.so \
-    vendor/asus/Z01M/proprietary/lib64/libtinyalsa.so:system/lib64/libtinyalsa.so \
-    vendor/asus/Z01M/proprietary/lib64/libtinycompress.so:system/lib64/libtinycompress.so \
-    vendor/asus/Z01M/proprietary/lib64/libtinyxml.so:system/lib64/libtinyxml.so \
-    vendor/asus/Z01M/proprietary/lib64/libtinyxml2.so:system/lib64/libtinyxml2.so \
-    vendor/asus/Z01M/proprietary/lib64/libui.so:system/lib64/libui.so \
-    vendor/asus/Z01M/proprietary/lib64/libunwind.so:system/lib64/libunwind.so \
-    vendor/asus/Z01M/proprietary/lib64/libusbhost.so:system/lib64/libusbhost.so \
-    vendor/asus/Z01M/proprietary/lib64/libutils.so:system/lib64/libutils.so \
-    vendor/asus/Z01M/proprietary/lib64/libvixl.so:system/lib64/libvixl.so \
-    vendor/asus/Z01M/proprietary/lib64/libvorbisidec.so:system/lib64/libvorbisidec.so \
     vendor/asus/Z01M/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
-    vendor/asus/Z01M/proprietary/lib64/libvulkan.so:system/lib64/libvulkan.so \
-    vendor/asus/Z01M/proprietary/lib64/libwebrtc_audio_preprocessing.so:system/lib64/libwebrtc_audio_preprocessing.so \
-    vendor/asus/Z01M/proprietary/lib64/libwebviewchromium_loader.so:system/lib64/libwebviewchromium_loader.so \
-    vendor/asus/Z01M/proprietary/lib64/libwebviewchromium_plat_support.so:system/lib64/libwebviewchromium_plat_support.so \
-    vendor/asus/Z01M/proprietary/lib64/libwifi-hal-qcom.so:system/lib64/libwifi-hal-qcom.so \
-    vendor/asus/Z01M/proprietary/lib64/libwifi-service.so:system/lib64/libwifi-service.so \
-    vendor/asus/Z01M/proprietary/lib64/libwilhelm.so:system/lib64/libwilhelm.so \
-    vendor/asus/Z01M/proprietary/lib64/libwpa_client.so:system/lib64/libwpa_client.so \
-    vendor/asus/Z01M/proprietary/lib64/libxml2.so:system/lib64/libxml2.so \
-    vendor/asus/Z01M/proprietary/lib64/libz.so:system/lib64/libz.so \
     vendor/asus/Z01M/proprietary/lib64/sensors.PS_ALS.msm8953.so:system/lib64/sensors.PS_ALS.msm8953.so \
-    vendor/asus/Z01M/proprietary/lib64/soundfx/libaudiopreprocessing.so:system/lib64/soundfx/libaudiopreprocessing.so \
-    vendor/asus/Z01M/proprietary/lib64/soundfx/libbundlewrapper.so:system/lib64/soundfx/libbundlewrapper.so \
-    vendor/asus/Z01M/proprietary/lib64/soundfx/libdownmix.so:system/lib64/soundfx/libdownmix.so \
-    vendor/asus/Z01M/proprietary/lib64/soundfx/libeffectproxy.so:system/lib64/soundfx/libeffectproxy.so \
-    vendor/asus/Z01M/proprietary/lib64/soundfx/libldnhncr.so:system/lib64/soundfx/libldnhncr.so \
     vendor/asus/Z01M/proprietary/lib64/soundfx/libqcompostprocbundle.so:system/lib64/soundfx/libqcompostprocbundle.so \
     vendor/asus/Z01M/proprietary/lib64/soundfx/libqcomvisualizer.so:system/lib64/soundfx/libqcomvisualizer.so \
     vendor/asus/Z01M/proprietary/lib64/soundfx/libqcomvoiceprocessing.so:system/lib64/soundfx/libqcomvoiceprocessing.so \
-    vendor/asus/Z01M/proprietary/lib64/soundfx/libreverbwrapper.so:system/lib64/soundfx/libreverbwrapper.so \
-    vendor/asus/Z01M/proprietary/lib64/soundfx/libvisualizer.so:system/lib64/soundfx/libvisualizer.so \
-    vendor/asus/Z01M/proprietary/lib/crtbegin_so.o:system/lib/crtbegin_so.o \
-    vendor/asus/Z01M/proprietary/lib/crtend_so.o:system/lib/crtend_so.o \
     vendor/asus/Z01M/proprietary/lib/DataSet/arch/DIT_List.cfg:system/lib/DataSet/arch/DIT_List.cfg \
     vendor/asus/Z01M/proprietary/lib/DataSet/ditSCidGen/msgchk.db:system/lib/DataSet/ditSCidGen/msgchk.db \
     vendor/asus/Z01M/proprietary/lib/DataSet/ispDB/parameterDB.db:system/lib/DataSet/ispDB/parameterDB.db \
-    vendor/asus/Z01M/proprietary/lib/drm/libfwdlockengine.so:system/lib/drm/libfwdlockengine.so \
-    vendor/asus/Z01M/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
-    vendor/asus/Z01M/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
-    vendor/asus/Z01M/proprietary/lib/fm_helium.so:system/lib/fm_helium.so \
-    vendor/asus/Z01M/proprietary/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
-    vendor/asus/Z01M/proprietary/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
     vendor/asus/Z01M/proprietary/lib/hw/audio.primary.msm8953.so:system/lib/hw/audio.primary.msm8953.so \
-    vendor/asus/Z01M/proprietary/lib/hw/audio.r_submix.default.so:system/lib/hw/audio.r_submix.default.so \
-    vendor/asus/Z01M/proprietary/lib/hw/audio.usb.default.so:system/lib/hw/audio.usb.default.so \
-    vendor/asus/Z01M/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
-    vendor/asus/Z01M/proprietary/lib/hw/bluetooth.default.so:system/lib/hw/bluetooth.default.so \
     vendor/asus/Z01M/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
-    vendor/asus/Z01M/proprietary/lib/hw/copybit.msm8953.so:system/lib/hw/copybit.msm8953.so \
     vendor/asus/Z01M/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/asus/Z01M/proprietary/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
-    vendor/asus/Z01M/proprietary/lib/hw/gralloc.msm8953.so:system/lib/hw/gralloc.msm8953.so \
-    vendor/asus/Z01M/proprietary/lib/hw/hwcomposer.msm8953.so:system/lib/hw/hwcomposer.msm8953.so \
-    vendor/asus/Z01M/proprietary/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
-    vendor/asus/Z01M/proprietary/lib/hw/lights.msm8953.so:system/lib/hw/lights.msm8953.so \
-    vendor/asus/Z01M/proprietary/lib/hw/local_time.default.so:system/lib/hw/local_time.default.so \
-    vendor/asus/Z01M/proprietary/lib/hw/memtrack.msm8953.so:system/lib/hw/memtrack.msm8953.so \
-    vendor/asus/Z01M/proprietary/lib/hw/power.default.so:system/lib/hw/power.default.so \
-    vendor/asus/Z01M/proprietary/lib/hw/power.qcom.so:system/lib/hw/power.qcom.so \
-    vendor/asus/Z01M/proprietary/lib/hw/sensors.msm8953.so:system/lib/hw/sensors.msm8953.so \
-    vendor/asus/Z01M/proprietary/lib/hw/thermal.default.so:system/lib/hw/thermal.default.so \
-    vendor/asus/Z01M/proprietary/lib/hw/vibrator.default.so:system/lib/hw/vibrator.default.so \
-    vendor/asus/Z01M/proprietary/lib/libalsautils.so:system/lib/libalsautils.so \
-    vendor/asus/Z01M/proprietary/lib/libandroid.so:system/lib/libandroid.so \
-    vendor/asus/Z01M/proprietary/lib/libandroidfw.so:system/lib/libandroidfw.so \
-    vendor/asus/Z01M/proprietary/lib/libandroid_runtime.so:system/lib/libandroid_runtime.so \
-    vendor/asus/Z01M/proprietary/lib/libandroid_servers.so:system/lib/libandroid_servers.so \
-    vendor/asus/Z01M/proprietary/lib/libantradio.so:system/lib/libantradio.so \
     vendor/asus/Z01M/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
     vendor/asus/Z01M/proprietary/lib/libarcsoft_dualcam_optical_zoom.so:system/lib/libarcsoft_dualcam_optical_zoom.so \
     vendor/asus/Z01M/proprietary/lib/libarcsoft_dualcam_refocus.so:system/lib/libarcsoft_dualcam_refocus.so \
@@ -1478,58 +848,15 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/lib/libarcsoft_picselfie_algorithm.so:system/lib/libarcsoft_picselfie_algorithm.so \
     vendor/asus/Z01M/proprietary/lib/libarcsoft_piczoom.so:system/lib/libarcsoft_piczoom.so \
     vendor/asus/Z01M/proprietary/lib/libarcsoft_videostabilizer.so:system/lib/libarcsoft_videostabilizer.so \
-    vendor/asus/Z01M/proprietary/lib/libart-compiler.so:system/lib/libart-compiler.so \
-    vendor/asus/Z01M/proprietary/lib/libart.so:system/lib/libart.so \
     vendor/asus/Z01M/proprietary/lib/libasuscameraext_jni.so:system/lib/libasuscameraext_jni.so \
     vendor/asus/Z01M/proprietary/lib/libasuscameraext_jpeg_hw_encoder.so:system/lib/libasuscameraext_jpeg_hw_encoder.so \
     vendor/asus/Z01M/proprietary/lib/libAsusDngCreator.so:system/lib/libAsusDngCreator.so \
     vendor/asus/Z01M/proprietary/lib/libAsusRGBSensorHAL.so:system/lib/libAsusRGBSensorHAL.so \
     vendor/asus/Z01M/proprietary/lib/libAsusShowFPS.so:system/lib/libAsusShowFPS.so \
-    vendor/asus/Z01M/proprietary/lib/libaudio-resampler.so:system/lib/libaudio-resampler.so \
-    vendor/asus/Z01M/proprietary/lib/libaudioeffect_jni.so:system/lib/libaudioeffect_jni.so \
-    vendor/asus/Z01M/proprietary/lib/libaudioflinger.so:system/lib/libaudioflinger.so \
-    vendor/asus/Z01M/proprietary/lib/libaudiopolicyenginedefault.so:system/lib/libaudiopolicyenginedefault.so \
-    vendor/asus/Z01M/proprietary/lib/libaudiopolicymanager.so:system/lib/libaudiopolicymanager.so \
-    vendor/asus/Z01M/proprietary/lib/libaudiopolicymanagerdefault.so:system/lib/libaudiopolicymanagerdefault.so \
-    vendor/asus/Z01M/proprietary/lib/libaudiopolicyservice.so:system/lib/libaudiopolicyservice.so \
-    vendor/asus/Z01M/proprietary/lib/libaudioresampler.so:system/lib/libaudioresampler.so \
-    vendor/asus/Z01M/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
-    vendor/asus/Z01M/proprietary/lib/libaudiospdif.so:system/lib/libaudiospdif.so \
-    vendor/asus/Z01M/proprietary/lib/libaudioutils.so:system/lib/libaudioutils.so \
-    vendor/asus/Z01M/proprietary/lib/libbacktrace.so:system/lib/libbacktrace.so \
-    vendor/asus/Z01M/proprietary/lib/libbase.so:system/lib/libbase.so \
-    vendor/asus/Z01M/proprietary/lib/libbcc.so:system/lib/libbcc.so \
-    vendor/asus/Z01M/proprietary/lib/libbcinfo.so:system/lib/libbcinfo.so \
-    vendor/asus/Z01M/proprietary/lib/libbinary_parse.so:system/lib/libbinary_parse.so \
-    vendor/asus/Z01M/proprietary/lib/libbinder.so:system/lib/libbinder.so \
-    vendor/asus/Z01M/proprietary/lib/libblas.so:system/lib/libblas.so \
-    vendor/asus/Z01M/proprietary/lib/libbluetooth_jni.so:system/lib/libbluetooth_jni.so \
-    vendor/asus/Z01M/proprietary/lib/libbthost_if.so:system/lib/libbthost_if.so \
-    vendor/asus/Z01M/proprietary/lib/libc.so:system/lib/libc.so \
-    vendor/asus/Z01M/proprietary/lib/libc2dcolorconvert.so:system/lib/libc2dcolorconvert.so \
-    vendor/asus/Z01M/proprietary/lib/libcamera2ndk.so:system/lib/libcamera2ndk.so \
     vendor/asus/Z01M/proprietary/lib/libcameraap.so:system/lib/libcameraap.so \
-    vendor/asus/Z01M/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
-    vendor/asus/Z01M/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
-    vendor/asus/Z01M/proprietary/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
     vendor/asus/Z01M/proprietary/lib/libcamera_pano.so:system/lib/libcamera_pano.so \
-    vendor/asus/Z01M/proprietary/lib/libcap.so:system/lib/libcap.so \
-    vendor/asus/Z01M/proprietary/lib/libchrome.so:system/lib/libchrome.so \
-    vendor/asus/Z01M/proprietary/lib/libclcore.bc:system/lib/libclcore.bc \
-    vendor/asus/Z01M/proprietary/lib/libclcore_debug.bc:system/lib/libclcore_debug.bc \
-    vendor/asus/Z01M/proprietary/lib/libclcore_g.bc:system/lib/libclcore_g.bc \
-    vendor/asus/Z01M/proprietary/lib/libclcore_neon.bc:system/lib/libclcore_neon.bc \
-    vendor/asus/Z01M/proprietary/lib/libcompiler_rt.so:system/lib/libcompiler_rt.so \
     vendor/asus/Z01M/proprietary/lib/libc++.so:system/lib/libc++ \
-    vendor/asus/Z01M/proprietary/lib/libcrypto.so:system/lib/libcrypto.so \
-    vendor/asus/Z01M/proprietary/lib/libcurl.so:system/lib/libcurl.so \
-    vendor/asus/Z01M/proprietary/lib/libcutils.so:system/lib/libcutils.so \
-    vendor/asus/Z01M/proprietary/lib/libc_malloc_debug.so:system/lib/libc_malloc_debug.so \
     vendor/asus/Z01M/proprietary/lib/libdashplayer.so:system/lib/libdashplayer.so \
-    vendor/asus/Z01M/proprietary/lib/libdl.so:system/lib/libdl.so \
-    vendor/asus/Z01M/proprietary/lib/libdng_skd.so:system/lib/libdng_sdk.so \
-    vendor/asus/Z01M/proprietary/lib/libdrmframework.so:system/lib/libdrmframework.so \
-    vendor/asus/Z01M/proprietary/lib/libdrmframework_jni.so:system/lib/libdrmframework_jni.so \
     vendor/asus/Z01M/proprietary/lib/libdts-dtscs.so:system/lib/libdts-dtscs.so \
     vendor/asus/Z01M/proprietary/lib/libdts-eagle-shared.so:system/lib/libdts-eagle-shared.so \
     vendor/asus/Z01M/proprietary/lib/libdts-hpx-dtscs-conv.so:system/lib/libdts-hpx-dtscs-conv.so \
@@ -1538,82 +865,17 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/lib/libeaglecore.so:system/lib/libeaglecore.so \
     vendor/asus/Z01M/proprietary/lib/libeagledsec.so:system/lib/libeagledsec.so \
     vendor/asus/Z01M/proprietary/lib/libebtc.so:system/lib/libebtc.so \
-    vendor/asus/Z01M/proprietary/lib/libeffects.so:system/lib/libeffects.so \
-    vendor/asus/Z01M/proprietary/lib/libEGL.so:system/lib/libEGL.so \
-    vendor/asus/Z01M/proprietary/lib/libETC1.so:system/lib/libETC1.so \
-    vendor/asus/Z01M/proprietary/lib/libevent.so:system/lib/libevent.so \
-    vendor/asus/Z01M/proprietary/lib/libexif.so:system/lib/libexif.so \
-    vendor/asus/Z01M/proprietary/lib/libexpat.so:system/lib/libexpat.so \
     vendor/asus/Z01M/proprietary/lib/libextmedia_jni.so:system/lib/libextmedia_jni.so \
-    vendor/asus/Z01M/proprietary/lib/libFFTEm.so:system/lib/libFFTEm.so \
-    vendor/asus/Z01M/proprietary/lib/libfilterfw.so:system/lib/libfilterfw.so \
-    vendor/asus/Z01M/proprietary/lib/libfilterpack_imageproc.so:system/lib/libfilterpack_imageproc.so \
-    vendor/asus/Z01M/proprietary/lib/libfm-hci.so:system/lib/libfm-hci.so \
-    vendor/asus/Z01M/proprietary/lib/libfmjni.so:system/lib/libfmjni.so \
-    vendor/asus/Z01M/proprietary/lib/libft2.so:system/lib/libft2.so \
-    vendor/asus/Z01M/proprietary/lib/libgabi++.so:system/lib/libgabi++.so \
-    vendor/asus/Z01M/proprietary/lib/libgatekeeper.so:system/lib/libgatekeeper.so \
-    vendor/asus/Z01M/proprietary/lib/libGLESv1_CM.so:system/lib/libGLESv1_CM.so \
-    vendor/asus/Z01M/proprietary/lib/libGLESv2.so:system/lib/libGLESv2.so \
-    vendor/asus/Z01M/proprietary/lib/libGLESv3.so:system/lib/libGLESv3.so \
-    vendor/asus/Z01M/proprietary/lib/libgnsspps.so:system/lib/libgnsspps.so \
     vendor/asus/Z01M/proprietary/lib/libgnustl_shared.so:system/lib/libgnustl_shared.so \
     vendor/asus/Z01M/proprietary/lib/libgoogle-libprotobuf.so:system/lib/libgoogle-libprotobuf.so \
-    vendor/asus/Z01M/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/asus/Z01M/proprietary/lib/libgui.so:system/lib/libgui.so \
     vendor/asus/Z01M/proprietary/lib/libGVoucher.so:system/lib/libGVoucher.so \
-    vendor/asus/Z01M/proprietary/lib/libhardware.so:system/lib/libhardware.so \
-    vendor/asus/Z01M/proprietary/lib/libhardware_legacy.so:system/lib/libhardware_legacy.so \
     vendor/asus/Z01M/proprietary/lib/libharfbuzz_ng.so:system/lib/libharfbuzz.so \
-    vendor/asus/Z01M/proprietary/lib/libhwui.so:system/lib/libhwui.so \
-    vendor/asus/Z01M/proprietary/lib/libicui18n.so:system/lib/libicui18n.so \
-    vendor/asus/Z01M/proprietary/lib/libicuuc.so:system/lib/libicuuc.so \
     vendor/asus/Z01M/proprietary/lib/libifaaserver.so:system/lib/libifaaserver.so \
-    vendor/asus/Z01M/proprietary/lib/libimage_type_recognition.so:system/lib/libimage_type_recognition.so \
-    vendor/asus/Z01M/proprietary/lib/libimg_utils.so:system/lib/libimg_utils.so \
-    vendor/asus/Z01M/proprietary/lib/libinput.so:system/lib/libinput.so \
-    vendor/asus/Z01M/proprietary/lib/libinputflinger.so:system/lib/libinputflinger.so \
-    vendor/asus/Z01M/proprietary/lib/libinputservice.so:system/lib/libinputservice.so \
-    vendor/asus/Z01M/proprietary/lib/libiprouteutil.so:system/lib/libiprouteutil.so \
-    vendor/asus/Z01M/proprietary/lib/libjavacore.so:system/lib/libjavacore.so \
-    vendor/asus/Z01M/proprietary/lib/libjavacrypto.so:system/lib/libjavacrypto.so \
     vendor/asus/Z01M/proprietary/lib/libjni.so:system/lib/libjni.so \
-    vendor/asus/Z01M/proprietary/lib/libjnigraphics.so:system/lib/libjnigraphics.so \
-    vendor/asus/Z01M/proprietary/lib/libjpeg.so:system/lib/libjpeg.so \
     vendor/asus/Z01M/proprietary/lib/libjpeggifcodec.so:system/lib/libjpeggifcodec.so \
     vendor/asus/Z01M/proprietary/lib/libjpegHWCompress.so:system/lib/libjpegHWCompress.so \
-    vendor/asus/Z01M/proprietary/lib/libjson.so:system/lib/libjson.so \
-    vendor/asus/Z01M/proprietary/lib/libkeymaster1.so:system/lib/libkeymaster1.so \
-    vendor/asus/Z01M/proprietary/lib/libkeymaster_messages.so:system/lib/libkeymaster_messages.so \
-    vendor/asus/Z01M/proprietary/lib/libkeystore-engine.so:system/lib/libkeystore-engine.so \
-    vendor/asus/Z01M/proprietary/lib/libkeystore_binder.so:system/lib/libkeystore_binder.so \
-    vendor/asus/Z01M/proprietary/lib/libLLVM.so:system/lib/libLLVM.so \
     vendor/asus/Z01M/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/asus/Z01M/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/asus/Z01M/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/asus/Z01M/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-    vendor/asus/Z01M/proprietary/lib/libloc_pla.so:system/lib/libloc_pla.so \
-    vendor/asus/Z01M/proprietary/lib/libloc_stub.so:system/lib/libloc_stub.so \
-    vendor/asus/Z01M/proprietary/lib/liblog.so:system/lib/liblog.so \
-    vendor/asus/Z01M/proprietary/lib/liblz4.so:system/lib/liblz4.so \
-    vendor/asus/Z01M/proprietary/lib/liblzma.so:system/lib/liblzma.so \
-    vendor/asus/Z01M/proprietary/lib/libm.so:system/lib/libm.so \
-    vendor/asus/Z01M/proprietary/lib/libmdnssd.so:system/lib/libmdnssd.so \
-    vendor/asus/Z01M/proprietary/lib/libmedia.so:system/lib/libmedia.so \
-    vendor/asus/Z01M/proprietary/lib/libmediacodecservice.so:system/lib/libmediacodecservice.so \
-    vendor/asus/Z01M/proprietary/lib/libmediadrm.so:system/lib/libmediadrm.so \
-    vendor/asus/Z01M/proprietary/lib/libmediaextractorservice.so:system/lib/libmediaextractorservice.so \
-    vendor/asus/Z01M/proprietary/lib/libmedialogservice.so:system/lib/libmedialogservice.so \
-    vendor/asus/Z01M/proprietary/lib/libmediandk.so:system/lib/libmediandk.so \
-    vendor/asus/Z01M/proprietary/lib/libmediaplayerservice.so:system/lib/libmediaplayerservice.so \
-    vendor/asus/Z01M/proprietary/lib/libmediautils.so:system/lib/libmediautils.so \
-    vendor/asus/Z01M/proprietary/lib/libmedia_jni.so:system/lib/libmedia_jni.so \
-    vendor/asus/Z01M/proprietary/lib/libmemalloc.so:system/lib/libmemalloc.so \
-    vendor/asus/Z01M/proprietary/lib/libmemtrack.so:system/lib/libmemtrack.so \
-    vendor/asus/Z01M/proprietary/lib/libmemunreachable.so:system/lib/libmemunreachable.so \
-    vendor/asus/Z01M/proprietary/lib/libminijail.so:system/lib/libminijail.so \
-    vendor/asus/Z01M/proprietary/lib/libminikin.so:system/lib/libminikin.so \
-    vendor/asus/Z01M/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
     vendor/asus/Z01M/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/asus/Z01M/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/asus/Z01M/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_camera.so \
@@ -1624,147 +886,24 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/lib/libmorpho_panorama_gp.so:system/lib/libmorpho_panorama_gp.so \
     vendor/asus/Z01M/proprietary/lib/libmorpho_video_refiner.so:system/lib/libmorpho_video_refiner.so \
     vendor/asus/Z01M/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
-    vendor/asus/Z01M/proprietary/lib/libmtp.so:system/lib/libmtp.so \
-    vendor/asus/Z01M/proprietary/lib/libnativebridge.so:system/lib/libnativebridge.so \
-    vendor/asus/Z01M/proprietary/lib/libnativehelper.so:system/lib/libnativehelper.so \
-    vendor/asus/Z01M/proprietary/lib/libnativeloader.so:system/lib/libnativeloader.so \
-    vendor/asus/Z01M/proprietary/lib/libnbaio.so:system/lib/libnbaio.so \
-    vendor/asus/Z01M/proprietary/lib/libnetd_client.so:system/lib/libnetd_client.so \
-    vendor/asus/Z01M/proprietary/lib/libnetlink.so:system/lib/libnetlink.so \
-    vendor/asus/Z01M/proprietary/lib/libnetutils.so:system/lib/libnetutils.so \
-    vendor/asus/Z01M/proprietary/lib/libnfc_ndef.so:system/lib/libnfc_ndef.so \
-    vendor/asus/Z01M/proprietary/lib/libnl.so:system/lib/libnl.so \
     vendor/asus/Z01M/proprietary/lib/libomx-dts.so:system/lib/libomx-dts.so \
     vendor/asus/Z01M/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
     vendor/asus/Z01M/proprietary/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
-    vendor/asus/Z01M/proprietary/lib/libOmxCore.so:system/lib/libOmxCore.so \
     vendor/asus/Z01M/proprietary/lib/libOmxEvrcEnc.so:system/lib/libOmxEvrcEnc.so \
     vendor/asus/Z01M/proprietary/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
-    vendor/asus/Z01M/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
-    vendor/asus/Z01M/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
     vendor/asus/Z01M/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
-    vendor/asus/Z01M/proprietary/lib/libopenjdk.so:system/lib/libopenjdk.so \
-    vendor/asus/Z01M/proprietary/lib/libopenjdkjvm.so:system/lib/libopenjdkjvm.so \
-    vendor/asus/Z01M/proprietary/lib/libOpenMAXAL.so:system/lib/libOpenMAXAL.so \
-    vendor/asus/Z01M/proprietary/lib/libOpenSLES.so:system/lib/libOpenSLES.so \
-    vendor/asus/Z01M/proprietary/lib/libopus.so:system/lib/libopus.so \
-    vendor/asus/Z01M/proprietary/lib/libpac.so:system/lib/libpac.so \
-    vendor/asus/Z01M/proprietary/lib/libpackagelistparser.so:system/lib/libpackagelistparser.so \
-    vendor/asus/Z01M/proprietary/lib/libpcre.so:system/lib/libpcre.so \
-    vendor/asus/Z01M/proprietary/lib/libpdfium.so:system/lib/libpdfium.so \
     vendor/asus/Z01M/proprietary/lib/libpdmapper.so:system/lib/libpdmapper.so \
-    vendor/asus/Z01M/proprietary/lib/libpiex.so:system/lib/libpiex.so \
-    vendor/asus/Z01M/proprietary/lib/libpixelflinger.so:system/lib/libpixelflinger.so \
-    vendor/asus/Z01M/proprietary/lib/libpng.so:system/lib/libpng.so \
-    vendor/asus/Z01M/proprietary/lib/libpower.so:system/lib/libpower.so \
-    vendor/asus/Z01M/proprietary/lib/libpowermanager.so:system/lib/libpowermanager.so \
     vendor/asus/Z01M/proprietary/lib/libpreisp_camera.so:system/lib/libpreisp_camera.so \
-    vendor/asus/Z01M/proprietary/lib/libprocessgroup.so:system/lib/libprocessgroup.so \
-    vendor/asus/Z01M/proprietary/lib/libprotobuf-cpp-full.so:system/lib/libprotobuf-cpp-full.so \
-    vendor/asus/Z01M/proprietary/lib/libprotobuf-cpp-lite.so:system/lib/libprotobuf-cpp-lite.so \
     vendor/asus/Z01M/proprietary/lib/libqcmediaplayer.so:system/lib/libqcmediaplayer.so \
-    vendor/asus/Z01M/proprietary/lib/libqcomfm_jni.so:system/lib/libqcomfm_jni.so \
-    vendor/asus/Z01M/proprietary/lib/libqdMetaData.so:system/lib/libqdMetaData.so \
-    vendor/asus/Z01M/proprietary/lib/libqdutils.so:system/lib/libqdutils.so \
     vendor/asus/Z01M/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/asus/Z01M/proprietary/lib/libqservice.so:system/lib/libqservice.so \
-    vendor/asus/Z01M/proprietary/lib/libradio.so:system/lib/libradio.so \
-    vendor/asus/Z01M/proprietary/lib/libradioservice.so:system/lib/libradioservice.so \
-    vendor/asus/Z01M/proprietary/lib/libradio_metadata.so:system/lib/libradio_metadata.so \
     vendor/asus/Z01M/proprietary/lib/librecovery_updater_msm.so:system/lib/librecovery_updater_msm.so \
-    vendor/asus/Z01M/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/asus/Z01M/proprietary/lib/libregionalization.so:system/lib/libregionalization.so \
-    vendor/asus/Z01M/proprietary/lib/libresourcemanagerservice.so:system/lib/libresourcemanagerservice.so \
-    vendor/asus/Z01M/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/asus/Z01M/proprietary/lib/librilutils.so:system/lib/librilutils.so \
-    vendor/asus/Z01M/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
-    vendor/asus/Z01M/proprietary/lib/libRS.so:system/lib/libRS.so \
-    vendor/asus/Z01M/proprietary/lib/libRScpp.so:system/lib/libRScpp.so \
-    vendor/asus/Z01M/proprietary/lib/libRSCpuRef.so:system/lib/libRSCpuRef.so \
-    vendor/asus/Z01M/proprietary/lib/libRSDriver.so:system/lib/libRSDriver.so \
-    vendor/asus/Z01M/proprietary/lib/libRS_internal.so:system/lib/libRS_internal.so \
-    vendor/asus/Z01M/proprietary/lib/librs_jni.so:system/lib/librs_jni.so \
-    vendor/asus/Z01M/proprietary/lib/librtp_jni.so:system/lib/librtp_jni.so \
-    vendor/asus/Z01M/proprietary/lib/libsdmcore.so:system/lib/libsdmcore.so \
-    vendor/asus/Z01M/proprietary/lib/libsdmutils.so:system/lib/libsdmutils.so \
-    vendor/asus/Z01M/proprietary/lib/libselinux.so:system/lib/libselinux.so \
-    vendor/asus/Z01M/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
-    vendor/asus/Z01M/proprietary/lib/libserviceutility.so:system/lib/libserviceutility.so \
-    vendor/asus/Z01M/proprietary/lib/libsigchain.so:system/lib/libsigchain.so \
-    vendor/asus/Z01M/proprietary/lib/libskia.so:system/lib/libskia.so \
-    vendor/asus/Z01M/proprietary/lib/libsoftkeymaster.so:system/lib/libsoftkeymaster.so \
-    vendor/asus/Z01M/proprietary/lib/libsoftkeymasterdevice.so:system/lib/libsoftkeymasterdevice.so \
-    vendor/asus/Z01M/proprietary/lib/libsonic.so:system/lib/libsonic.so \
-    vendor/asus/Z01M/proprietary/lib/libsonivox.so:system/lib/libsonivox.so \
-    vendor/asus/Z01M/proprietary/lib/libsoundpool.so:system/lib/libsoundpool.so \
-    vendor/asus/Z01M/proprietary/lib/libsoundtrigger.so:system/lib/libsoundtrigger.so \
-    vendor/asus/Z01M/proprietary/lib/libsoundtriggerservice.so:system/lib/libsoundtriggerservice.so \
-    vendor/asus/Z01M/proprietary/lib/libsparse.so:system/lib/libsparse.so \
-    vendor/asus/Z01M/proprietary/lib/libspeexresampler.so:system/lib/libspeexresampler.so \
-    vendor/asus/Z01M/proprietary/lib/libsqlite.so:system/lib/libsqlite.so \
-    vendor/asus/Z01M/proprietary/lib/libssl.so:system/lib/libssl.so \
-    vendor/asus/Z01M/proprietary/lib/libstagefright.so:system/lib/libstagefright.so \
-    vendor/asus/Z01M/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
-    vendor/asus/Z01M/proprietary/lib/libstagefright_amrnb_common.so:system/lib/libstagefright_amrnb_common.so \
-    vendor/asus/Z01M/proprietary/lib/libstagefright_avc_common.so:system/lib/libstagefright_avc_common.so \
-    vendor/asus/Z01M/proprietary/lib/libstagefright_enc_common.so:system/lib/libstagefright_enc_common.so \
-    vendor/asus/Z01M/proprietary/lib/libstagefright_foundation.so:system/lib/libstagefright_foundation.so \
-    vendor/asus/Z01M/proprietary/lib/libstagefright_httplive.so:system/lib/libstagefright_httplive.so \
-    vendor/asus/Z01M/proprietary/lib/libstagefright_http_support.so:system/lib/libstagefright_http_support.so \
-    vendor/asus/Z01M/proprietary/lib/libstagefright_omx.so:system/lib/libstagefright_omx.so \
-    vendor/asus/Z01M/proprietary/lib/libstagefright_soft_aacdec.so:system/lib/libstagefright_soft_aacdec.so \
-    vendor/asus/Z01M/proprietary/lib/libstagefright_soft_aacenc.so:system/lib/libstagefright_soft_aacenc.so \
-    vendor/asus/Z01M/proprietary/lib/libstagefright_soft_amrdec.so:system/lib/libstagefright_soft_amrdec.so \
-    vendor/asus/Z01M/proprietary/lib/libstagefright_soft_amrnbenc.so:system/lib/libstagefright_soft_amrnbenc.so \
-    vendor/asus/Z01M/proprietary/lib/libstagefright_soft_amrwbenc.so:system/lib/libstagefright_soft_amrwbenc.so \
-    vendor/asus/Z01M/proprietary/lib/libstagefright_soft_avcdec.so:system/lib/libstagefright_soft_avcdec.so \
-    vendor/asus/Z01M/proprietary/lib/libstagefright_soft_avcenc.so:system/lib/libstagefright_soft_avcenc.so \
     vendor/asus/Z01M/proprietary/lib/libstagefright_soft_dtsdec.so:system/lib/libstagefright_soft_dtsdec.so \
     vendor/asus/Z01M/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
-    vendor/asus/Z01M/proprietary/lib/libstagefright_soft_flacenc.so:system/lib/libstagefright_soft_flacenc.so \
-    vendor/asus/Z01M/proprietary/lib/libstagefright_soft_g711dec.so:system/lib/libstagefright_soft_g711dec.so \
-    vendor/asus/Z01M/proprietary/lib/libstagefright_soft_gsmdec.so:system/lib/libstagefright_soft_gsmdec.so \
-    vendor/asus/Z01M/proprietary/lib/libstagefright_soft_hevcdec.so:system/lib/libstagefright_soft_hevcdec.so \
-    vendor/asus/Z01M/proprietary/lib/libstagefright_soft_mp3dec.so:system/lib/libstagefright_soft_mp3dec.so \
-    vendor/asus/Z01M/proprietary/lib/libstagefright_soft_mpeg2dec.so:system/lib/libstagefright_soft_mpeg2dec.so \
-    vendor/asus/Z01M/proprietary/lib/libstagefright_soft_mpeg4dec.so:system/lib/libstagefright_soft_mpeg4dec.so \
-    vendor/asus/Z01M/proprietary/lib/libstagefright_soft_mpeg4enc.so:system/lib/libstagefright_soft_mpeg4enc.so \
-    vendor/asus/Z01M/proprietary/lib/libstagefright_soft_opusdec.so:system/lib/libstagefright_soft_opusdec.so \
-    vendor/asus/Z01M/proprietary/lib/libstagefright_soft_rawdec.so:system/lib/libstagefright_soft_rawdec.so \
-    vendor/asus/Z01M/proprietary/lib/libstagefright_soft_vorbisdec.so:system/lib/libstagefright_soft_vorbisdec.so \
-    vendor/asus/Z01M/proprietary/lib/libstagefright_soft_vpxdec.so:system/lib/libstagefright_soft_vpxdec.so \
-    vendor/asus/Z01M/proprietary/lib/libstagefright_soft_vpxenc.so:system/lib/libstagefright_soft_vpxenc.so \
-    vendor/asus/Z01M/proprietary/lib/libstagefright_wfd.so:system/lib/libstagefright_wfd.so \
-    vendor/asus/Z01M/proprietary/lib/libstagefright_yuv.so:system/lib/libstagefright_yuv.so \
-    vendor/asus/Z01M/proprietary/lib/libstdc++.so:system/lib/libstdc++.so \
-    vendor/asus/Z01M/proprietary/lib/libsurfaceflinger.so:system/lib/libsurfaceflinger.so \
-    vendor/asus/Z01M/proprietary/lib/libsurfaceflinger_ddmconnection.so:system/lib/libsurfaceflinger_ddmconnection.so \
-    vendor/asus/Z01M/proprietary/lib/libsuspend.so:system/lib/libsuspend.so \
-    vendor/asus/Z01M/proprietary/lib/libsync.so:system/lib/libsync.so \
-    vendor/asus/Z01M/proprietary/lib/libsysutils.so:system/lib/libsysutils.so \
-    vendor/asus/Z01M/proprietary/lib/libtcore_teec_api.so:system/lib/libtcore_teec_api.so \
     vendor/asus/Z01M/proprietary/lib/libteec.so:system/lib/libteec.so \
     vendor/asus/Z01M/proprietary/lib/libteeclientjni.so:system/lib/libteeclientjni.so \
     vendor/asus/Z01M/proprietary/lib/libtensorflow_inference.so:system/lib/libtensorflow_inference.so \
-    vendor/asus/Z01M/proprietary/lib/libtiff_directory.so:system/lib/libtiff_directory.so \
-    vendor/asus/Z01M/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
-    vendor/asus/Z01M/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
-    vendor/asus/Z01M/proprietary/lib/libtinyxml.so:system/lib/libtinyxml.so \
-    vendor/asus/Z01M/proprietary/lib/libtinyxml2.so:system/lib/libtinyxml2.so \
-    vendor/asus/Z01M/proprietary/lib/libui.so:system/lib/libui.so \
-    vendor/asus/Z01M/proprietary/lib/libunwind.so:system/lib/libunwind.so \
-    vendor/asus/Z01M/proprietary/lib/libusbhost.so:system/lib/libusbhost.so \
-    vendor/asus/Z01M/proprietary/lib/libutils.so:system/lib/libutils.so \
-    vendor/asus/Z01M/proprietary/lib/libvixl.so:system/lib/libvixl.so \
-    vendor/asus/Z01M/proprietary/lib/libvorbisidec.so:system/lib/libvorbisidec.so \
     vendor/asus/Z01M/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
-    vendor/asus/Z01M/proprietary/lib/libvulkan.so:system/lib/libvulkan.so \
-    vendor/asus/Z01M/proprietary/lib/libwebrtc_audio_preprocessing.so:system/lib/libwebrtc_audio_preprocessing.so \
-    vendor/asus/Z01M/proprietary/lib/libwebviewchromium_loader.so:system/lib/libwebviewchromium_loader.so \
-    vendor/asus/Z01M/proprietary/lib/libwebviewchromium_plat_support.so:system/lib/libwebviewchromium_plat_support.so \
-    vendor/asus/Z01M/proprietary/lib/libwifi-service.so:system/lib/libwifi-service.so \
-    vendor/asus/Z01M/proprietary/lib/libwilhelm.so:system/lib/libwilhelm.so \
-    vendor/asus/Z01M/proprietary/lib/libwpa_client.so:system/lib/libwpa_client.so \
     vendor/asus/Z01M/proprietary/lib/libxbspk_LaserRgbInterface.so:system/lib/libxbspk_LaserRgbInterface.so \
     vendor/asus/Z01M/proprietary/lib/libxditk_arch.so:system/lib/libxditk_arch.so \
     vendor/asus/Z01M/proprietary/lib/libxditk_ditArchLIB.so:system/lib/libxditk_ditArchLIB.so \
@@ -1773,8 +912,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/lib/libxditk_DIT_Manager.so:system/lib/libxditk_DIT_Manager.so \
     vendor/asus/Z01M/proprietary/lib/libxditk_DIT_MSMv1.so:system/lib/libxditk_DIT_MSMv1.so \
     vendor/asus/Z01M/proprietary/lib/libxditk_ISP.so:system/lib/libxditk_ISP.so \
-    vendor/asus/Z01M/proprietary/lib/libxml2.so:system/lib/libxml2.so \
-    vendor/asus/Z01M/proprietary/lib/libz.so:system/lib/libz.so \
     vendor/asus/Z01M/proprietary/lib/modules/ansi_cprng.ko:system/lib/modules/ansi_cprng.ko \
     vendor/asus/Z01M/proprietary/lib/modules/backlight.ko:system/lib/modules/backlight.ko \
     vendor/asus/Z01M/proprietary/lib/modules/br_netfilter.ko:system/lib/modules/br_netfilter.ko \
@@ -1791,17 +928,10 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/lib/modules/wil6210.ko:system/lib/modules/wil6210.ko \
     vendor/asus/Z01M/proprietary/lib/modules/wlan.ko:system/lib/modules/wlan.ko \
     vendor/asus/Z01M/proprietary/lib/sensors.PS_ALS.msm8953.so:system/lib/sensors.PS_ALS.msm8953.so \
-    vendor/asus/Z01M/proprietary/lib/soundfx/libaudiopreprocessing.so:system/lib/soundfx/libaudiopreprocessing.so \
-    vendor/asus/Z01M/proprietary/lib/soundfx/libbundlewrapper.so:system/lib/soundfx/libbundlewrapper.so \
-    vendor/asus/Z01M/proprietary/lib/soundfx/libdownmix.so:system/lib/soundfx/libdownmix.so \
     vendor/asus/Z01M/proprietary/lib/soundfx/libeagle.so:system/lib/soundfx/libeagle.so \
-    vendor/asus/Z01M/proprietary/lib/soundfx/libeffectproxy.so:system/lib/soundfx/libeffectproxy.so \
-    vendor/asus/Z01M/proprietary/lib/soundfx/libldnhncr.so:system/lib/soundfx/libldnhncr.so \
     vendor/asus/Z01M/proprietary/lib/soundfx/libqcompostprocbundle.so:system/lib/soundfx/libqcompostprocbundle.so \
     vendor/asus/Z01M/proprietary/lib/soundfx/libqcomvisualizer.so:system/lib/soundfx/libqcomvisualizer.so \
     vendor/asus/Z01M/proprietary/lib/soundfx/libqcomvoiceprocessing.so:system/lib/soundfx/libqcomvoiceprocessing.so \
-    vendor/asus/Z01M/proprietary/lib/soundfx/libreverbwrapper.so:system/lib/soundfx/libreverbwrapper.so \
-    vendor/asus/Z01M/proprietary/lib/soundfx/libvisualizer.so:system/lib/soundfx/libvisualizer.so \
     vendor/asus/Z01M/proprietary/lib/style.cng:system/lib/style.cng \
     vendor/asus/Z01M/proprietary/priv-app/CNEService/CNEService.apk:system/priv-app/CNEService/CNEService.apk \
     vendor/asus/Z01M/proprietary/priv-app/CNEService/oat/arm64/CNEService.odex:system/priv-app/CNEService/oat/arm64/CNEService.odex \
@@ -1818,8 +948,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/vendor/app/colorservice/colorservice.apk:system/vendor/app/colorservice/colorservice.apk \
     vendor/asus/Z01M/proprietary/vendor/app/colorservice/oat/arm64/colorservice.odex:system/vendor/app/colorservice/oat/arm64/colorservice.odex \
     vendor/asus/Z01M/proprietary/vendor/app/ims/ims.apk:system/vendor/app/ims/ims.apk \
-    vendor/asus/Z01M/proprietary/vendor/app/ims/lib/arm64/libimscamera_jni.so:system/vendor/app/ims/lib/arm64/libimscamera_jni.so \
-    vendor/asus/Z01M/proprietary/vendor/app/ims/lib/arm64/libimsmedia_jni.so:system/vendor/app/ims/lib/arm64/libimsmedia_jni.so \
     vendor/asus/Z01M/proprietary/vendor/app/ims/oat/arm64/ims.odex:system/vendor/app/ims/oat/arm64/ims.odex \
     vendor/asus/Z01M/proprietary/vendor/app/imssettings/imssettings.apk:system/vendor/app/imssettings/imssettings.apk \
     vendor/asus/Z01M/proprietary/vendor/app/imssettings/oat/arm64/imssettings.odex:system/vendor/app/imssettings/oat/arm64/imssettings.odex \
@@ -1836,8 +964,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/vendor/bin/mm-qomx-idec-test:system/vendor/bin/mm-qomx-idec-test \
     vendor/asus/Z01M/proprietary/vendor/bin/mm-qomx-ienc-test:system/vendor/bin/mm-qomx-ienc-test \
     vendor/asus/Z01M/proprietary/vendor/bin/qjpeg-dma-test:system/vendor/bin/qjpeg-dma-test \
-    vendor/asus/Z01M/proprietary/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
-    vendor/asus/Z01M/proprietary/vendor/etc/audio_output_policy.conf:system/vendor/etc/audio_output_policy.conf \
     vendor/asus/Z01M/proprietary/vendor/etc/Generic/Launcher/default_workspace/default_allapp.xml:system/vendor/etc/Generic/Launcher/default_workspace/default_allapp.xml \
     vendor/asus/Z01M/proprietary/vendor/etc/Generic/Launcher/default_workspace/phone_workspace.xml:system/vendor/etc/Generic/Launcher/default_workspace/phone_workspace.xml \
     vendor/asus/Z01M/proprietary/vendor/etc/ID/ASUS/Launcher/default_workspace/default_allapp.xml:system/vendor/etc/ID/ASUS/Launcher/default_workspace/default_allapp.xml \
@@ -1846,7 +972,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/vendor/etc/IN/ASUS/Launcher/default_workspace/phone_workspace.xml:system/vendor/etc/IN/ASUS/Launcher/default_workspace/phone_workspace.xml \
     vendor/asus/Z01M/proprietary/vendor/etc/JP/ACJ/Launcher/default_workspace/default_allapp.xml:system/vendor/etc/JP/ACJ/Launcher/default_workspace/default_allapp.xml \
     vendor/asus/Z01M/proprietary/vendor/etc/JP/ACJ/Launcher/default_workspace/phone_workspace.xml:system/vendor/etc/JP/ACJ/Launcher/default_workspace/phone_workspace.xml \
-    vendor/asus/Z01M/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
     vendor/asus/Z01M/proprietary/vendor/etc/public.libraries.txt:system/vendor/etc/public.libraries.txt \
     vendor/asus/Z01M/proprietary/vendor/etc/qti-logkit/audiobasic.dmc:system/vendor/etc/qti-logkit/audiobasic.dmc \
     vendor/asus/Z01M/proprietary/vendor/etc/qti-logkit/gnsslocationlogging.dmc:system/vendor/etc/qti-logkit/gnsslocationlogging.dmc \
