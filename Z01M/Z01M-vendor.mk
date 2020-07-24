@@ -320,7 +320,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/etc/appmanager.conf:system/etc/appmanager.conf \
     vendor/asus/Z01M/proprietary/etc/appops_policy.xml:system/etc/appops_policy.xml \
     vendor/asus/Z01M/proprietary/etc/audio.cfg:system/etc/audio.cfg \
-    vendor/asus/Z01M/proprietary/etc/audio_platform_info_extcodec.xml:system/etc/audio_platform_info_extcodec.xml \
     vendor/asus/Z01M/proprietary/etc/audio_policy_non_eu_configuration.xml:system/etc/audio_policy_non_eu_configuration.xml \
     vendor/asus/Z01M/proprietary/etc/audio_policy_non_eu_volumes_Z01H.xml:system/etc/audio_policy_non_eu_volumes_Z01H.xml \
     vendor/asus/Z01M/proprietary/etc/audio_policy_non_eu_volumes_Z01M.xml:system/etc/audio_policy_non_eu_volumes_Z01M.xml \
@@ -517,7 +516,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/etc/gamedwhitelist.xml:system/etc/gamedwhitelist.xml \
     vendor/asus/Z01M/proprietary/etc/hcidump.sh:system/etc/hcidump.sh \
     vendor/asus/Z01M/proprietary/etc/hostapd/hostapd.deny:system/etc/hostapd/hostapd.deny \
-    vendor/asus/Z01M/proprietary/etc/hostapd/hostapd_default.conf:system/etc/hostapd/hostapd_default.conf \
     vendor/asus/Z01M/proprietary/etc/hsic.control.bt.sh:system/etc/hsic.control.bt.sh \
     vendor/asus/Z01M/proprietary/etc/init.asus.about_info.sh:system/etc/init.asus.about_info.sh \
     vendor/asus/Z01M/proprietary/etc/init.asus.audbg.sh:system/etc/init.asus.audbg.sh \
@@ -748,7 +746,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/framework/oem-services.jar:system/framework/oem-services.jar \
     vendor/asus/Z01M/proprietary/framework/org.simalliance.openmobileapi.jar:system/framework/org.simalliance.openmobileapi.jar \
     vendor/asus/Z01M/proprietary/framework/qcmediaplayer.jar:system/framework/qcmediaplayer.jar \
-    vendor/asus/Z01M/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/asus/Z01M/proprietary/framework/qmapbridge.jar:system/framework/qmapbridge.jar \
     vendor/asus/Z01M/proprietary/framework/QPerformance.jar:system/framework/QPerformance.jar \
     vendor/asus/Z01M/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
@@ -1204,7 +1201,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/vendor/lib64/libscveTextReco_stub.so:system/vendor/lib64/libscveTextReco_stub.so \
     vendor/asus/Z01M/proprietary/vendor/lib64/libsdm-color.so:system/vendor/lib64/libsdm-color.so \
     vendor/asus/Z01M/proprietary/vendor/lib64/libsdm-diag.so:system/vendor/lib64/libsdm-diag.so \
-    vendor/asus/Z01M/proprietary/vendor/lib64/libsdm-disp-apis.so:system/vendor/lib64/libsdm-disp-apis.so \
     vendor/asus/Z01M/proprietary/vendor/lib64/libsdmextension.so:system/vendor/lib64/libsdmextension.so \
     vendor/asus/Z01M/proprietary/vendor/lib64/libsdsprpc.so:system/vendor/lib64/libsdsprpc.so \
     vendor/asus/Z01M/proprietary/vendor/lib64/libsd_sdk_display.so:system/vendor/lib64/libsd_sdk_display.so \
@@ -1225,10 +1221,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/vendor/lib64/libSubSystemShutdown.so:system/vendor/lib64/libSubSystemShutdown.so \
     vendor/asus/Z01M/proprietary/vendor/lib64/libsubsystem_control.so:system/vendor/lib64/libsubsystem_control.so \
     vendor/asus/Z01M/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
-    vendor/asus/Z01M/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/asus/Z01M/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
     vendor/asus/Z01M/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
-    vendor/asus/Z01M/proprietary/vendor/lib64/libtime_genoff.so:system/vendor/lib64/libtime_genoff.so \
     vendor/asus/Z01M/proprietary/vendor/lib64/libtzdrmgenprov.so:system/vendor/lib64/libtzdrmgenprov.so \
     vendor/asus/Z01M/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
     vendor/asus/Z01M/proprietary/vendor/lib64/libUserAgent.so:system/vendor/lib64/libUserAgent.so \
@@ -2502,7 +2496,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/vendor/lib/libscveTextReco_stub.so:system/vendor/lib/libscveTextReco_stub.so \
     vendor/asus/Z01M/proprietary/vendor/lib/libsdm-color.so:system/vendor/lib/libsdm-color.so \
     vendor/asus/Z01M/proprietary/vendor/lib/libsdm-diag.so:system/vendor/lib/libsdm-diag.so \
-    vendor/asus/Z01M/proprietary/vendor/lib/libsdm-disp-apis.so:system/vendor/lib/libsdm-disp-apis.so \
     vendor/asus/Z01M/proprietary/vendor/lib/libsdmextension.so:system/vendor/lib/libsdmextension.so \
     vendor/asus/Z01M/proprietary/vendor/lib/libsdsprpc.so:system/vendor/lib/libsdsprpc.so \
     vendor/asus/Z01M/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
@@ -2528,9 +2521,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/vendor/lib/libsurround_3mic_proc.so:system/vendor/lib/libsurround_3mic_proc.so \
     vendor/asus/Z01M/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/asus/Z01M/proprietary/vendor/lib/libtar.so:system/vendor/lib/libtar.so \
-    vendor/asus/Z01M/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/asus/Z01M/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
-    vendor/asus/Z01M/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/asus/Z01M/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
     vendor/asus/Z01M/proprietary/vendor/lib/libts_detected_face_hal.so:system/vendor/lib/libts_detected_face_hal.so \
     vendor/asus/Z01M/proprietary/vendor/lib/libts_face_beautify_hal.so:system/vendor/lib/libts_face_beautify_hal.so \
