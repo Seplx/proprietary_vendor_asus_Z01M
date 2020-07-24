@@ -2951,6 +2951,7 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne.server@1.0 \
     com.quicinc.cne.server@2.0 \
     libbtnv \
+    AsusSplendidCommandAgent \
     libgpustats \
     libsdm-disp-vndapis \
     libthermalclient \
