@@ -2969,10 +2969,3 @@ PRODUCT_PACKAGES += \
     TimeService \
     com.quicinc.cne.api-V1.0-java \
     com.quicinc.cne
-#endif
-
--include vendor/extra/devices.mk
-ifneq ($(call is-qc-perf-target),true)
-PRODUCT_COPY_FILES += \
-
-endif
