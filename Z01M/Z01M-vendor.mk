@@ -2934,38 +2934,3 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/xbin/yes:system/xbin/yes \
     vendor/asus/Z01M/proprietary/xbin/zcat:system/xbin/zcat \
     vendor/asus/Z01M/proprietary/xbin/zcip:system/xbin/zcip
-
-PRODUCT_PACKAGES += \
-    com.quicinc.cne.api@1.0 \
-    com.quicinc.cne.constants@1.0 \
-    com.quicinc.cne.constants@2.0 \
-    com.quicinc.cne.server@1.0 \
-    com.quicinc.cne.server@2.0 \
-    libbtnv \
-    AsusSplendidCommandAgent \
-    libgpustats \
-    libsdm-disp-vndapis \
-    libthermalclient \
-    libtime_genoff \
-    libloc_api_v02 \
-    QtiTelephonyService \
-    QtiTetherService \
-    WfdService \
-    datastatusnotification \
-    embms \
-    SmartcardService \
-    ims \
-    imssettings \
-    radioconfig \
-    CNEService \
-    SVIService \
-    CABLService \
-    RIDLClient \
-    colorservice \
-    com.qualcomm.location \
-    dpmserviceapp \
-    qcrilmsgtunnel \
-    PowerOffAlarm \
-    TimeService \
-    com.quicinc.cne.api-V1.0-java \
-    com.quicinc.cne
