@@ -611,7 +611,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/framework/arm64/boot-tcmiface.oat:system/framework/arm64/boot-tcmiface.oat \
     vendor/asus/Z01M/proprietary/framework/arm64/boot-WfdCommon.art:system/framework/arm64/boot-WfdCommon.art \
     vendor/asus/Z01M/proprietary/framework/arm64/boot-WfdCommon.oat:system/framework/arm64/boot-WfdCommon.oat \
-    vendor/asus/Z01M/proprietary/framework/arm/boot-framework.oat:system/framework/arm/framework/arm/boot-framework.oat \
     vendor/asus/Z01M/proprietary/framework/arm/boot-ifaamanager.art:system/framework/arm/boot-ifaamanager.art \
     vendor/asus/Z01M/proprietary/framework/arm/boot-ifaamanager.oat:system/framework/arm/boot-ifaamanager.oat \
     vendor/asus/Z01M/proprietary/framework/arm/boot-oem-services.art:system/framework/arm/boot-oem-services.art \
