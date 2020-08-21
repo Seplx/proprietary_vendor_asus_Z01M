@@ -135,7 +135,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/bin/kill:system/bin/kill \
     vendor/asus/Z01M/proprietary/bin/killall:system/bin/killall \
     vendor/asus/Z01M/proprietary/bin/ln:system/bin/ln \
-    vendor/asus/Z01M/proprietary/bin/load-policy:system/bin/load-policy \
+    vendor/asus/Z01M/proprietary/bin/load_policy:system/bin/load_policy \
     vendor/asus/Z01M/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/asus/Z01M/proprietary/bin/log:system/bin/log \
     vendor/asus/Z01M/proprietary/bin/logcommand:system/bin/logcommand \
@@ -211,7 +211,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/bin/runcon:system/bin/runcon \
     vendor/asus/Z01M/proprietary/bin/secure_ui_sample_client:system/bin/secure_ui_sample_client \
     vendor/asus/Z01M/proprietary/bin/sed:system/bin/sed \
-    vendor/asus/Z01M/proprietary/bin/sedsit:system/bin/setsid \
+    vendor/asus/Z01M/proprietary/bin/setsid:system/bin/setsid \
     vendor/asus/Z01M/proprietary/bin/sendevent:system/bin/sendevent \
     vendor/asus/Z01M/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/asus/Z01M/proprietary/bin/seq:system/bin/seq \
