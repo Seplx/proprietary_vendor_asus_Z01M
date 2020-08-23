@@ -241,7 +241,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/bin/tac:system/bin/tac \
     vendor/asus/Z01M/proprietary/bin/tail:system/bin/tail \
     vendor/asus/Z01M/proprietary/bin/tar:system/bin/tar \
-    vendor/asus/Z01M/proprietary/bin/tasket:system/bin/tasket \
+    vendor/asus/Z01M/proprietary/bin/taskset:system/bin/taskset \
     vendor/asus/Z01M/proprietary/bin/tee:system/bin/tee \
     vendor/asus/Z01M/proprietary/bin/teeserver:system/bin/teeserver \
     vendor/asus/Z01M/proprietary/bin/test_diag:system/bin/test_diag \
@@ -429,7 +429,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/etc/firmware/goodixfp.b06:system/etc/firmware/goodixfp.b06 \
     vendor/asus/Z01M/proprietary/etc/firmware/goodixfp.mdt:system/etc/firmware/goodixfp.mdt \
     vendor/asus/Z01M/proprietary/etc/firmware/hbtp/hbtpcfg.dat:system/etc/firmware/hbtp/hbtpcfg.dat \
-    vendor/asus/Z01M/proprietary/etc/firmware/hbtp/qtc800s_dsp.dat:system/etc/firmware/hbtp/qtc800s_dsp.dat \
+    vendor/asus/Z01M/proprietary/etc/firmware/hbtp/qtc800s_dsp.bin:system/etc/firmware/hbtp/qtc800s_dsp.bin \
     vendor/asus/Z01M/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
     vendor/asus/Z01M/proprietary/etc/firmware/ifaata.b00:system/etc/firmware/ifaata.b00 \
     vendor/asus/Z01M/proprietary/etc/firmware/ifaata.b01:system/etc/firmware/ifaata.b01 \
@@ -630,7 +630,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/framework/com.google.android.media.effects.jar:system/framework/com.google.android.media.effects.jar \
     vendor/asus/Z01M/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
     vendor/asus/Z01M/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
-    vendor/asus/Z01M/proprietary/framework/com.qti.locatiom.sdk.jar:system/framework/com.qti.locatiom.sdk.jar \
+    vendor/asus/Z01M/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/asus/Z01M/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/asus/Z01M/proprietary/framework/com.qualcomm.location.vzw_library.jar:system/framework/com.qualcomm.location.vzw_library.jar \
     vendor/asus/Z01M/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
@@ -655,7 +655,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/framework/oat/arm64/bu.odex:system/framework/oat/arm64/bu.odex \
     vendor/asus/Z01M/proprietary/framework/oat/arm64/com.android.future.usb.accessory.odex:system/framework/oat/arm64/com.android.future.usb.accessory.odex \
     vendor/asus/Z01M/proprietary/framework/oat/arm64/com.android.location.provider.odex:system/framework/oat/arm64/com.android.location.provider.odex \
-    vendor/asus/Z01M/proprietary/framework/oat/arm64/com.android.media.effects.odex:system/framework/oat/arm64/com.android.media.effects.odex \
+    vendor/asus/Z01M/proprietary/framework/oat/arm64/com.google.android.media.effects.odex:system/framework/oat/arm64/com.google.android.media.effects.odex \
     vendor/asus/Z01M/proprietary/framework/oat/arm64/com.android.media.remotedisplay.odex:system/framework/oat/arm64/com.android.media.remotedisplay.odex \
     vendor/asus/Z01M/proprietary/framework/oat/arm64/com.android.mediadrm.signer.odex:system/framework/oat/arm64/com.android.mediadrm.signer.odex \
     vendor/asus/Z01M/proprietary/framework/oat/arm64/com.google.android.maps.odex:system/framework/oat/arm64/com.google.android.maps.odex \
@@ -673,7 +673,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/framework/oat/arm64/javax.obex.odex:system/framework/oat/arm64/javax.obex.odex \
     vendor/asus/Z01M/proprietary/framework/oat/arm64/media_cmd.odex:system/framework/oat/arm64/media_cmd.odex \
     vendor/asus/Z01M/proprietary/framework/oat/arm64/monkey.odex:system/framework/oat/arm64/monkey.odex \
-    vendor/asus/Z01M/proprietary/framework/oat/arm64/myinksearch.novo.odex:system/framework/oat/arm64/myinksearch.novo.odex \
+    vendor/asus/Z01M/proprietary/framework/oat/arm64/myinksearch-novo.odex:system/framework/oat/arm64/myinksearch-novo.odex \
     vendor/asus/Z01M/proprietary/framework/oat/arm64/myscriptengine-novo.odex:system/framework/oat/arm64/myscriptengine-novo.odex \
     vendor/asus/Z01M/proprietary/framework/oat/arm64/myscripthwr-novo.odex:system/framework/oat/arm64/myscripthwr-novo.odex \
     vendor/asus/Z01M/proprietary/framework/oat/arm64/myshape-novo.odex:system/framework/oat/arm64/myshape-novo.odex \
@@ -704,7 +704,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/framework/oat/arm/bu.odex:system/framework/oat/arm/bu.odex \
     vendor/asus/Z01M/proprietary/framework/oat/arm/com.android.future.usb.accessory.odex:system/framework/oat/arm/com.android.future.usb.accessory.odex \
     vendor/asus/Z01M/proprietary/framework/oat/arm/com.android.location.provider.odex:system/framework/oat/arm/com.android.location.provider.odex \
-    vendor/asus/Z01M/proprietary/framework/oat/arm/com.android.media.effects.odex:system/framework/oat/arm/com.android.media.effects.odex \
+    vendor/asus/Z01M/proprietary/framework/oat/arm/com.google.android.media.effects.odex:system/framework/oat/arm/com.google.android.media.effects.odex \
     vendor/asus/Z01M/proprietary/framework/oat/arm/com.android.media.remotedisplay.odex:system/framework/oat/arm/com.android.media.remotedisplay.odex \
     vendor/asus/Z01M/proprietary/framework/oat/arm/com.android.mediadrm.signer.odex:system/framework/oat/arm/com.android.mediadrm.signer.odex \
     vendor/asus/Z01M/proprietary/framework/oat/arm/com.google.android.maps.odex:system/framework/oat/arm/com.google.android.maps.odex \
@@ -721,7 +721,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/framework/oat/arm/javax.obex.odex:system/framework/oat/arm/javax.obex.odex \
     vendor/asus/Z01M/proprietary/framework/oat/arm/media_cmd.odex:system/framework/oat/arm/media_cmd.odex \
     vendor/asus/Z01M/proprietary/framework/oat/arm/monkey.odex:system/framework/oat/arm/monkey.odex \
-    vendor/asus/Z01M/proprietary/framework/oat/arm/myinksearch.novo.odex:system/framework/oat/arm/myinksearch.novo.odex \
+    vendor/asus/Z01M/proprietary/framework/oat/arm/myinksearch-novo.odex:system/framework/oat/arm/myinksearch-novo.odex \
     vendor/asus/Z01M/proprietary/framework/oat/arm/myscriptengine-novo.odex:system/framework/oat/arm/myscriptengine-novo.odex \
     vendor/asus/Z01M/proprietary/framework/oat/arm/myscripthwr-novo.odex:system/framework/oat/arm/myscripthwr-novo.odex \
     vendor/asus/Z01M/proprietary/framework/oat/arm/myshape-novo.odex:system/framework/oat/arm/myshape-novo.odex \
@@ -761,8 +761,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/lib64/hw/gxfingerprint.default.so:system/lib64/hw/gxfingerprint.default.so \
     vendor/asus/Z01M/proprietary/lib64/hw/power.qcom.so:system/lib64/hw/power.qcom.so \
     vendor/asus/Z01M/proprietary/lib64/libAsusRGBSensorHAL.so:system/lib64/libAsusRGBSensorHAL.so \
-    vendor/asus/Z01M/proprietary/lib64/libcctapi.bc:system/lib64/libcctapi.bc \
-    vendor/asus/Z01M/proprietary/lib64/libc++.so:system/lib64/libc++ \
+    vendor/asus/Z01M/proprietary/lib64/libcctapi.so:system/lib64/libcctapi.so \
+    vendor/asus/Z01M/proprietary/lib64/libc++.so:system/lib64/libc++.so \
     vendor/asus/Z01M/proprietary/lib64/libdashplayer.so:system/lib64/libdashplayer.so \
     vendor/asus/Z01M/proprietary/lib64/libdhcpcd.so:system/lib64/libdhcpcd.so \
     vendor/asus/Z01M/proprietary/lib64/libdts-eagle-shared.so:system/lib64/libdts-eagle-shared.so \
@@ -819,7 +819,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/lib64/soundfx/libqcomvoiceprocessing.so:system/lib64/soundfx/libqcomvoiceprocessing.so \
     vendor/asus/Z01M/proprietary/lib/DataSet/arch/DIT_List.cfg:system/lib/DataSet/arch/DIT_List.cfg \
     vendor/asus/Z01M/proprietary/lib/DataSet/ditSCidGen/msgchk.db:system/lib/DataSet/ditSCidGen/msgchk.db \
-    vendor/asus/Z01M/proprietary/lib/DataSet/ispDB/parameterDB.db:system/lib/DataSet/ispDB/parameterDB.db \
+    vendor/asus/Z01M/proprietary/lib/DataSet/ispDB/ParameterDB.db:system/lib/DataSet/ispDB/ParameterDB.db \
     vendor/asus/Z01M/proprietary/lib/hw/audio.primary.msm8953.so:system/lib/hw/audio.primary.msm8953.so \
     vendor/asus/Z01M/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
     vendor/asus/Z01M/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
@@ -949,7 +949,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/vendor/etc/RIDL/OTA-Logs.dmc:system/vendor/etc/RIDL/OTA-Logs.dmc \
     vendor/asus/Z01M/proprietary/vendor/etc/RIDL/qdss.cfg:system/vendor/etc/RIDL/qdss.cfg \
     vendor/asus/Z01M/proprietary/vendor/etc/RIDL/RIDL.db:system/vendor/etc/RIDL/RIDL.db \
-    vendor/asus/Z01M/proprietary/vendor/etc/scve/facereco/gModel.dat:system/vendor/etc/scve/facereco/gModel.dat \
     vendor/asus/Z01M/proprietary/vendor/etc/Splendid/asussplendid_config.xml:system/vendor/etc/Splendid/asussplendid_config.xml \
     vendor/asus/Z01M/proprietary/vendor/etc/Splendid/LUT/LUT_GMC01.txt:system/vendor/etc/Splendid/LUT/LUT_GMC01.txt \
     vendor/asus/Z01M/proprietary/vendor/etc/Splendid/LUT/LUT_Rd03.txt:system/vendor/etc/Splendid/LUT/LUT_Rd03.txt \
@@ -1267,8 +1266,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/asus/Z01M/proprietary/vendor/lib/hw/gatekeeper.msm8953.so:system/vendor/lib/hw/gatekeeper.msm8953.so \
     vendor/asus/Z01M/proprietary/vendor/lib/hw/keystore.msm8953.so:system/vendor/lib/hw/keystore.msm8953.so \
-    vendor/asus/Z01M/proprietary/vendor/lib/hw/libdrmclearkeyplugin.so:system/vendor/lib/hw/libdrmclearkeyplugin.so \
-    vendor/asus/Z01M/proprietary/vendor/lib/hw/libwvdrmengine.so:system/vendor/lib/hw/libwvdrmengine.so \
+    vendor/asus/Z01M/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
+    vendor/asus/Z01M/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/asus/Z01M/proprietary/vendor/lib/hw/vulkan.msm8953.so:system/vendor/lib/hw/vulkan.msm8953.so \
     vendor/asus/Z01M/proprietary/vendor/lib/hw/wbc_hal.default.so:system/vendor/lib/hw/wbc_hal.default.so \
     vendor/asus/Z01M/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
