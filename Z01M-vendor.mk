@@ -899,21 +899,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/lib/libxditk_DIT_Manager.so:system/lib/libxditk_DIT_Manager.so \
     vendor/asus/Z01M/proprietary/lib/libxditk_DIT_MSMv1.so:system/lib/libxditk_DIT_MSMv1.so \
     vendor/asus/Z01M/proprietary/lib/libxditk_ISP.so:system/lib/libxditk_ISP.so \
-    vendor/asus/Z01M/proprietary/lib/modules/ansi_cprng.ko:system/lib/modules/ansi_cprng.ko \
-    vendor/asus/Z01M/proprietary/lib/modules/backlight.ko:system/lib/modules/backlight.ko \
-    vendor/asus/Z01M/proprietary/lib/modules/br_netfilter.ko:system/lib/modules/br_netfilter.ko \
-    vendor/asus/Z01M/proprietary/lib/modules/evbug.ko:system/lib/modules/evbug.ko \
-    vendor/asus/Z01M/proprietary/lib/modules/generic_bl.ko:system/lib/modules/generic_bl.ko \
-    vendor/asus/Z01M/proprietary/lib/modules/lcd.ko:system/lib/modules/lcd.ko \
-    vendor/asus/Z01M/proprietary/lib/modules/mmc_block_test.ko:system/lib/modules/mmc_block_test.ko \
-    vendor/asus/Z01M/proprietary/lib/modules/mmc_test.ko:system/lib/modules/mmc_test.ko \
-    vendor/asus/Z01M/proprietary/lib/modules/pronto/pronto_wlan.ko:system/lib/modules/pronto/pronto_wlan.ko \
-    vendor/asus/Z01M/proprietary/lib/modules/rdbg.ko:system/lib/modules/rdbg.ko \
-    vendor/asus/Z01M/proprietary/lib/modules/spidev.ko:system/lib/modules/spidev.ko \
-    vendor/asus/Z01M/proprietary/lib/modules/test-iosched.ko:system/lib/modules/test-iosched.ko \
-    vendor/asus/Z01M/proprietary/lib/modules/ufs_test.ko:system/lib/modules/ufs_test.ko \
-    vendor/asus/Z01M/proprietary/lib/modules/wil6210.ko:system/lib/modules/wil6210.ko \
-    vendor/asus/Z01M/proprietary/lib/modules/wlan.ko:system/lib/modules/wlan.ko \
     vendor/asus/Z01M/proprietary/lib/sensors.PS_ALS.msm8953.so:system/lib/sensors.PS_ALS.msm8953.so \
     vendor/asus/Z01M/proprietary/lib/soundfx/libeagle.so:system/lib/soundfx/libeagle.so \
     vendor/asus/Z01M/proprietary/lib/soundfx/libqcompostprocbundle.so:system/lib/soundfx/libqcompostprocbundle.so \
