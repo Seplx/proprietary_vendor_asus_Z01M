@@ -320,13 +320,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/etc/appmanager.conf:system/etc/appmanager.conf \
     vendor/asus/Z01M/proprietary/etc/appops_policy.xml:system/etc/appops_policy.xml \
     vendor/asus/Z01M/proprietary/etc/audio.cfg:system/etc/audio.cfg \
-    vendor/asus/Z01M/proprietary/etc/audio_policy_non_eu_configuration.xml:system/etc/audio_policy_non_eu_configuration.xml \
-    vendor/asus/Z01M/proprietary/etc/audio_policy_non_eu_volumes_Z01H.xml:system/etc/audio_policy_non_eu_volumes_Z01H.xml \
-    vendor/asus/Z01M/proprietary/etc/audio_policy_non_eu_volumes_Z01M.xml:system/etc/audio_policy_non_eu_volumes_Z01M.xml \
-    vendor/asus/Z01M/proprietary/etc/audio_policy_volumes_Z01H.xml:system/etc/audio_policy_volumes_Z01H.xml \
-    vendor/asus/Z01M/proprietary/etc/audio_policy_volumes_Z01M.xml:system/etc/audio_policy_volumes_Z01M.xml \
     vendor/asus/Z01M/proprietary/etc/blist.conf:system/etc/blist.conf \
     vendor/asus/Z01M/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem \
+    vendor/asus/Z01M/proprietary/etc/capability.xml:system/etc/capability.xml \
     vendor/asus/Z01M/proprietary/etc/cdma_call_conf.xml:system/etc/cdma_call_conf.xml \
     vendor/asus/Z01M/proprietary/etc/close_thermal-engine.sh:system/etc/close_thermal-engine.sh \
     vendor/asus/Z01M/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
@@ -354,7 +350,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/etc/Compact_mode.cfg:system/etc/Compact_mode.cfg \
     vendor/asus/Z01M/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/asus/Z01M/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
-    vendor/asus/Z01M/proprietary/etc/default_volume_non_eu_tables.xml:system/etc/default_volume_non_eu_tables.xml \
     vendor/asus/Z01M/proprietary/etc/devconf.json:system/etc/devconf.json \
     vendor/asus/Z01M/proprietary/etc/Diag.cfg:system/etc/Diag.cfg \
     vendor/asus/Z01M/proprietary/etc/disable_sepolicy.sh:system/etc/disable_sepolicy.sh \
@@ -536,7 +531,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/etc/init.asus.setuartlog.sh:system/etc/init.asus.setuartlog.sh \
     vendor/asus/Z01M/proprietary/etc/init.ath3k.bt.sh:system/etc/init.ath3k.bt.sh \
     vendor/asus/Z01M/proprietary/etc/init.crda.sh:system/etc/init.crda.sh \
-    vendor/asus/Z01M/proprietary/etc/init.qcom.audio.sh:system/etc/init.qcom.audio.sh \
     vendor/asus/Z01M/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
     vendor/asus/Z01M/proprietary/etc/init.qcom.coex.sh:system/etc/init.qcom.coex.sh \
     vendor/asus/Z01M/proprietary/etc/init.qcom.efs.sync.sh:system/etc/init.qcom.efs.sync.sh \
@@ -551,10 +545,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/etc/media_codecs_8953_v1.xml:system/etc/media_codecs_8953_v1.xml \
     vendor/asus/Z01M/proprietary/etc/media_codecs_performance_8953_v1.xml:system/etc/media_codecs_performance_8953_v1.xml \
     vendor/asus/Z01M/proprietary/etc/media_profiles_8953_v1.xml:system/etc/media_profiles_8953_v1.xml \
-    vendor/asus/Z01M/proprietary/etc/mixer_paths_mtp_ZD552KL.xml:system/etc/mixer_paths_mtp_ZD552KL.xml \
-    vendor/asus/Z01M/proprietary/etc/mixer_paths_mtp_ZD552KL_EU.xml:system/etc/mixer_paths_mtp_ZD552KL_EU.xml \
-    vendor/asus/Z01M/proprietary/etc/mixer_paths_mtp_ZE553KL.xml:system/etc/mixer_paths_mtp_ZE553KL.xml \
-    vendor/asus/Z01M/proprietary/etc/mixer_paths_mtp_ZE553KL_EU.xml:system/etc/mixer_paths_mtp_ZE553KL_EU.xml \
     vendor/asus/Z01M/proprietary/etc/mmosal_logmask.cfg:system/etc/mmosal_logmask.cfg \
     vendor/asus/Z01M/proprietary/etc/mmosal_logmask_debug.cfg:system/etc/mmosal_logmask_debug.cfg \
     vendor/asus/Z01M/proprietary/etc/modemlog.sh:system/etc/modemlog.sh \
@@ -587,8 +577,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/etc/settings/TFA9891N1A_N1A_11_1_34_NL3_HQLOUD.patch:system/etc/settings/TFA9891N1A_N1A_11_1_34_NL3_HQLOUD.patch \
     vendor/asus/Z01M/proprietary/etc/settings/Tfa9891_mono.cnt:system/etc/settings/Tfa9891_mono.cnt \
     vendor/asus/Z01M/proprietary/etc/spn-conf.xml:system/etc/spn-conf.xml \
-    vendor/asus/Z01M/proprietary/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:system/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
-    vendor/asus/Z01M/proprietary/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
     vendor/asus/Z01M/proprietary/etc/sysconfig/asus_data_saver_config.xml:system/etc/sysconfig/asus_data_saver_config.xml \
     vendor/asus/Z01M/proprietary/etc/sysconfig/google.xml:system/etc/sysconfig/google.xml \
     vendor/asus/Z01M/proprietary/etc/thermald-ultimate-mode.conf:system/etc/thermald-ultimate-mode.conf \
