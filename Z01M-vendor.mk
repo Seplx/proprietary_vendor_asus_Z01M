@@ -357,9 +357,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/asus/Z01M/proprietary/etc/drc/drc_cfg_5.1.txt:system/etc/drc/drc_cfg_5.1.txt \
     vendor/asus/Z01M/proprietary/etc/drc/drc_cfg_AZ.txt:system/etc/drc/drc_cfg_AZ.txt \
-    vendor/asus/Z01M/proprietary/etc/Experience.conf:system/etc/Experience.conf \
-    vendor/asus/Z01M/proprietary/etc/FacebookAppManager:system/etc/FacebookAppManager \
-    vendor/asus/Z01M/proprietary/etc/FacebookInstaller:system/etc/FacebookInstaller \
     vendor/asus/Z01M/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
     vendor/asus/Z01M/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/asus/Z01M/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
@@ -2554,4 +2551,4 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
     vendor/asus/Z01M/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
     vendor/asus/Z01M/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd \
-    vendor/asus/Z01M/proprietary/vendor/qcril.db:system/vendor/qcril.db \
+    vendor/asus/Z01M/proprietary/vendor/qcril.db:system/vendor/qcril.db
