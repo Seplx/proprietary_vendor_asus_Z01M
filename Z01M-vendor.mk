@@ -813,7 +813,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/lib/libAsusShowFPS.so:system/lib/libAsusShowFPS.so \
     vendor/asus/Z01M/proprietary/lib/libcameraap.so:system/lib/libcameraap.so \
     vendor/asus/Z01M/proprietary/lib/libcamera_pano.so:system/lib/libcamera_pano.so \
-    vendor/asus/Z01M/proprietary/lib/libc++.so:system/lib/libc++ \
     vendor/asus/Z01M/proprietary/lib/libdashplayer.so:system/lib/libdashplayer.so \
     vendor/asus/Z01M/proprietary/lib/libdts-dtscs.so:system/lib/libdts-dtscs.so \
     vendor/asus/Z01M/proprietary/lib/libdts-eagle-shared.so:system/lib/libdts-eagle-shared.so \
