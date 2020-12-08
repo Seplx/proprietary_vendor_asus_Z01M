@@ -742,7 +742,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/lib64/hw/power.qcom.so:system/lib64/hw/power.qcom.so \
     vendor/asus/Z01M/proprietary/lib64/libAsusRGBSensorHAL.so:system/lib64/libAsusRGBSensorHAL.so \
     vendor/asus/Z01M/proprietary/lib64/libcctapi.so:system/lib64/libcctapi.so \
-    vendor/asus/Z01M/proprietary/lib64/libc++.so:system/lib64/libc++.so \
     vendor/asus/Z01M/proprietary/lib64/libdashplayer.so:system/lib64/libdashplayer.so \
     vendor/asus/Z01M/proprietary/lib64/libdhcpcd.so:system/lib64/libdhcpcd.so \
     vendor/asus/Z01M/proprietary/lib64/libdts-eagle-shared.so:system/lib64/libdts-eagle-shared.so \
