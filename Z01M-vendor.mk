@@ -505,7 +505,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01M/proprietary/etc/ftm_test_config_wcd9335:system/etc/ftm_test_config_wcd9335 \
     vendor/asus/Z01M/proprietary/etc/gamedwhitelist.xml:system/etc/gamedwhitelist.xml \
     vendor/asus/Z01M/proprietary/etc/hcidump.sh:system/etc/hcidump.sh \
-    vendor/asus/Z01M/proprietary/etc/hostapd/hostapd.deny:system/etc/hostapd/hostapd.deny \
     vendor/asus/Z01M/proprietary/etc/hsic.control.bt.sh:system/etc/hsic.control.bt.sh \
     vendor/asus/Z01M/proprietary/etc/init.asus.about_info.sh:system/etc/init.asus.about_info.sh \
     vendor/asus/Z01M/proprietary/etc/init.asus.audbg.sh:system/etc/init.asus.audbg.sh \
